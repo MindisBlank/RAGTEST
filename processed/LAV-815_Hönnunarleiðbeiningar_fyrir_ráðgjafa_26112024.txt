@@ -1,0 +1,2532 @@
+Hönnunarleiðbeiningar 
+fyrir ráðgjafa  
+ 
+VEITUR SAMEIGINLEGT  
+ 
+ 
+LAV-815-36.0  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024  i 
+ 
+ 
+Breytingatafla   
+ 
+Útg.  Dags . Breytingar  HÖ/YF 
+36 26.11.24  Kafli 3 og 6.2.1 – Bætt við kröfu um Tengingar og lokunaráætlun  
+Kafli 3 – Áhersla lögð á heimlagnateng ingar í vettvangsferðum 
+Kafli 3.2 . – Breyting á töflu   
+Kafli 3.4 – Uppfærð dýpt lagna  
+Kafli 3.5.1 – Viðbót um fóðrun steinlagna fyrir framkvæmdir 
+Kafli 3.8.2 – Vinnusvæðamerkingar skv. nýjum reglum VG  
+Kafli 6.1.1.2 – Teikningaflokkur C -12 tekinn upp fyrir vegi og flóðavarnir  
+Kafli 6.2.3 – Uppfærð tafla  
+ 
+Breytingar eru auðkenndar með gulri yfirstrikun í texta  RI/SA/ÞÞ 
+35 24.04.24  Kafli 3.3 – Viðbætur um vöktunarkerfi hitaveitu  
+Kafli 7.1 – Bætt við leiðbeiningum um skil fyrir vöktunarkerfi og nýtt netfang  SA/RIT 
+34 09.04.24  Kafli 3.1.3 – Heimtaugastæ rðir rafveitu  
+Kafli 3.2 – Fjarlægð brunahana frá loka  
+Kafli 3.3. – Þensla stállagna  
+Kafli 3.5.1 – Stefnuatriði og tengingar fráveitu  
+Kafli 3.5.2.4 – Tæknileg útfærsla í hönnunarferli  
+Kafli 3.5.4 – Nýr kafli  
+Kafli 6.2. – Uppfærð skilyrði um framsetningu teikninga í forhönnun og verkhönnun  
+Kafli 6.2.3 – Tafla um framsetningu  
+Kafli 6.2.4 – Tafla um framsetningu  
+Kafli 6.2.5 – Blágrænar ofanvatnslausnir, tafla um framsetningu  
+Kafli 6.2.6 – Kröfur um gerð kerfismynda á ACC kerfismyndagrunni Veitna  
+Kafli 7.1 – Breytt verklag við skil á hönnunarlagi  
+Kafli 7.2 – Hönnunarlag blágrænna ofanvatnslausna  
+ Hönnuðir/RIT  
+33 14.11.23  Kafli 6.2.3 – Starfsheiti uppfært 
+Kafli 3.8.1 – Starfsheiti uppfært RIT 
+32 23.10.23  Lagfæring á skjali. Engin efnisleg breyting.  RIT 
+31 20.10.23  Kafli 3.1 – Uppfærð tafla um heimtaugastærðir  
+Kafli 3.2 – Talsverðar breytingar; Efniskröfur, kröfur um festur og prófun á þrýsting  
+Kafli 3.3 – Lágmarks fjarlægð milli greinarstykkja og breyting á texta um PEX heimlagnir  
+Kafli 3.5 – Uppfærsla á stærðarákvörðun heimæða og brunna, og ofanvatnslausnum bætt 
+við 
+Kafli 6 – Texti í teiknihaus allra miðla uppfærður  
+ Allir 
+30 09.06.23  Númer mynda lagfærð. Engin efnisleg breyting.  RIT 
+ 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024  ii 
+ 
+ 
+EFNISYFIRLIT  
+1. INNGANGUR  .......................................................................................................................................................... 1 
+2. HÖNNUNARFERLIÐ  ............................................................................................................................................... 2 
+3. HÖNNUNARFORSENDUR  ...................................................................................................................................... 3 
+ Rafveita  ........................................................................................................................................................... 4 
+ Hönnun 11kV háspennukerfis  ................................................................................................................. 4 
+ Hönnun Lágspennukerfis  ......................................................................................................................... 4 
+ Heimtaugastærðir  ................................................................................................................................... 6 
+ Vatnsveita  ........................................................................................................................................................ 9 
+ Hitaveita  ........................................................................................................................................................ 12 
+ Jaðarveitur  ..................................................................................................................................................... 16 
+ Fráveita  .......................................................................................................................................................... 17 
+ Fráveitukerfi  .......................................................................................................................................... 17 
+ Blágrænar Ofanvatnslausnir  .................................................................................................................. 20 
+ Dælumannvirki fráveitu  ......................................................................................................................... 24 
+ Hönnun og leyfismál útrásar fráveitu  .................................................................................................... 26 
+ Jarðvinna  ....................................................................................................................................................... 27 
+ Dælustöðvar  .................................................................................................................................................. 29 
+ Öryggis -, heilbrigðis - og umhverfismál  .......................................................................................................... 29 
+ Öryggi við skurðgröft  ............................................................................................................................. 29 
+ Vinnusvæðamerkingar  .......................................................................................................................... 31 
+4. LUKOR  .................................................................................................................................................................  37 
+ Úttektarvefur  ................................................................................................................................................. 37 
+5. CAD LEIÐBEININGAR  ........................................................................................................................................... 38 
+ Hnitakerfi  ....................................................................................................................................................... 38 
+ Planhnit  ................................................................................................................................................. 38 
+ Hæðarkerfi  ............................................................................................................................................ 38 
+ Einingar  .......................................................................................................................................................... 39 
+ Layers  ............................................................................................................................................................ 39 
+ Lagkerfi  .................................................................................................................................................. 39 
+ Litir á hlutum  ......................................................................................................................................... 39 
+ Línugerðir  .............................................................................................................................................. 39 
+ Línuþykkt  ............................................................................................................................................... 39 
+ Blokkir  ............................................................................................................................................................ 40 
+ Norðurpílur  ............................................................................................................................................ 40 
+ Sniðpílur  ................................................................................................................................................ 41 
+ „Í Vinnslu“  .............................................................................................................................................. 42 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024  iii 
+ 
+ 
+ Málsetningar, texti  ........................................................................................................................................ 42 
+ Leturgerð og leturstærð  ........................................................................................................................ 42 
+ Málsetningar  ......................................................................................................................................... 42 
+ Loftmyndir  ..................................................................................................................................................... 44 
+6. TEIKNINGAR  ........................................................................................................................................................ 45 
+ Teiknihaus  ..................................................................................................................................................... 45 
+ Auðkenni teikninga  ................................................................................................................................ 47 
+ Framsetning teikninga  ................................................................................................................................... 52 
+ Almennt  ................................................................................................................................................. 53 
+ Rafveita .................................................................................................................................................. 56 
+ Hitaveita  ................................................................................................................................................ 59 
+ Vatnsveita  .............................................................................................................................................. 63 
+ Fráveita  .................................................................................................................................................. 67 
+ Kerfismyndir – P&ID (Piping & Instrumentation Diagram)  ................................................................... 70 
+7. SKIL Á HÖNNUNARGÖGNUM  .............................................................................................................................. 72 
+ Hönnunarlag vatnsmiðla og rafmagns í LUKOR  ............................................................................................ 72 
+ Hönnunarlag blágrænna ofanvatnslausna  .................................................................................................... 73 
+ ArcGIS FileGeodatabase eða ESRI shape file (SHP)*  ............................................................................. 73 
+ DWG skrá  ............................................................................................................................................... 73 
+ Teikningar skil  ................................................................................................................................................ 73 
+8. VIÐAUKAR  ........................................................................................................................................................... 74 
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   1 af 74 
+ 
+ 
+1. INNGANGUR 
+Tilgangur þessarar handbókar er að tryggja samræmi við hönnun fyrir Veitur. Handbókin gefur upp þær kröfur sem 
+Veitur setja fram er varða m.a. hönnunarforsendur, framsetningu hönnunar, rýni o.s.frv. Handbókin er ætluð fyrir bæði 
+starfs fólk Veitna auk utanaðkomandi ráðgjafa.  
+Með skipulagi er hægt að koma í veg fyrir villur og óhagræði við úrvinnslu gagna. Mikilvægt er að ekki aðeins sé 
+samræmi í útprentuðum skjölum heldur líka innan hönnunarskráa.  Teikningar og önnur hönnunargögn þurfa að vera 
+aðgengileg og auðskiljanleg fyri r þá ýmsu aðila sem koma að hverskyns framkvæmdaverkum, hvort sem það eru 
+verktakar sem vinna verkin, rekstraraðilar sem sjá um að reka kerfin eða stjórnendur sem þurfa að stýra verkum.  
+Hönnuðum (innan sem utan Veitna) er gert að fylgja þessari handbók, eins og frekast er unnt.  
+Þessi handbók miðast við að unnið sé í AutoCAD Civil 3D 20 21 fyrir hönnun.  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   2 af 74 
+ 
+ 
+2. HÖNNUNARFERLIÐ  
+Þau verkefni sem Veitur koma að og snúa að einhverskonar hönnun eru margvísleg að bæði gerð og umfangi. Það 
+þarf því að taka tillit til þess þegar hönnunarferlið er skoðað. Við alla hönnun skal leitast við að uppfylla þær væntingar 
+sem gerðar eru til notkunar, efnis, gæða og umhverfisþátta. Skoða þarf vinnuumhverfi þeirra aðila sem koma að verkinu 
+hvort sem það eru verktakar, þeir sem munu reka kerfið eða viðskiptavinir.  
+Sérstaklega skal huga að öryggisþáttum mannvirkisins. Líta þarf á öll stig mannvirkisins hvort sem það er framkvæmd, rekstur eða niðurrif (aflögn).  
+ 
+Mynd 1: Dæmigert hönnunarferli.   
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   3 af 74 
+ 
+ 
+3. HÖNNUNARFORSENDUR  
+Hér er átt við þær kröfur sem Veitur gera til hönnunar á veitukerfum til að skila viðskipta vinum tilætluðum gæðum. 
+Hönnun skal vera í samræmi við stefnu Veitna.  
+Við hönnun skal ávallt gæta þess að lausnir og útfærslur taki tillit til:  
+• Öryggismála  hvað varðar hættur og stýringar á þeim á framkvæmda- og rekstrartíma auk niðurrifs og 
+afleggingar.  Ávalt skal miða að því að hanna út allar hættur.  
+• U mhverfissjónarmiða , svo sem á stöðum sem þykja sérstæðir hvað varðar gróður, jarðmyndanir (hraun) eða 
+eru mikilvægir af öðrum ástæðum.  
+• H agkvæmni , bæði kostnaðar- og rekstrarlega.  
+• Framtíðarsýn .  Hönnun skal taka mið af framtíðarsýn Veitna og skal taka mið af uppbyggingu og styrkingu 
+veitukerfa m.t.t. þróunar byggða og nýtingar auðlinda.  
+Hönnuðir s kulu fylla út forsenduskýrslu Veitna. Forsenduskýrsla er lifandi plagg á hönnunartíma og þarf að 
+uppfæra eftir því sem hönnun vindur fram.  Forsenduskýrslu skal skila með  rýnigögnum á frumdrögum, 
+forhönnun og fullnaðarhönnun  
+Við alla hönnun skal huga sérstaklega vel að því hvernig framkvæmd verksins skal unnin.  Í flestum tilfellum er verið 
+að vinna samhliða lifandi kerfum sem einungis er hægt að taka úr notkun í takmarkaðan tíma. Skoða skal 
+áfangaskiptingu og í hvaða röð þarf  að vinna verkið, hvort og þá hvernig bráðabirgðatengingar skulu hafðar og 
+hvernig unnið skal að lokunum á meðan á framkvæmdum stendur.  
+Hönnuðir vinna Tengi- og lokunaráætlun og setja fram á teikningum . Áætlunin skal ná yfir allar aðgerðir sem 
+eru nauðsynlegar fyrir og eftir tengingar og lokanir, og fylgir útboðsgögnum til verktaka. Frekari lýsing á 
+teikningum og áætluninni  í kafla 6.2.1.  
+Í öllum verkum þar sem fleiri en einn hönnuður koma að hönnunarverki skal vera skipaður hönnunarstjóri. Hönnunarstjóri fylgir eftir að hönnun sé samræmd milli miðla. Í viðauka er síða til aðstoðar hönnunarstjóra að fylgja 
+eftir hönnunarverki.  
+Hönnuði ber að fara á staðinn áður en hannað er og staðfesta aðstæður. Tilgangurinn er að hönnun, verklýsing 
+og magntaka sé sem réttast og taki tillit til aðstæðna hverju sinni.  Þar með talið skal kanna heimlagnir og hvernig þær 
+eru tengdar inn í hús.   
+ 
+ 
+   
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   4 af 74 
+ 
+ 
+ RAFVEITA  
+Við hönnun skal leitast við að tryggja afhendingaröryggi og gæði rafmagns með eftirfarandi hætti:  
+• Við hönnun og byggingu háspennuvirkja með riðspennu yfir 1 kV skal fara eftir  stöðum IST EN 61936- 1:2010 
+og IST EN 50522:2010, sem gildir fyrir hönnun og gerð jarðskautsvirkja > 1kV. Framangreindir staðlar komu í 
+stað HD 637 S1:1990  IST 170.  
+• Útleysisskilyrði skulu tryggð með valvísi varbúnaðar eða liðavarnarbúnaði.  
+• Spennufall hjá notanda fari ekki yfir þau mörk sem skilgreind eru í staðli ÍST EN 60038:2001.  
+• Flökt dreifispennu (hraðar spennubreytingar) sé innan séu innan við þau mörk sem gefin eru í staðli ÍST EN 50160:2010.  
+• Fylgja skal ákvæðum reglugerðar um raforkuvirki nr. 678/2009
+, með áorðnum breytingum, ásamt 
+orðsendingum Húsnæðis - og m annvirkjastofnunar.  
+ HÖNNUN 11KV HÁSPENNUKERFIS  
+Við hönnun á 11kV háspennukerfi skal í almennt gera ráð fyrir hringtengjanlegu kerfi s.s. að kerfið sé rekið með hringinn rofinn (geislað) þ.a. á fljótlegan hátt sé hægt að færa þetta rof til, ef um bilun er að ræða og almennt skal miða við 
+3x240Al PEX 12kV strengi og 1x50 jarðvír með. Meta þarf sverleika strengja þar sem ekki er um hefðbundið 
+háspennukerfi (möskvakerfi) að ræða t.d. geislakerfi, fæðisstrengi milli aðveitustöðva eða fyrir stærri viðskiptavini. Uppbygging háspennukerfis og nánari útfærsla skal ákveðin í samráði við sérfræðinga í fjárfestingum, rekstur rafveitu og stjórnstöð rafmagns.  
+Meta þarf álag, spennufall og útleysisskilyrði eftir því sem við á.  
+Allar breytingar sem eiga að verða í háspennukerfi, þá skal útbúin skýringarmynd sem sýnir þær breytingar á 
+einlínumynd háspennu úr PoA (kerfiráð rafmagns). Ef bætt er nýrri dreifistöð inn á núverandi háspennukerfi, þá skal 
+það gert í samráði við rýnihönnuð/stjórnstöð rafmagns.  
+Við hönnun skal leitast við að aðskilja lagnaleiðir háspennustrengja í nýjum hverfum og við endurnýjun þar sem því 
+verður við komið.  
+Ef háspennustrengir þurfa að liggja saman t.d. að dreifistöð inn á lóð í kvöð þá skal verja þá sérstaklega, nota t.d. rör eða lagnastokka.  
+Ef háspennustrengir liggja hlið við hlið sem eru ekki hluti af sömu rekstrarleið skal vera hægt að taka þá út án þess að ógna rekstraröryggi háspennukerfisins.  
+Háspennustrengir skulu almennt lagðir (grafnir eða plægðir) á sem næst 900 mm dýpi þ.s. þeir eru einir og sér en þó aldrei grynnra en á 700 mm dýpi t.d. þ.s. þeir liggja með öðrum raflögnum.      
+ HÖNNUN LÁGSPENNUKERFIS  
+Við hönnun og útreikninga á  lágspennukerfi í íbúðahverfi skal miða við töfluna hér að neðan þar sem sett eru fram gildi sem til að meta líklegasta hámarks samtímaálag mismunandi tegunda íbúðarhúsa. Gildin eru fundin út frá rannsóknum Orkuveitu Reykjavíkur  á álagi íbúðarhúsa.  
+Einbýlishús  ne =1 γe = 0,82  Pe = 6,48 S∞,e = 0,47  Sn = 1,00 
+Raðhús  nr = 1 γr= 1,04  Pr = 5,55 S∞,r = 0,50  Sn = 1,00 
+Fjölbýlishús  nf =1 γf = 0,65  Pf = 4,10 S∞,f = 0,25  Sn = 1,00 
+Vegið meðaltal (m.v. fjölda)  n = 3  γ = 0,84  Pn = 5,38  S∞ = 0,41  Sn = 0,64 
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   5 af 74 
+ 
+ 
+Til að meta hlutfallslegt vægi gilda í blönduðu safni íbúða í einbýlis - rað- og fjölbýlishúsum er m.v.:  
+ 
+Veginn meðaltals samtímastuðull:             
+ 
+Líklegasta hámarks samtímaálag:               
+ATH! Þótt þessi gildi við mat á álagi þá ber að hafa í huga að þarna er ekki um eiginlegt hámarksálag að ræða heldur 
+einungis líklegasta hámarksálag. Frávik geta orðið veruleg, einkum þar sem um fá hús er að ræða. Faglegt mat og 
+reynsla er því enn í fullu gildi við notkun þeirra við mat á spennufalli.  
+Hægt er að fá afhent hjá rýnihönnuðum reiknilíkanið Rafdreifing400_2.1 þar sem hægt er að slá inn í gulu reitina, fjölda 
+af mismunandi gerð húsa og íbúða til að sjá líklegasta hámarks samtímaálag heildarinnar m.v. forsendur hér að ofan. 
+Í skjalinu  skal velja rétta spennu 400V eða 230V og m.v. skal við fasvik 0,85. Þetta skjal er út frá raunverulegum 
+mælingum á heimtaugum.  
+Við útreikning vegna rafbílaálags skal að auki miða við eftirfarandi forsendur:  
+• Bæta skal við rafbílaálagi en miða skal við 1kW per bílastæði  a.t.t. samtímastuðla. Þessi afltala er fundin út 
+frá orkunotkun og meðalakstur fólksbíla á dag og inniheldur samtímastuðla sem byggja á rannsókn Samorku. 
+Viðmiðunartöflu m.t.t. heimtaugastærða einungis til hleðslu rafbíla, má sjá hér að neðan.  
+Fjöldi bílastæða   Heimtaugastærð    Afl   
+1 - 30    3x63 A      30 kW  
+31 - 50    3x100 A     50 kW  
+51 – 110   3x200 A     110 kW  
+111 – 170   3x315 A     170 kW  
+171 - 200   3x400 A     200 kW  
+• Í fjölbýlishús skal bæta við lyftuálagi en miða skal við 15kW og samtímastuðul 0,5.  
+• Í fjölbýlishús skal bæta við 10W/m2 fyrir bílakjallara fyrir lýsingu, loftræstingu og aðra almenna notkun.  
+• Við útreikninga á iðnaðar og atvinnuhúsnæði skal almennt m.v. 45W/m2 nema aflþörf sé þekkt.  
+• Ef heimtaugar verða straumlausar meðan á framkvæmdatíma stendur þarf að hanna bráðabirgðatengingar.  
+Í lágspennukerfi (notendakerfi) skal miða við töflu hér að neðan varðandi hámarksvarstærðir.  
+Gildleiki strengs     Stærð vars  
+ 4x10 mm2 Cu     50 A 
+ 4x16 mm2 Cu     63 A 
+             4x25 mm3 Al      63 A 
+ 4x25 mm2 Cu     100 A  
+ 4x50 mm2 Al      100 A  
+ 3x50+25 mm2 Cu     160 A  
+ 3x70+35 mm2 Cu     200 A  
+ 3x95+50 mm2 Cu     250 A  
+ 4x95 mm2 Al      200 A  
+ 3x120+70 mm2 Cu     250 A  
+ 3x150+70 mm2 Cu     315 A  
+ 4x150 mm2 Al      250 A  
+ 4x240 mm2 Al      315 A  
+ 3x300 mm2 Al -PEX+88 mm2 Cu   400 A  
+ 4x300mm2 Al      400 A  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   6 af 74 
+ 
+ 
+ HEIMTAUGASTÆRÐIR  
+Stærð heimtauga og heimtaugastrengja miðast við:  
+Stærð heimtaugar  Gerð heimt.strengs  Var í tengiskáp eða dreifistöð   Ídráttarrör  
+1 x 16 A   3 x 2,5 Cu *    20 A    50mm  
+1 x 16 A   4 x 10 Cu    20A    50 mm  
+3 x 35 A   4 x 25 Al    50 A    50 mm  
+3 x 50 A   4 x 25 Al    63 A    50 mm  
+3 x 63 A   4 x 25 Al    80 A    50 mm  
+3 x 80 A   4 x 50 Al    100 A     63 mm  
+3 x 100 A   4 x 50 Al    125 A     63 mm  
+3 x 160 A   4 x 150 Al    200 A     110 mm  
+3 x 200 A   4 x 150 Al    250 A     110 mm  
+3 x 250 A   4 x 240 Al    315 A     110 mm  
+3 x 315 A   4 x 240 Al    315-355 A    110 mm  
+3 x 400 A   4 x 300 Al    400-500 A    110 mm  
+3 x 630 A   2 x (4 x 240 Al)    2 x 315 -355 A    2 x 110 mm  
+3 x 710 A   2 x (4 x 300 Al)    2 x 355 -400 A      2 x 110 mm  
+ 
+*Gildir aðeins um smáheimtaugar  
+Fyrir stærri heimtaugar eru almennt notaðir aflrofar og eru þeir stilltir í samræmi við heimtaugastærð. Heimilt er að stilla 
+skammhlaupsfaktor aflrofa niður í Ir x 4. Ef nota skal tvöfaldan varrofa, á hann að vera með sambundnum skinnum. Alltaf skal leitas t við að nota varrofa upp að mörkum ljósboga sem er 8 cal/cm2.  
+Við val á heimtaugastærð skal miða við eftirfarandi sviðsmyndir þ.s. annars vegar er um eina heimtaug (Sviðsmynd 1) 
+að ræða og hins vegar þegar um tvær heimtaugar sem á þá eingöngu við um fjölbýlishús þ.s. önnur  heimtaugin er fyrir 
+almenna notkun (Sviðmynd 2a) en hin fyrir bílageymslu og rafbílahleðslu (Sviðmynd 2b)  
+Sviðsmynd 1: Ein heimtaug, íbúðir með rafbílahleðslu ásamt lyftuálagi og bílageymslu þ.s. það á við.  
+ Fjöldi íbúða    Stærð heimtaugar  Gerð heimt.strengs  
+ 1    3 x 50 A   4 x 25 Al   
+ 2-5     3 x 80 A   4 x 50 Al  
+ 6-10    3 x 100 A   4 x 50 Al  
+11-20    3 x 160 A   4 x 150 Al  
+21-30    3 x 200 A   4 x 150 Al  
+31-40    3 x 250 A   4 x 240 Al  
+41-50    3 x 315 A   4 x 240 Al  
+ 51-70    3 x 400 A   4 x 300 Al  
+ 
+Sviðsmynd 2a: Tvær heimtaugar, Íbúðir og lyftur (bílageymsla á sér heimtaug)  
+ Fjöldi íbúða     Stærð heimtaugar  Gerð heimt.strengs  
+ 2-5    3 x 63 A   4 x 25 Al  
+6-15    3 x 80 A   4 x 50 Al  
+16-30    3 x 100 A   4 x 50 Al  
+31-50    3 x 160 A   4 x 150 Al   
+ 51-70    3 x 200 A   4 x 150 Al  
+ 
+Sviðsmynd 2b: Tvær heimtaugar, Bílgeymsla og rafbílahleðsla (Íbúðir á sér heimtaug)  
+ Fjöldi bílastæða   Stærð heimtaugar  Gerð heimt.strengs  
+ 2-15     3 x 63 A   4 x 25 Al   
+16-22    3 x 80 A   4 x 50 Al  
+23-30    3 x 100 A   4 x 50 Al  
+31-50    3 x 160 A   4 x 150 Al  
+51-70    3 x 200 A   4 x 150 Al  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   7 af 74 
+ 
+ 
+ 
+71-90     3 x 250 A   4 x 240 Al  
+91-110     3 x 315 A   4 x 240 Al  
+111-140    3 x 400 A   4 x 300 Al  
+ 
+ 
+Sértilvik sem koma upp og rúmast ekki innan þessara almennu viðmiðunarreglna verða reiknuð sér.  
+Kröfur til tenginga heimtauga skulu uppfylla ákvæði staðalsins ÍST 200 (Raflagnir bygginga) og TTR (Tæknilegra 
+Tengiskilmála Raforkudreifingar) ásamt skilmálum Veitna.   
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   8 af 74 
+ 
+ 
+ 
+Mynd 2: Skýringar og tákn fyrir rafdreifikerfi Veitna.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   9 af 74 
+ 
+ 
+ VATNSVEITA 
+Hönnun vatnsveitukerfa skulu að lágmarki uppfylla gildandi útgáfur af eftirfarandi stöðlum:  
+• EN 805  Water supply – Requiremetns for systems and components outside buildings  
+Við hönnun skal leitast við að tryggja afhendingaröryggi og gæði (öryggi og heilnæmi) vatns með eftirfarandi hætti:  
+• Miðað er við að þrýstingur í efsta krana (á notkunarstað) sé ekki lægri en 10 m vatnssúla (1,0 bar). Í hærri 
+húsum (> 4 hæðir) getur húseigandi orðið að setja upp dælubúnað svo nægur þrýstingur fáist á efri hæðum.  
+• Þar sem fráveitulagnir liggja nærri skal tryggja að neðri brún vatnsveitulagnar sé ávallt ofar en efri brún fráveitulagnar. Ef ekki er hægt að komast hjá því að vatnsveitulagnir liggja neðar en fráveitulagnir þarf að 
+tryggja að samskeyti lagna séu þétt og fyrirbyggja gegnumdræpi lífrænna efna milli leiðslukerfa með viðeigandi efnisvali. Þar að auki þarf að framfylgja lágmarks fjarlægð milli röraveggja, sjá mynd 10.  
+• Miðað er við að lagnir séu lagðar á frostfríu dýpi, um 80 – 120 cm eftir stærð lagna og aðstæðum.  
+• Við gerð efnislista fyrir plastlagnir skal taka tillit til eftirfarandi töflu. Taka skal tillit til leiðbeininga framleiðanda um leyfilega SDR flokka á rafsuðutengjum fyrir viðkomandi efnisstærð: 
+ 
+Lagnaefni  Ídráttarör  Samsetningar  Tengingar  
+Ø32 plast SDR11, rúlla  Ø50 plast SDR17, rúlla  Kopar/rafsuða  Kopar/rafsuða  
+Ø40 plast SDR11, rúlla  Ø63 plast SDR17, rúlla  Kopar/rafsuða  Kopar/rafsuða  
+Ø50 plast SDR11, rúlla  Ø75 plast SDR17, rúlla eða beint  Kopar/rafsuða  Kopar/rafsuða  
+Ø63 plast SDR11, rúlla  Ø110 plast SDR17, beint  Kopar/rafsuða  Kopar/rafsuða  
+Ø75 plast SDR17, rúlla  Ekkert  Kopar/rafsuða  Kopar/rafsuða  
+Ø90 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+Ø110 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+Ø180 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+Ø225 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+Ø280 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+Ø315 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+Ø400 plast SDR17, beint  Ekkert  Spegilsuða  Rafsuða SDR17,SDR11  
+ 
+• Tengingar inn á nýjar lagnir skulu vera gerðar með T -tengingum en ekki áborun/ rafsuðusöðul.  
+• Ávallt skal hugað að því að hringtenging frá sömu dælusónu verði á dreifikerfum ef því verður viðkomið.  
+• Ef um stofnæðar er að ræða er ekki æskilegt að tengja notendur nema þeir séu tengdir með varaleið ef loka þarf fyrir stofnæð.  
+• Ávallt skal tekið tillit til við hönnun lagnakerfisins að kerfinu er skipt upp í þrýstisónur. Þar sem tvær eða fleiri þrýstisónur tengjast er í mörgum tilfellum hægt að færa til sónur til að minnka áhrif lokana í kerfinu og skulu stærðir lagna og tengingar taka tillit til þess.
+ 
+• Í áhættugreiningu hönnuða skal sérstaklega tekið á lokunum, þrýstihöggum og áhættu af tjónum vegna rofs á stærri vatnslögnum. Miðað er við stofnæðar, flutningsæðar og dreifiæðar Ø315/DN300 og stærri.  
+• Á stofnæðar og flutningsæðar skal skoðað hvort staðsetja eigi rafdrifna loka á lagnir sem tengdir verða við 
+kerfiráð Veitna. Lokarnir þurfa að vera aðgengilegir fyrir viðhald. Jafnframt skal setja framhjáhlaup með loka 
+yfir þá sem notaðir verða við áfyllingar á æðarnar. Við val á lokadrifum skal taka tillit til vægis á lokana sem 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   10 af 74 
+ 
+ 
+framleiðendur gefa upp ásamt því að þrýstihöggsgreining þarf að eiga sér stað til á unnt sé á ákvarða opnunar - 
+og lokunartíma.  
+ 
+• Lokar skulu staðsettir sem næst T -stykki.  
+• Við efnisval í vatnsveitulagnir og tengingar skal taka tillit til jarðvegaðstæðna með það að leiðarljósi að 
+fyrirbyggja tæringu í lögnum.  
+• Einungis eru notuð efni til vatnslagna sem samþykkt eru fyrir drykkjarvatn.  
+• Vatnsveitulagnir í götu skulu hafa að lágmarki Ø63 mm þvermál en heimæðar að lágmarki Ø32 mm.  
+• Heimæðar skulu ná 1.0 m inn fyrir lóðamörk þar sem gangstétt er en annars 1,5 metra.  
+• Miða skal við að fyrirbyggja að dauðir endar verði til þar sem örverumengun geti þrifist.  
+• Allar heimæðar Ø63 mm og stærri skulu vera með spindilloka.  
+• Hústengingar við stofn-  og dreifilagnir skulu vera sem fæstar. Til að ná því er lagt út frá tengingu samhliða 
+dreifilögn í allt að 15- 20 íbúðir.  
+• Lagnastærðir í dreifilögnum séu ekki síbreytilegar. Ekki er ástæða til að minnka stærð lagnar nema framundan sé a.m.k. 25 m löng lögn.  
+• Við hönnun loka skal taka mið af hugsanlegum lokunum vegna bilana. Þá þarf m.a. að hafa í huga að minnka hættu á að lokað sé fyrir brunahana, m.a. með því að hafa loka á dreifiæð við brunahanatengingu.  
+• Lokar með spindli skulu aldrei vera minni en Ø63 mm (2”loki).  
+• Í útboðsgögnum þarf að gera grein fyrir áfangaskiptingu þrýstiprófana og prófunarþrýsting lagna. Tekið skal tillit til hæðarlegu lagna við ákvörðun prófunarþrýstings og mögulegra breyttra rekstrarskilyrða í framtíðinni. 
+• Hanna skal festur þar sem þær eru nauðsynlegar. Ef ekki er hægt að hanna festuna áður en verk fer af stað vegna óvissu um jarðveg, skal hönnuður skoða aðstæður á staðnum eftir uppgröft og hanna þá festuna. Við 
+hönnun á festu skal gert grein fyrir steypugerð, járnavirki og festingum, nauðsynlegum hörðnunartíma steypu fyrir áhleypingu og jarðvegsundirlagi.Jafnframt skal tekið fram á teikningu þrýstiþol festu og öryggisstuðul.  
+• Nýjar lagnir úr ductile skulu vera með læstum samsetningum.  
+• Við hönnun stofn-  aðal og flutningsæða skal huga að sjálfvirkum loftlokum í hápunktum lagnar og tæmingum 
+fyrir útskolun í lágpunktum.  
+ 
+• Við hönnun stofn-  aðal og flutningsæða DN500 og stærri skal gera ráð fyrir aðgangspunktum, sem aðgengilegir 
+eru fyrir svínun/þrif og ástandsskoðanir lagna án þess að það þurfi að taka lögn í sundur.  
+ 
+• Við áfangaskiptingu verks skal hugað að áhrifum hennar á rekstur kerfisins og gera viðeigandi ráðstafanir með 
+bráðabirgðatengingum eða lokum til að tryggja afhendingu vatns til viðskiptavina.  
+ 
+• Huga skal að því í hönnun hvort þörf sé á stýrilögnum/ljósleiðara samhliða stofn - og flutningsæðum.   
+ 
+• Brunahanar þurfa að geta gefið nægt vatn án þess að undirþrýstingur myndist  í vatnskerfinu þegar brunahani 
+er í notkun.  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   11 af 74 
+ 
+ 
+• Í íbúðahverfi skal fjarlægð í næsta brunahana ekki vera meiri en 200 metrar, mælt eftir götum eða öðrum þeim 
+leiðum sem fært er með slöngur. Vatnsmagn verði ekki minna en 15- 25 l/s.  
+• Í iðnaðarhverfi með blandaðri og meiri áhættu skal fjarlægð í næsta brunahana ekki vera meiri en 100 metrar 
+mælt eftir götum eða öðrum þeim leiðum sem fært er með slöngur . Vatnsmagn skal ekki vera minna en 30- 50 
+l/s 
+• Brunahanar þurfa að vera meira en 1,5 m frá loka,  ella er hætta á að lokar o.fl. skemmist ef keyrt er á 
+brunahanann.  
+• Við úrtak úr stofn - eða dreifiæð fyrir brunahanann skal vera loki (ekki við brunahanann).  
+• Brunahani sé að lágmarki 25 cm frá lóðamörkum. Spindilloki fyrir brunahana sé sem næst tengingu við lögn.  
+• Huga skal að því við staðsetningu brunahana að ekki verði hætta á árekstri við hann frá ökutækjum eða snjóruðningstækjum. Einnig skal hugað að því að hann skerði ekki aðgengi gangandi, barnavagna, hjólastóla 
+og hjólreiða.
+  
+• Neðri brún vatnslagnar þar sem hún tengist brunahana skal ávallt vera 1,35 metra undir yfirborði.   
+• Leitast skal við að staðsetja brunahana nærri gatnamótum.   
+• Við götu þar sem um fleiri en einn brunahana er að ræða skal leitast við að láta brunahanana standa á víxl 
+sinn hvorum megin götunnar.  
+• Ef heimæðar verða vatnslausar meðan á framkvæmdatíma stendur þarf að hanna bráðabirgðatengingar.  
+• Teikningar skulu vera með langsnið af hæðarlegu í landi. Á teikningum skal vera skrá yfir lagnaenda (hnitaskrá 
+X, Y, Z).  
+• Uppdrifskraftar: Í hönnun þarf að meta möguleg áhrif uppdrifskrafta á vatnsveitulagnir og -búnað. Tryggja þarf 
+að grunnvatn og ofanvatn valdi ekki tjóni á framkvæmdatíma.  
+• Leiðbeinandi stærðir heimæða:  
+12 tappeiningar eða minna   32 mm heimæð  
+13-25 tappeiningar    40 mm heimæð  
+26-50 tappeiningar    50 mm heimæð  
+51-175 tappeiningar    63 mm heimæð  
+176-400 tappeiningar    75 mm heimæð  
+400+ tappeiningar    90 mm heimæð  
+ 
+Einbýlishús: 10 tappeiningar , Blokkaríbúð: 8 tappeiningar.  
+ 
+ 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   12 af 74 
+ 
+ 
+ HITAVEITA 
+Hanna skal hitaveitukerfi skv. IST EN 13941. Við hönnun skal leitast við að tryggja afhendingar öryggi og gæði 
+hitaveituvatns með eftirfarandi hætti:  
+• Ef Vöktunarkerfi hitaveitu (Vöktunarvírar)  eiga að vera í verkefninu skal fylgja hönnunarleiðbeiningum í LAV-
+819, Hönnunar - og framkvæmdaleiðbeiningar fyrir hitaveitulagnir með vöktunarvírum . Eiga að vera í öllum 
+lögnum DN200 og yfir, eða ef það er sérstaklega ákveðið í minni lögnum.  
+• Við skipulag hitaveitu skal metið, í samráði við verkkaupa, um notkun og staðsetningu loka og hvort 
+skynsamlegt sé að hafa aðveitu hitaveituvatns mögulega úr tveimur áttum.  
+• Miðað er við að framþrýstingur á inntaksstað sé að jafnaði ekki lægri en 3,0 bar og ekki hærri en 7,0 bar. Í háum húsum þar sem landhæð er mikil getur húseigandi orðið að setja upp dælubúnað svo nægur þrýstingur fáist á efri hæðum húsa. Á jaðarveitusvæðum er miðað við að framþrýstingur sé ekki lægri en 2,0 bar.  
+• Bakþrýstingur í tvöföldu dreifikerfi skal vera á bilinu 1,0 til 4,0 bar við inntaksstað.  
+• Mismunaþrýstingur í tvöföldu dreifikerfi fari aldrei neðar en 1,5 bar.  
+• Þrýstifall skal miða við að ofangreindum ákvæðum um þrýsting sé fullnægt. Almennt skal þó gera ráð fyrir að þrýstifalli í stofnlögnum sé ekki meira en 5 mm/m og í dreifikerfislögnum 10 til 15 mm/m. Í einstökum heimæðum getur þrýstifallið þó verið meira en þá verður að tryggja að framþrýstingur uppfylli kröfur að ofan.  
+• Miðað er við að lagnir,aðrar en aðalæðar, séu lagðar á um 50 – 60 cm dýpi eftir stærð lagna og aðstæðum.  
+• Einungis eru notuð efni til hitaveitulagna sem uppfylla staðlana IST EN 253, IST EN 448, IST EN 488 og IST EN 489.  
+• Í þeim tilvikum sem plast er notað er val á efni skv. eftirfarandi stöðlum og kröfum:   Rör:  DIN 
+16892/16893,   DIN 4726.   Suðutengi/Skrúfutengi: DIN 2440. Forðast skal dauða enda vegna frosthættu.  
+• Tryggja nægjanlegan vatnshraða í lögnum til að fyrirbyggja kólnun vatns.  
+• Þegar tvöfalt hitaveitukerfi er hannað þarf að halda þeirri meginreglu að sé horft í straumátt framrennslis sé framrennsli ávallt hægra megin í skurði.  
+• Þegar notuð er 50 mm lögn skal athuga að nota þarf einangrunarflokk 2. fyrir þá stærð þar sem 125 mm kápa er ekki notuð.  
+• Þar sem brunnar eru lagðir niður þarf að meta hvort ekki sé skynsamlegt að setja í staðinn þjónustuloka sem er loki með tæmingarlokum sitthvoru megin við aðallokann.  
+• Ef heimæðar verða vatnslausar meðan á framkvæmdatíma s tendur þarf að hanna bráðabirgðartengingar.  
+• Heimæðar skulu ná 1,0 m inn fyrir lóðamörk.  
+• Tryggja skal lágmarks fjarlægð milli greinarstykkja svo nægt pláss sé fyrir hólka á lögninni. Staðsetning á einangruðum fittings s.s b eygjum, spindillokum og té- stykkjum skal ákveðin m.t.t. að hægt sé með góðum 
+hætti að tengja saman og lekaprófa lögnina áður en frágangur á hlífðarkápu hefst.  
+• Gera skal ráð fyrir þenslu stállagna við hönnun hitaveitu.  
+• Miða skal við eftirfarandi töflu til að áætla hámarksaflþörf við upphitun húsa með hitaveitu.  
+• Þegar taka þarf minni stefnubreytingar /suðubrot  á stállögnum skal  ekki hanna stærri brot en 2 gráður.  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   13 af 74 
+ 
+ 
+• Varmaþörf húsnæðis    
+Tegund    l/klst./m3  Aflþörf W/m3 
+Íbúðarhúsnæði 1 hæð   0,53  24,5 
+Íbúðarhúsnæði 2 hæðir   0,48  22 
+Íbúðarhúsnæði 3 hæðir   0,44  20 
+Íbúðarhúsnæði 4 hæðir   0,33  15 
+Íbúðarhúsnæði 5 og 6 hæðir  0,27  12,4 
+Atvinnu -og þjónustuhúsnæði  0,27  12,4 
+ 
+• Samtímastuðull heitavatnsnotkunar til upphitunar er samkvæmt eftirfarandi jöfnu:  
+ 
+Þar sem n er fjöldi tengdra íbúða.  
+ 
+• Kranavatnsnotkun   
+Mesta kranavatnsnotkun á íbúð er 20 kW. Hækkun vegna kranavatns er því:  
+ 
+þar sem:  
+ 
+Δp = Hækkunarþáttur vegna kranavatns.  
+qk  = Uppsett kranavatnsálag.  (20kW).  
+qh  = Uppsett hitunarálag.  
+Samtímastuðull á heitu kranavatni er samkvæmt eftirfarandi jöfnu:  
+ 
+(1) 
+ 
+þar sem:  
+sΔ = Samtímastuðull á kranavatnsnotkun.  
+n = Fjöldi tengdra íbúða.  
+Þáttur kranavatnsins við hönnun hættir að skipta máli ef um 100 íbúðir eða fleiri er að ræða.  
+• Hönnunarálagið P(n)  
+Þegar grunnhitunaraflið og grunnkranavatnsaflið fyrir hvert hús hefur verið ákveðið er hönnunarálagið P(n) fyrir n 
+notendur fundið sem:  ns38 , 062 , 0+ =
+
+≥< −= ∆kW qkW q q qp
+hh h k
+2020
+0) (
+101 0101 10 ) 101 (2 6 , 0
+> =≤ ⋅ − ⋅ =
+∆− −
+∆
+n sn n n s
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   14 af 74 
+ 
+ 
+ 
+(2) 
+ 
+þar sem:  
+P(n)      Hönnunarafl n notenda.  
+qh(i)      Grunnhitunarafl ákveðins notenda.  
+Δp(i)      Hækkun vegna kranavatnsafls ákveðins notenda.  
+s Samtímastuðull hitunar.  
+sΔ Samtímastuðull kranavatns.  
+n Fjöldi tengdra íbúða.  
+ΦTap      Afltap í dreifikerfi. 
+Í formúlu (2) er bætt við töpum í dreifikerfi ΦTap.  Í nýjum kerfum eru þau innan við 5% af því afli sem kemur inn á 
+dreifikerfið.  
+• Hrýfi: Reikna skal með hrýfi  0,5 mm.  
+• Öryggisstuðull: Öryggisstuðull er innifalinn í einingunni fyrir hrýfi.  
+• Fullnaðarhönnun heimæða. Heimæðar eru hannaðar m.v. aðstæður á lóð hverju sinni í samráði við lóðarhafa. 
+Þetta á líka við um staðsetningar greinistykkja heimæða.  
+• Lagn aleiðir og lagnaleyfi. Það er forsenda að öll lagnaleyfi og samningar/samþykktir um lagnaleiðir skuli liggja 
+fyrir áður en lokahönnun hefst.  
+• Þ anar . Aðstæður segja til um hvort hanna skuli innbyggða þana, hefðbundna þana eða sleppa þeim.  
+• Dýpt lagna. Hönnunardýpi á heitu vatni er að minnsta kosti 55 cm ofan á pípu.   
+• Miðað skal við að hólkar 250 mm og stærri séu opnir.  
+• Á teikningum skal vera skrá yfir lagnaenda (hnitaskrá X, Y, Z).  
+ [ ]W i p s i q s n PTapn i
+in i
+ih Φ +
+∆ + ⋅ =∑ ∑=
+=∆=
+= 1 1) ( ) ( ) (
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   15 af 74 
+ 
+ 
+ 
+Mynd 3: Úr staðalsniði hitaveitu (LAV -360).  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   16 af 74 
+ 
+ 
+ JAÐARVEITUR 
+Í jaðarveitum eru neðangreindar hönnunarforsendur eins fyrir hitaveitu og vatnsveitu. Hönnunarforsendunum á að 
+miðla til hönnuða og annarra sem koma að uppbyggingu og rekstri veitnanna. Hönnunarforsendur jaðarveitna, eðlis 
+síns vegna, geta verið aðrar en hefðbundnar hönnunarforsendur í þéttbýli.  
+• Efnisnotkun og efnisval. Í jaðarveitum er notað meira af PEX efni en stáli vegna þess að það er auðveldara í 
+lagningu með hlykkjóttum mjóum sveita - og malarvegum. Stállagnir njóta sín betur í fyrirfram skilgreindum og 
+beinum gangstéttum þéttbýlis. Vegna notkunar PEX efnis í jaðarveitum skal gera þá kröfu í útboðsgögnum að þeir sem komi að samsetningum röra hafi próf í því, ( t.d. skilyrði sé sýnikennsla, námskeið eða prófskírteini ).  
+• E
+fni skal að jafnaði miðað við þrýstiflokk 10 bar og vera í einangrunarflokki 1. Við hönnun á stofn - og 
+götulögnum þarf að vega saman efnisval í PEX -i og stáli. Þar þarf að taka tillit til m.a. flutningsgetu, þrýstings, 
+hæðar og hæðarmunar í landi, jarðvegs (há jarðvatnsstaða og blautur jarðvegur kallar á færri samsetningar).  
+• F ullnaðarhönnun heimæða. Heimæðar eru hannaðar m.v. aðstæður á lóð hverju sinni í samráði við lóðarhafa. 
+Þetta á líka við um staðsetningar greinistykkja heimæða.  
+• Ú tboðstexti.  Setja þarf í verklýsingu í útboðsgögnum texta um að verktaki sé viðbúinn breytingum að ákveðnu 
+marki án aukakostnaðar. Textinn er :  
+„Verktaki þarf að vera undir það búinn að tengingum húsa fjölgi nokkuð eftir að útboðsverkið hefst. 
+Greiðsla fyrir þá vinnu er magnaukning í verkinu og ekki greitt sérstaklega fyrir það. Ef taka þarf pípu 
+í sundur vegna fjölgunar heimæða fellur sú vinna inn í einingaverð á samsetningum.“  
+Þessi texti er í staðlaðri útboðslýsingu OR.  
+• Lagnaleiðir og lagnaleyfi. Það er forsenda að öll lagnaleyfi og samningar/samþykktir um lagnaleiðir skuli liggja 
+fyrir áður en lokahönnun hefst.  
+• H itastig og úthlaup. Þessar upplýsingar eru gefnar upp fyrir hverja veitu. Staðhættir ráða einnig. Hönnuður 
+skal því leita í hverju tilfelli fyrir sig eftir þessum forsendum. Við útreikninga í hönnuninni skal miðað við að 
+afhendingarhitastig á heitu vatni við hús fari ekki niður fyrir 50°C. Hönnuður skal staðsetja úthlaup eins og þörf 
+er á. Úthlaupin skal staðsetja í samráði við verkefnastjóra.  
+• Þr ýstingur . Lágmarks afhendingarþrýstingur (hjá notanda) skal vera 2 bar.  
+• Sölukerfi . Lögbýli/íbúðarhús skulu hönnuð m.v. mæla og frístundahús/sumarhús skulu hönnuð m.v. að hafa 
+hemil.  
+• T engiefni . Hanna skal PEX -PEX tengingar og miða skal við stærðir PEX 20-63. Í stærðunum PEX 75 – 90 þarf 
+að nota stáltengi með ásoðnum PEX/stál tengjum.  
+• Þ anar . Aðstæður segja til um hvort hanna skuli innbyggða þana, hefðbundna þana eða sleppa þeim.  
+• Aðstæður. Hönnuði ber að fara á staðinn áður en hannað er og staðfesta aðstæður við verkefnastjóra. 
+Tilgangurinn er að hönnunargögn og uppbygging einingamagns sé sem réttast. Dæmi eru um miklar klappir sem sjá mátti fyrir með staðarskoðun, söndun í lagnaleið o.frv. 
+• S
+lökkvivatn . Ekki skal hannað m.v. slökkvivatn, nema þess sé sérstaklega getið.  
+• Dýpt lagna. Hönnunardýpi á heitu vatni er 55 cm ofan á pípu. Þegar vatnsveita er lögð ein og sér þá gilda 
+hefðbundnar hönnunarforsendur í vatnsveitu. Þegar vatnsveita er lögð með hitaveitu, þá er hönnunardýpi 70cm ofan á pípu. Þá skal binda (strappa, bensla) pípur miðlanna saman og leggja vatnsveitupípuna neðan undir hitaveitupípuna. Sjá staðalþversnið með verklýsingum.  
+• M
+iðað skal við að hólkar 250 mm og stærri séu opnir . 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   17 af 74 
+ 
+ 
+ FRÁVEITA  
+ FRÁVEITUKERFI  
+Við mat á hönnunarrennsli fráveitu skal nota LAV- 503 og forsendur hönnunarrennslis eru í LAV- 501  (skólp) og LAV-
+502  ( ofanvatn). Helstu hönnunarforsendur fyrir fráveitukerfi eru eftirfarandi:  
+• Stefnuatriði  
+o Framsýni í hönnun. Stefna Veitna er hreinar strendur alltaf og þróun fráveitukerfisins þarf að taka mið af 
+áskorunum framtíðar eins og hærri sjávarstöðu og aukin úrkomuákefð.  
+o Hreinsa skólp þar til það telst hæft til losunar í umhverfið.  
+o Stefna Veitna er vinna markvisst að því að draga úr óæskilegu umhverfisáhrifum. Til dæmis með innleiðingu blágrænna ofanvatnslausna. Einnig lágmarka kolefnisspor.  
+o Traust fráveitukerfi til framtíðar með tillit til afkasta, rekstraröryggis, starfsmannaöryggis og endingar.  
+o Nýta stafræna tækni og vera opin fyrir nýjum lausnum.  
+ 
+• Bakvatn hitaveitu.  
+o Almennt þegar hitaveita er einföld og viðtaki ekki viðkvæmur, skal leiða bakvatn hitaveitu í ofanvatnslagnir.  
+o Ofanvatnslagnir þurfa að bera mesta rennsli bakvatns hitaveitu þegar úrkoma er engin, og 50% af mesta rennsli bakvatns hitaveitu við hönnunarúrkomu.  
+o Fráveitulagnir frá affalli hitaveitu, t.d. bakrásarskápar og öðru sambærilegu skulu vera úr hitaþolnu efni.  
+o Bakvatn snjóbræðslu skal almennt skilað aftur í tvöfalda hitaveitu. Útfært í samráði við Veitur ef hitaveita er einföld.  
+ 
+• Stærðarákvörðun  
+o Reikna skal með 3 mm hrýfi við hönnun, óháð lagnaefni og öðrum breytum (ákvörðun um annað tekin í samráði við Veitur).  
+o Hönnun lagna og framsetning á teikningum skal almennt miðast við innanmál lagna. Þrýstilagnir er hægt 
+miða við utanmál enda sé tegund og veggþykkt (SDR) gefin upp.  
+o Lágmarksþvermál aðallagna skal vera Ø250 mm að innanmáli. Almennt við stærðarákvörðun lagna skal velja stærri lögnina ef hönnunarrennsli lendir á milli staðlaðra lagnastærða.  
+o Þvermál heimæða, affallslagnir hitaveitu eða aðrar fráveitutengingar skulu að lágmarki vera Ø150 mm að innanmáli.  
+o Þvermál niðurfallslagna skal vera Ø150 mm að innanmáli.  
+ 
+• Halli fráveitulagna.  
+o Lagnir sem eru Ø250 mm skal leggja með lágmarki 5,0 ‰ halla. Lagnir sem eru Ø300 mm eða stærri skal leggja með að lágmarki 4,0 ‰ halla til þess að tryggja sjálfhreinsun.  
+o Almennt skal forðast að leggja lagnir með meiri halla en svo að vatnshraði í þeim verði meiri en 4 m/s og halli skal aldrei vera meiri en 300‰.  
+o Sé um endalögn að ræða skal hallinn vera að lágmarki 15 ‰.  
+o Heimæðar og niðurfallsleggir skulu hafa að lágmarki 20 ‰ halla en að hámarki 300‰.  
+o Sé ekki hjá því komist að leggja lagnir með minni halla en ofangreint, þarf að tryggja sjálfhreinsun með því að reikna út skerspennu og skal hún minnst vera:  
+ í skólplögnum: a.m.k. 2,5 N/m2 daglega.  
+ í regnvatnslögnum: a.m.k. 1,5 N/m
+2 vikulega á sumrin en mánaðarlega á veturna (að jafnaði).    
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   18 af 74 
+ 
+ 
+ 
+• Brunnar  
+o Brunnar skulu vera minnst 1000 mm að innanmáli.  
+o Skal setja þar sem þvermál lagna breytist.  
+o Almennt skal setja brunn þar sem brot verður á legu lagna í plani eða hæð. Í hæð má horn milli tveggja 
+röra mest vera 10‰. Í plani má horn milli tveggja röra mest vera 1°.    
+o Skal setja þar sem lögn endar eða frekari tenging er fyrirhuguð síðar.  
+o Á beinum lögnum þar sem ekki  koma inn hliðarlagnir mega vera 100- 150 m á milli brunna.  
+ 
+• Hæðarlega fráveitu  
+o Regnvatnslagnir eiga að liggja ofar en skólplagnir. Þar sem vatns - og hitaveitulagnir eru nærri skal 
+tryggja að þær séu alltaf ofan við fráveitulagnir.  
+o Minnsta dýpi frá yfirborði ofan á efri fráveitulögn er að jafnaði 1,2 m. Mesta dýpi frá yfirborði ofan á fráveitulögn miðast við 5 m (útfært í samráði við Veitur).  
+o Minnsta dýpi frá fyrirhuguðu yfirborði ofan á tengilögn að niðurfalli er 1,0 m. Mesta dýpi frá yfirborði í botn á niðurfalli er 4,0 m. Tengilögn skal tengja inn í niðurfall um 80 cm frá botni þess.   
+ 
+• Tengingar fráveitu  
+o Tengingar safnkerfis/aðallögn eru yfirleitt í brunnum.  
+o Tengingar heimæða og niðurfallsleggja skulu vera almennt við aðallögn. Við aðallögn skulu niðurfallsleggir og heimæðar vera með 90° stefnu á teikningum.  
+o Tenging við aðallögn sem er 600 mm eða stærri skal vera ofar miðju götulagnar.  
+o Tenging við núverandi götulögn þar sem tenging er boruð skal vera ofar miðju götulagnar. Þannig að rennsliskóti nýrrar lagnar sé ofar miðju götulagnar.   
+o Heimæðar eru almennt ekki tengdar við brunna nema það sé endabrunnur.  
+o Leyfilegt er að tengja tvö niðurföll á eina lögn að aðallögn nema um niðurföll í lágpunkti sé að ræða.  
+o Heimæðar fráveitu eru yfirleitt lagðar 2 metra inn fyrir lóðamörk og u.þ.b. 2 m frá lægsta horni lóðarinnar. Almennt skal gera ráð fyrir einu pari af heimæðum við hverja lóð.  
+o Þar sem  grafa á frá, eða þvera steinlagnir fráveitu skal skoða möguleika í að fóðra hana fyrir 
+framkvæmdir til að styrkja hana fyrir jarðvinnu  
+ 
+• Ofanvatn  
+o Tryggja þarf afvötnun ofanvatns á götum, að ofanvatn valdi ekki skemmdum og/eða óþægindum. 
+Ráðgjafi metur vegalengd á milli niðurfalla. Niðurföll eru ávallt sett í lágpunkta. Í lágpunktum skal sérstaklega huga að því að lágmarka stífluáhættu.  
+o Alla jafna er gert ráð fyrir svelgum á víðavangi eins og gras- og malarsvæði þar sem að hætta er á að 
+yfirborðsvatn valdi skemmdum og/eða óþægindum.  
+ 
+• Jarðvegur og grunnvatn  
+o Í hönnun þarf að meta möguleg áhrif uppdrifskrafta á fráveitulagnir og - búnað. Tryggja þarf að 
+grunnvatn og ofanvatn valdi ekki tjóni á framkvæmdatíma og á rekstrartíma.  
+o Í verklýsingu og á teikningum skal gera grein fyrir jarðvegsrannsóknum sem gerðar eru vegna fráveitu. 
+Ávallt skal rannsaka legu fasts botns undir fráveitulögnum með greftri prufuhola, borun eða á annan 
+sambærilegan hátt.   
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   19 af 74 
+ 
+ 
+ 
+Mynd 4: Úr staðalsniði fráveitu (LAV -504).  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   20 af 74 
+ 
+ 
+ BLÁGRÆNAR OFANVATNSLAUSNIR  
+3.5.2.1.  Inngangur  
+Hugmyndafræði að baki blágrænum ofanvatnslausnum og markmið  í innleiðingu:  
+• Minnka álag á fráveitukerfi  
+• Stuðla að náttúrulegri endurhleðslu grunnvatns  
+• Draga úr mengun og vernda vatnsgæði viðtaka  
+• Koma í veg fyrir beina losun spilliefna í náttúrulega viðtaka  
+• Búa til kjörlendi fyrir vistkerfi og styrkja líffræðilegan fjölbreytileika  
+ 
+Ábyrgð á hönnun, uppsetningu og viðhaldi í almenningsrýmum leggst almennt á sveitarfélög utan nokkurra sértækra 
+lausna. Hönnunargögn blágrænna ofanvatnslausna þarf að bera undir Veitur.   
+3.5.2.2.  Afkastageta fráveitukerfisins  
+Yfirfall í fráveitukerfinu getur orðið vegna mikillar úrkomu þegar að kerfið hefur ekki undan við að veita ofanvatni út í 
+sjó. Einnig getur flætt upp úr fráveitukerfinu vegna hækkaðrar sjávarstöðu.  
+Við stærri rigningarviðburði verður yfirfall við dælustöð virkt og óhreinsuðu uppblönduðu skólpi dælt út í sjó. Eitt meginmarkmið blágrænna ofanvatnslausna í borgarlandinu er að taka við og hægja á afrennsli í áköfum rigningum. Þannig dregur úr því hámarks rennsli sem fráveitukerfið þarf að afkasta, sem hjálpar til við að draga úr losun óhreinsaðs 
+skólps um yfirföll og þar með:  
+• Fækka yfirfallstímum dælustöðva fráveitunnar og stuðla þannig að hreinum ströndum  
+• Minnka kostnað við dælingu í dælustöðvum fráveitunnar,  
+• Minnka magn vatns sem fer í gegnum hreinsistöðvar fráveitunnar sem eykur hreinsivirkni, sérstaklega við framtíðaruppbyggingu frekari hreinsunar,  
+• Auka skilvirkni og bæta seiglu fráveitukerfis með tilliti til loftlagsbreytinga  
+3.5.2.3.  Viðmið um úrkomumagn  
+Við val á ofanvatnslausnum út frá úrkomumagni á að miða við þessar einföldu leiðbeiningar. Leggja skal áherslu á 
+innsig ofanvatns í jarðveg eins nálægt þeim stað sem það fellur þegar um er að ræða lítinn úrkomustyrk. Vegna úrkomu 
+með meðalstyrk skal leggja áherslu á notkun lausna sem hægja á afrennsli og söfnun ofanvatns sem smám saman 
+sígur í jarðveginn. Gera skal ráð fyrir öruggum rennslisleiðum sem taka á móti ofanvatni þegar úrkomustyrkur er mikill.  
+ 
+Mynd 5: Viðmið um meðhöndlun ofanvatns með blágrænum ofanvatnslausnum miðað við stærð viðburða  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   21 af 74 
+ 
+ 
+3.5.2.4.  Hönnun  
+Innleiðing blágrænna ofanvatnslausna er helst í gegnum deiliskipulagsferli en það er ekki algilt. Til dæmis er s tefna  
+Reykjavíkurborgar er að innleiða blágrænar ofanvatnslausnir alls staðar þar  sem það er mögulegt  því ætti að huga 
+að því að innleiða þær í minni framkvæmdum sem  ekki fara í gegnum skipulagsferlið en geta haft jákvæð áhrif. Hægt 
+er að nýta tækifærið þegar endurnýja á veitukerfi eða götu. Þannig byggist smátt og smátt  upp net blágrænna 
+ofanvatnslausna.   
+ 
+Mynd 6: Gátlisti 4 úr leiðbeiningarskjalinu "Stefna, forsendur og verkferli".  
+Reykjavíkurborg og Veitur hafa gefið út leiðbeiningarskjöl og upplýsingablöð um blágrænar ofanvatnslausnir. Í 
+þessum skjölun eru upplýsingar um hvað þarf að hafa í huga við hönnun á blágrænum ofanvatnslausnum og dæmi 
+um tilteknar lausnir.  
+ 
+Í gátlista 4 er samantekt á atriðum sem þarf að skoða við hönnun blágrænna ofanvatnslausna í almenningsrýmum 
+(götur og opin svæði).   
+ Leiðbeiningarskjöl 
+• Lykill að farsælli innleiðingu
+ - Þetta skjal beinist að ráðgjöfum  sem koma að skipulagi  og hönnun á 
+blágrænum ofanvatnslausnum. Í skjalinu er fjallað um helstu kosti og ástæður fyrir innleiðingu á blágrænum 
+ofanvatnslausnum og sérstakar áskoranir, sem þarf að hafa í huga. Umfjöllun um hreinsun vatns og að 
+tryggja öryggi. Einnig er yfirlit yfir mismunandi lausnir, sem henta við tilteknar aðstæður. 
+ 
+• Stefna, forsendur og verkferli  - Þetta skjal er fyrst og fremst fyrir starfsfólk Reykjavíkurborgar og Veitna, sem 
+kemur að innleiðingu blágrænna ofanvatnslausna frá skipulagi til reksturs kerfisins. Það inniheldur gátlista 
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   22 af 74 
+ 
+ 
+fyrir hvert innleiðingarstig (skipulag, hönnun, framkvæmd og viðhald/rekstur), sem nýtist ráðgjöfum  og 
+verktökum  sem koma að skipulagi , hönnun og framkvæmd . 
+ 
+Upplýsingablöð um tæknilegar útfærsla  beinast fyrst og fremst að hönnuðum  og fjalla hvert og eitt um mismunandi 
+ofanvatnslausnir. Gefin hafa verið út þrjú upplýsingablöð; um regnbeð, regnlautir og gegndræp yfirborðsefni : 
+ 
+• Gegndræp yfirborðsefni  
+• Regnbeð  
+• Regn lautir  
+ Útgefið efni Veitna um fráveitu sem getur komið að gagni:  
+ 
+• Vatnafarskort af Reykjavík vestan Elliðaáa - Blágrænar ofan vatnslausnir
+ 
+• Ofanvatnsáætlanir  
+ 
+Annað ítarefni  sem ráðgjafar geta styðst við í hönnun er „The SuDs manual “ gefið út af CIRIA í Bretlandi (The 
+Construction Industry Research and Information Association).  
+ 
+• Græn þök, kafli 11.  
+• Ofanvatnsrásir, kafli 17.  
+• Söfnunarlautir, kafli 22.  
+• Miðlunartjarnir, settjarnir og votlendi, kafli 23.  
+• Mengun og meðhöndlun, kafli 26.  
+• Öryggismál, kafli 36.  
+Almennt í hönnunarferlinu er mikilvægt er að:  
+• Athuga grunnvatnstöðu og finna nálgun við þær aðstæður.  
+• Blágræna ofanvatnslausnir fylgja leiðbeiningum Veitna um hönnunarrennsli ofanvatns. Tryggja þarf að 
+afvötnun ofanvatns á götum, að ofanvatn valdi ekki skemmdum og/eða óþægindum. Í sérstökum tilfellum eða 
+fyrir ákveðnar blágrænar lausnir getur endurkomutíma verið breytt (útfært í samráði við Veitur).  
+• Hugað sé að flóðaleiðum við hönnun á blágrænum ofanvatnslausnun, t.d. vegna bilunar í virkni lausna eða vegna stærri úrkomuviðburðar en hannað var fyrir.  
+• Hugað sé að öllum hlekkjum ofanvatnskeðjunar.  
+• Lausnirnar séu hannaðar markvisst með það í huga að land nýtist vel og að útfærslurnar samræmist yfirbragði 
+byggðarinnar og aðstæðum á hverjum stað.  
+• Taka tillit til mengunarhættu og tegundar viðtaka, ástands viðtaka og fyrir hverju hann er viðkvæmur.  
+• Tryggja öryggi við blágrænar ofanvatnslausnir.  
+• Tæknilega útfærslu má nýta oftar en einu sinni í ofanvatnskeðjunni að vissum skilyrðum uppfylltum.  
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   23 af 74 
+ 
+ 
+3.5.2.5.  Blágrænar heimæðar  
+Þegar viðtaki ofanvatns er grænn geiri skal á hæðarblaði og lagnateikningum sýna áfram sýna „tengistað“ með hniti 
+og tengikóta.  
+ 
+ 
+Mynd 7: Lagnafrágangur á lóð, byggt á leiðbeiningum um frágang lagna á lóðum í Urriðaholti  
+Athuga að stundum þarf að meta kvaðir á einkalóðir um meðhöndlun ofanvatns innan lóðar í hönnunarferli vegna 
+flutningsgetu fráveitukerfis, hreinsunar ofanvatns eða annarra þátta.  
+ 
+ 
+  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   24 af 74 
+ 
+ 
+ DÆLUMANNVIRKI FRÁVEITU  
+Stefna Veitna er að öll mannvirki í eigu Veitna, þar á meðal skólpdælubrunnar og skólpdælustöðvar, uppfylli kröfur um 
+gott aðgengi fyrir starfsmenn, rekstaröryggi og endingargæði. Í hönnun eru þarfir Veitna oft áþekkar en útfærslur geta 
+verið fjölbreytilegar allt eftir aðstæðum. Fyrir neðan er upptalning á helstu væntingum Veitna til dælumannvirksins sem 
+er ekki endilega tæmandi upptalning. Hönnuður þarf að byggja á þessum væntingum í sinni hönnun og útfæra í samráði 
+við Veitur. Ath. kröfur til dælumannvirk ja geta líka verið háðar byggingarreglugerð eftir stærðargráðu.  
+Helstu væntingar:  
+• Búnaður og lagnir  
+o Mat og rökstuðningur á hönnunarrennsli skólps og val á búnaði og lögnum í dælumannvirki.  
+o Dælur skulu amk vera hannaðar n+1. Dælur skulu liggja, sé pláss til þess.  
+o Einstreymislokar. Hníflokar. Mótorstýrðir lokar.  
+o Fyrirbygging loftsöfnunar í lögnum – t.d. sogrör og aðrar lagnir hannaðar til að fyrirbyggja myndun lofttapa.  
+o Gera þarf ráð fyrir heimlögnum neysluvatns mannvirkin.  
+o Hlíf við inntak í sveifluþró til að hindra hvirfilmyndun getur þurft.  
+o Hreinsun lagna. Hreinsisvín. Í stærri mannvirkjum getur þurft rör niður í sveifluþró/grjótgildru og tengistút 
+fyrir hreinsibíla.  
+o Hæðarnemar. Neyðarhæðarnemi. Rennslimælar.  
+o Inntakslokun í fráveitumannvirki.   
+o Loftanir settar á skynsamlega staði til að auðvelda tæmingu, áfyllingu og uppstart eftir viðhaldsaðgerðir.  
+o Tæming lagna. Tæming á þrýstilögn má líka útfæra þannig að hún fari beint inn í jöfnunarþró.  
+ 
+• Gott aðgengi  
+o Brautir í gólfi fyrir dælur geta átt við.  
+o Fylgja skal byggingarreglugerð við hönnun á stigum og tröppum. Öryggiskröfur Veitna gera þó ráð fyrir 45° hámarks stigahalla.  
+o Gott aðgengi getur líka falið í sér hagnýtar lausnir eins og að setja spindla á loka og framlengja þegar erfitt er að nálgast búnað.  
+o Gólfpláss og vinnuhæð til athafna í öllum rýmum/brunnum.   
+o Hindranir við flutning á búnaði vegna viðhalds í lágmarki.  
+o Innangengt frá þurrrými yfir í grjótgildru/sveifluþró/lokabrunn í steyptum mannvirkjum getur átt við.  
+o Innangengt í tæknirými án öryggislínu, óháð veðri og frosti.  
+o Lúga/hurð/bílahurð vel staðsett og rúm til að flytja búnaði inn og út.  
+o Rafbúnaður staðsettur innandyra.  
+o Tryggt aðgengi að grjótgildru til tæmingar.  
+o Öll rör sem eru grafin niður í jarðveg og tengd inn í brunna séu eins ofarlega og hægt er inn í brunna.  
+ 
+• Góð vinnuaðstaða  
+o Almenn lýsing, neyðarlýsing.  
+o Brunavarnir.   
+o Hljóðvist.  
+o Loftskipti í vinnurýmum.  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   25 af 74 
+ 
+ 
+o Lyftibúnaður eftir aðstæðum.  
+o Upphitun rýmis.  
+o Þurrt gólf  
+ 
+• Mannvirki  
+o Hönnuður meti og rökstyði þörf fyrir dælustöð eða dælubrunn.  
+o Mannvirkið er alltaf aðskilið blautrými og þurrrými.  
+o Dælubrunnar geta verið forsteyptir eða úr plasti. Í plastbrunnum þarf að vera hægt að skrúfa í veggi, t.d. í 
+holveggja brunnum. Rafbúnaður getur þurft að staðsetja í millidekki.  
+o Skólpdælustöð og skólpdælubrunnar geta að hluta til verið ofanjarðar til að bæta aðgengi.  
+o Hugsanlega þarf að hækka dælubrunna vegna landmótunar.  
+ 
+• Hreinlæti sé tryggt  
+o Plata undir stigaþrep.  
+o Sumpdæla, niðurfall.  
+o Vaskur, spúlslanga.  
+o Þrifanlegt gólf og vegg.  
+ 
+• Lóð 
+o Meta þarf hvort nauðsyn sé á kvöð utan lóðar vegna lagna eða graftar.  
+o Stærðarákvörðun lóðar m.t.t. aðgengis og viðhalds.  
+o Landmótun í kringum dælubrunna eða dælumannvirki sem tryggir aðgengi og lágmarkar flóðahættu.  
+ 
+• Rekstraröryggi  
+o Grjótgildra.  
+o Loftræsing hönnuð með verndun rafbúnaðar í huga.  
+o Lögð er rík áhersla á að hámarka rekstraröryggi og aðgengi ef bilanir verða eða þörf verður á viðhaldi búnaðar eða lagna.  
+o Meta á hönnunarstigi hvernig væri best að skala dælumannvirkið vegna ófyrirséðar aukningar.  
+o Mikilvægt er að hægt sé að einangra sem mest af búnaði án þess að þurfa að taka stöðina úr rekstri, til dæmis með góðri staðsetningu á lokum m.t.t. búnaðar. Getur þurft tvær sveifluþrær og grjótgildrur.  
+o Varaaflstöð, varadælur, neyðaryfirfall, framhjáhlaup við grjótgildru getur verið hluti af rekstraröryggi mannvirkisins.  
+o Varnir gegn fitumyndum t.d. með hrærum og/eða sléttri húðun á veggi í sveifluþró.  
+o Varnir gegn þrýstihöggum og titringi.  
+ 
+• Stýring og stjórnkerfi  
+o Búnaður í dælubrunni skal vera tengdur við stjórnstöð Veitna. Sjá Hönnunarleiðbeiningar stjórnkerfa Veitna, LBV- 805. 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   26 af 74 
+ 
+ 
+• Teikningar  
+o Skila þarf sérmyndum af dælubrunni og einlínumynd með virknilýsingu og efnislista.  
+o Skila þarf teikningum af Arkitektur, burðarþolshönnun, grundun, lagnahönnun, raflagnahönnun, 
+brunahönnun, landslagshönnun o.s.frv. eftir atvikum.  
+ 
+• Öryggi  
+o Brunnlok trygg.  
+o Inntök staðsett loftræsingar á tryggum stað ofanjarðar.  
+o Flóttaleiðir.  
+o Gera þarf ráð fyrir áhrifum af ofsaveðri og flóðum.  
+o Varnir gegn fallhættu. Fallvarnagreining.  
+o Varnir gegn umferð.  
+o Varnir gegn uppdrifi brunna og jarðvegsaðstæðum.  
+o Vélræn loftræsing, útsog við gólf. Vöktun á gasmyndun.  
+o Þörf á neyðarsturtu.  
+ 
+• Þrívíddarhönnun  
+o Dælumannvirki, lagnir innan mannvirkis, lagnir að og frá brunni og tengingar við ytri lagnir skulu hannaðar 
+í þrívídd.  
+o Árekstrargreining.  
+o Ráðgjafi skal leggja líkan og teikningar inn á ACC svæði Veitna, sem ráðgjafi fær aðgang að.  
+ 
+ HÖNNUN OG LEYFISMÁL ÚTRÁSAR FRÁVEITU  
+Við hönnun útrásum fráveitu skal nota LAV-505. 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   27 af 74 
+ 
+ 
+ JARÐVINNA 
+Ávallt þarf að taka tillit til stærðar lagna og aðstæðna á hverjum stað við hönnun á jarðvegsframkvæmdum.  Hver miðill 
+sýnir nánari útfærslur á sínum sérteikningum.  Í hönnun skal taka fullt tillit til allra miðla sem koma þarf fyrir í viðkomandi 
+skurði auk þess sem nægjanlegt vinnupláss sé fyrir þá sem bæði leggja úr lagnirnar sem og þá sem reka þurfa kerfin 
+áfram.  Leitast skal við að fyrirkomul ag sé þannig að lögn liggi ekki ofaná annarri lögn  
+Lágmarksbreidd í skurðbotni er 400mm  
+ 
+Mynd 8: Lágmarks breidd skurðbotns fer eftir dýpi skurðar.  
+ 
+ 
+ 
+Mynd 9: Bil á milli lagna, söndun og hula.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   28 af 74 
+ 
+ 
+ 
+Mynd 10: Leiðbeinandi kennisnið -  dæmi um afstöðu milli lagna.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   29 af 74 
+ 
+ 
+ DÆLUSTÖÐVAR  
+Í vinnslu. 
+ ÖRYGGIS -, HEILBRIGÐIS - OG UMHVERFISMÁL  
+Öryggi -, heilsa- og vinnuumhverfi eru alltaf í forgrunni hjá Veitum.  
+Ekkert verk er svo mikilvægt að hætta megi öryggi fólks við framkvæmd þess.  
+Veitur stefna að því að vera til fyrirmyndar í öryggis -, heilbrigðis - og vinnuumhverfismálum og einsetja sér að vernda 
+og bæta líf þeirra sem starfa fyrir félagið með því að skapa slysalausan vinnustað þar sem ekkert starfsfólk, verktaki 
+eða aðrir bíði heilsutjón vegna starfseminnar.  
+Allir sem starfa fyrir Veitur eru ábyrgir fyrir eigin öryggi, tala fyrir auknu öryggi samstarfsfólks síns og leitast við að koma auga á, meta og stjórna áhættu í vinnuumhverfinu.  
+Stefna í öryggis -, heilbrigðis - og vinnuumhverfismálum byggir á gildum og heildarstefnu OR og er sett fram til 
+samræmis við eigendastefnu fyrirtækisins.  
+Hönnuðir bera skyldu til að vinna eftir þeim reglum sem í gildi eru.  Það á ekki síst við um þau atriði sem varða aðbúnað, hollustuhætti og öryggi þeirra sem munu starfa við bygginguna eða mannvirkið sem verið er að hanna hverju sinni.  
+Það er eðlilegt að þeir ræði við verkkaupa um skyldur hans t.d. um gerð öryggis- og heilbrigðisáætlunar fyrir verkið.  
+Hönnuðir geta tekið þátt í gerð áætlunarinnar á undirbúningsstigi verks og þurfa að hafa góða samvinnu við 
+samræmingar aðila á undirbúnings - og framkvæmdastigi verks. Hönnuðir hafa mikil áhrif á áhættustig verkefna.  Því er 
+mikilvægt að hönnuður fari vandlega yfir þá starfsemi sem mun eiga sér stað og geri viðeigandi ráðstafanir til að eyða eða lágmarka afleiðingar áhættna.   
+ ÖRYGGI VIÐ SKURÐGRÖFT  
+Hönnun skal tryggja að vinnuumhverfi í skurðum sé sem öruggast fyrir þá sem þurfa vinna í þeim.  Á það m.a. við um pláss í skurðbotni, fláa á skurðveggjum og staðsetningu efnis á skurðbrún.  
+Þegar flái á skurðveggjum er ákveðinn þarf að taka tillit til aðstæðna hverju sinni (jarðvegs, dýpi skurðar, 
+grunnvatnsstöðu, lengdar, veðurfars og hversu lengi skurður verður opinn).  Ekki er hægt að setja algildar reglur um 
+hver þessi flái eigi að vera.  
+Dýpt skurðar og valinn flái:  
+• ef dýpi skurðar er minna en 1 m og stífleiki jarðvegs leyfir, er hægt að grafa með fláa ≤ 5:1.  
+• ef dýpi skurðar er minna en 2 m og stífleiki jarðvegs leyfir, er hægt að grafa með fláa ≤ 3:1. Við jarðvegsskiptan jarðveg gildir 1:1.  
+• ef skurður er dýpri en 2 m ber að velja fláa miðað við veikasta jarðlag í fláa. Tafla sýnir hvaða fláa hægt er að velja miðað við mismunandi jarðveg og stífleika.  
+Til að tryggja stæðni jarðvegs má einnig nota stoðir og/eða þéttriðið net á hliðar og bakka.  
+Ef skurður er dýpri en 2 m og lágmarksflái næst ekki ber að stífa.  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   30 af 74 
+ 
+ 
+ 
+Mynd 11: Dæmi um stoðir  
+Skilgreining á föstum og lausum jarðlögum er í einfaldaðri mynd skilgreind á eftirfarandi máta:  
+• Laus jarðlög :  óþjappaður jarðvegur, hefur litla viðloðun, hrynur úr fláa.  
+• Föst jarðlög:  þjappaður jarðvegur, hefur mikla viðloðun, hrynur ekki úr fláa þrátt fyrir að fláar eru mjög brattir.  
+Það er erfitt að grafa í fastann jarðveg.  
+ 
+Mynd 12: Mismunandi fláar eftir jarðefnum og aðstæðum.  
+Tímabundinn flái  telst vera skurður/flái sem stendur skemur en 8 vikur, en er einnig háður veðurfarslegum aðstæðum.  
+Endanleg ákvörðun um fláa skal ákvörðuð með eftirlitsaðila  verksins.  
+Uppgrafinn jarðveg skal ekki leggja nær efri brún skurðar en sem nemur 1 m og að lágmarki fjarlægð frá skurðbotni sem nemur dýpi skurðar.  
+ 
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   31 af 74 
+ 
+ 
+ 
+Mynd 13: Öryggi við skurðgröft og gryfjur (LAV -131)  
+ 
+ 
+ VINNUSVÆÐAMERKINGAR  
+Vinnusvæðamerkingar skulu hannaðar sérstaklega og vera hluti af hönnun. Um getur verið að ræða staðlaðar 
+teikningar ef við á, en að öðrum kosti sérteikningar.  Þegar vinnusvæðamerkingar eru hannaðar þarf að taka tillit til mögulegra verkáfanga í verkinu.  Getur því þurft að útbúa nokkrar teikningar miðað við mismunandi stöðu á verkinu.  
+Þegar framkvæmdir standa yfir í næsta nágrenni við skóla eða sambærilega stofnun eða við skólaveg, veg að íþróttasvæði eða þess háttar, skal leggja mikla áherslu á að tryggja veg sem börn fara um og nærsvæði þessara mannvirkja.  
+Við hönnun vinnusvæðamerkinga skal almennt vísast í gögn frá Vegagerðinni, “Reglur um vinnusvæðamerkingar” og “Merking vinnusvæða – Teikningar” auk almennra laga og reglugerða um merkingar vinnusvæða.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   32 af 74 
+ 
+ 
+ 
+Mynd 14: Stöðluð vinnusvæðamerkingateikning  
+3.8.2.1.  Hönnun vinnusvæðamerkinga  
+Eftirfarandi er úr “Reglur um vinnusvæðamerkingar, 1 8. útgáfa Júlí  2022”  og snýr að hönnun vinnusvæðamerkinga.  
+Við gatnaframkvæmdir gilda eftirfarandi reglur:  
+• Vinna þar sem ekki þarf að loka götu/götum  – í flestum tilvikum má nota staðlaðar teikningar, en þegar þær 
+eru ekki fyrir hendi þarf að gera sérteikningar.  
+• Vinna þar sem loka þarf götu/götum  – í einhverjum tilvikum má nota staðlaðar teikningar ef um augljósar 
+aðrar aðkomuleiðir er að ræða, en ef um er að ræða stofn- og tengibrautir eða safngötur þarf að hanna áætlun 
+sem sýnir skipulag umferðar á verktíma. Haga skal framkvæmdum þannig að öllum  aðkomuleiðum að húsum 
+og fyrirtækjum sé haldið opnum eins og framast er unnt. Ef óhjákvæmilegt er að loka aðkomuleiðum skal gera 
+viðkomandi viðvart með fyrirvara. Óheimilt er að loka götum án heimildar veghaldara og lögreglu.  
+• Vinnutæki og gámar (staðlaðar einingar) staðsett á akbraut : Þar sem vinnutæki loka eða þrengja að 
+akbraut er í flestum tilvikum hægt að nota staðlaðar teikningar, en þegar en þær eru ekki fyrir hendi þarf að gera sérteikningar.  
+• Vinnupallar : Þar sem vinnupallar loka eða þrengja að gangstétt og akbraut er í flestum tilvikum hægt að nota 
+staðlaðar teikningar en þegar en þær eru ekki fyrir hendi þarf að gera sérteikningar.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   33 af 74 
+ 
+ 
+• Óvarðir vegfarendur  - Þar sem það á við ber að taka tillit til varna og útbúnaðar fyrir fatlaða og óvarða 
+vegfarendur við alla áætlanagerð og framkvæmd og gera sérstaka grein fyrir aðgerðum í merkingaráætlun. Ef 
+framkvæmd leiðir til þess að nýta þarf allan gangstíginn skal útbúa bráðabirgðagönguleið eftir þörfum eða vísa 
+á aðra gönguleið. Yfirborð bráðabirgðagönguleiða þarf að vera það þétt að um þær geti farið hjólastólar og barnavagnar með góðu móti. Ef sett er upp brú yfir skurð á stíg eða óvörðum vegfar endum vísað af gangstétt 
+þarf aðkoma að vera þannig að fláar séu að öllu jöfnu ekki með meiri halla en 8%, en við þröngar aðstæður er leyfður 15%.halli. Þegar vegaframkvæmdir standa yfir í næsta nágrenni við skóla eða sambærilega stofnun eða við skólaveg, veg að íþróttasvæði eða þess háttar, skal leggja mikla áherslu á að tryggja veg sem börn 
+fara um og nærsvæði þessara mannvirkja.  
+Ef aðstæður á vinnustað eða framkvæmd verksins er ekki í fullu samræmi við það sem kemur fram á staðfestri áætlun ber verktaka að fella áætlunina að þeim aðstæðum sem eru fyrir hendi og tilkynna um breytingar á áður staðfestri 
+áætlun til viðkomandi eftirlitsaðila til nýrrar staðfestingar. Sé um smávægilegar breytingar að ræða sem gerðar eru til 
+að bæta merkingarnar m.t.t. staðhátta er nægjanlegt að skrá þær breytingar með rökstuðningi í dagbók en við meiri háttar frávik skal verktaki láta endurhanna merking ar og gera nýja áætlun og hún staðfest af verkkaupa.  
+Víkja má frá ofangreindum reglum þegar upp koma fyrirvaralausar vega- /gatnaskemmdir og skal þá merkja viðkomandi 
+svæði eins fljótt og unnt er samkvæmt stöðluðum teikningum og leiðbeiningum og tilkynna síðan til viðkomandi veghaldara/eftirlitsaðila og ef vi ð á til lögreglu ef huga þarf að skipulagi og stýringu á umferð.  
+3.8.2.2.  Breidd vinnusvæðis  
+Eftirfarandi er úr “ Reglur um vinnusvæðamerkingar, 18. útgáfa Júlí  2022” og snýr að lágmarks breidd umferðarsvæðis.  
+Breidd þess svæðis sem er til ráðstöfunar fyrir umferð vegfarenda. Innan sviga eru breiddir á akbraut sem miða má við í flokki 4, húsagötur í þéttbýli þar sem ekki er reiknað með umferð stærri ökutækja.  
+• Akbraut:  
+o Ef breidd akbrautar er minni en 3,0m (2,6 m) skal götu lokað.  
+o Ef breidd akbrautar er á milli 3,0 til 4,5 m (2,6 -3,5 m) skal sá hluti akbrautar sem ekki er þrengt að 
+njóta forgangs.  
+o Ef breidd akbrautar er 6,0m (4,5 m) eða meiri er tvístefna leyfð.  
+o Aldrei skal afmarka breidd akbrautar á milli 4,5– 6,0 m (3,5- 4,5m)  
+• Gangstéttir/göngustígar:  
+o Ef breidd göngustígs er minni en en 1,5 m skal loka gangstétt/stíg. Ef hjólandi eiga ekki möguleika á að nýta akbraut skal miða við að loka gangstétt/stíg sé breiddin minni en 1,5 m.  
+o Ef um lóðrétta hindrun er að ræða á gangstétt/stíg sem hjólað er um þarfa að auka breiddina um 0,3 m og um 0,6 m.sé lóðrétt hindrun beggja vegna.  
+• Hjólastígar:  
+o Ef breidd einfalds hjólastígs er minni en 1,5 m skal loka stíg.  
+o Ef breidd tvöfalds hjólastígs er minni en 1,7 m skal loka stíg eða setja einstefnu á stíginn.  
+o Ef um lóðrétta hindrun er að ræða við hjólastíg þarfa að auka breiddina um 0,3 m og um 0,6 m.sé lóðrétt hindrun beggja vegna.  
+3.8.2.3.  Vegtálmar/Grindur/Girðingar  
+Eftirfarandi er úr “ Reglur um vinnusvæðamerkingar, 18. útgáfa Júlí  2022” og snýr að vegtálmum og öryggisgrindum.  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   34 af 74 
+ 
+ 
+Vegtálmar eru varnir fyrir starfsfólk á vinnustað. Þessar varnir eru til að vísa umferð fram hjá eða koma í veg fyrir að 
+hún fari inn á framkvæmdasvæðið. Vegtálmum  skal raðað upp með sveig frá akstursstefnu að hámarki 1:10 og vera 
+með endurskinsmerkjum hliðstæðum þeim sem notuð eru á vegriðum, a.m.k. skulu vera tvö merki á hverjum stökum tálma. Einnig þarf að vera mögulegt að koma fyrir á þeim blikkljósum og ýmsum öðrum öryggis - og leiðbeiningarbúnaði 
+með einföldum hætti.  
+• Steyptir vegtálmar:  Tálmarnir skuli vera minnst 1000 kg. að þyngd og er 
+þeim ætlað að standast ákeyrslu fólksbifreiða eða hliðstæðra farartækja. Vegtálma þessa þarf að vera hægt að festa saman á endunum. Endasteinn 
+skal vera með halla a.m.k. 1:2 í lengdarátt. Bannað er að nota steypta 
+vegtálma sem undirstöður fyrir umferðarmerki nema þegar þeir eru notaðir sem leiðarar/vegrið. Steyptir vegtálmar þurfa að uppfylla staðal ÍST EN 1317. 
+Gerð steina skal vera s.k. delta bloc 80 (80 sm háir, 61 sm standflötur, 15 sm 
+toppur) og skulu standast árekstrarflokk N2 og H1.  
+Mynd 15: Steyptur vegtálmi  
+• Vegtálmar úr plasti:  Nota má vegtálma úr plasti á svæðum þar sem umferð 
+er hæg eða frekar hæg (< 50 km/klst.) en þessum tálmum er ekki ætlað að 
+standast ákeyrslu fólksbifreiða eða hliðstæðra farartækja. Hægt verði að 
+þyngja þessa tálma með því að setja í þá vatn/pækil ( -10°C 140 kg salts/m3 
+vatns) eða sand. Vegtálma úr plasti þarf að vera hægt að festa saman á 
+endunum með einföldum hætti og með snúningsmöguleika 20- 30° í læstri 
+stöðu.  
+Mynd 16: Lág girðing úr plasti  
+• Öryggisgrindur/öryggisveggir:  Plaststikur/ -staurar skulu tengdir með um 3 m löngum þverslám með 
+endurskini að ofan og neðan í 70- 80 cm og 10- 20 cm hæð.  Heimilt er þó að 
+nota flagglínur þar sem aðeins er þörf á að afmarka viðkomandi svæði og þar sem aðstæður eru að öðru leyti taldar öruggar.  
+Stærð á öryggisgrind skal vera um 150 x 330 cm og vera með endurskini að 
+neðan í um 20 sm hæð og að ofan í mest um 80 cm hæð og með tveimur 
+blikkljósum sem loga allan sólarhringinn þegar götulýsing eða birtuskilyrði eru takmörkuð.  
+Heimilt er þó, þar sem ekki er akandi umferð, að nota léttar öryggisgrindur án endurskins sem festar eru á þar til gerðar undirstöður sem standast a.m.k. 45 kg hliðarkraft.   
+Mynd 17: Léttar öryggisgrindur  
+Framkvæmdasvæði skal verja með tilheyrandi girðingum eða öryggisvegg.  Lágmarkshæð girðingar er 0,9 m.  Girðing skal vera staðsett a.m.k. 1 m frá skurðbakka en skal ná utanum framkvæmdasvæðið m.a. þar sem umferð vinnutækja 
+er.  Þar sem um uppgröft dýpri en 1 m er að ræða eða aðra hættu á vinnusvæði getur verið nauðsynlegt að setja upp 
+1,8-2,0 m háa vírnetsöryggisgirðingu meðfram vinnusvæðinu eða þeim hluta þess sem hætta stafar af. Girðingarnar 
+skulu vera léttar en mannheldar stálnetsgirðingar með stáluppis töðum sem hvíla á forsteyptum einingum og eru 
+girðingareiningar festar saman með þar til gerðum festingum.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   35 af 74 
+ 
+ 
+ 
+Mynd 18: Fjarlægð vegtálma og girðinga frá skurði  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   36 af 74 
+ 
+ 
+  
+Mynd 19: Dæmi um hönnun vinnusvæðamerkinga   
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   37 af 74 
+ 
+ 
+4. LUKOR      
+LUKOR er landupplýsingakerfi Orkuveitu Reykjavíkur og dótturfélaga. Það inniheldur  upplýsingar um lagnir og 
+mannvirki OR og dótturfélaga. Grunngögn, s.s. götur, hús og lóðir, koma úr landupplýsingakerfum viðkomandi 
+sveitarfélaga.  
+Við framkvæmdaverk þar sem fyrir liggur hönnun er hún sett inn í LUKOR sem „Hönnunarlag“. Þegar verk er unnið eru gerðar innmælingar sem settar eru í LUKOR. Um leið eru viðkomandi upplýsingar teiknaðar inn eða uppfærðar.  
+LUKOR inniheldur reyndargögn af veitukerfi Veitna.  
+ 
+Mynd 20: Vefsjá LUKOR.  
+ ÚTTEKTARVEFUR  
+Almennt skal óska eftir grunnum hjá rýnihönnuðum Veitna sem eru ítarlegri en þeir sem eru á útektarvefnum. Taka 
+skal þá fram hvaða svæði er óskað eftir s.s. hnitasett svæði.  
+Landupplýsingakerfi Reykjavíkur (LUKR) býður uppá úttektarvef til að nálgast gögn stafrænt.  Þar er einnig hægt að nálgast gögn OR. Þennan valmöguleika skal ekki notast við í hönnun.  
+Hægt er að sækja gögn á CAD formi (dxf eða dgn skrár) eða á GIS  formi (SHP skrár). Til að fá eigindin með þarf að 
+notast við GIS formið (SHP skrár).  
+Slóð á úttektarvefinn er:  https://reykjavik.is/thjonusta/uttektarvefur -lukr  
+ 
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   38 af 74 
+ 
+ 
+5. CAD LEIÐBEININGAR  
+Í þessum kafla eru almennar CAD leiðbeiningar.  Miðast þessar leiðbeiningar við notkun AutoCAD en ef notaður er 
+annar CAD hugbúnaður skal reynt að taka mið að eftirfarandi kröfum eins og kostur er.   
+Athuga skal að öll CAD gögn sem skilast til Veitna skulu vera á AutoCAD formi, ýmist sem DWG eða DXF.  
+ 
+ HNITAKERFI  
+Við hönnun er mikilvægt að valið sé rétt hnitakerfi til að vinna í strax. Ef varpa þarf gögnum á milli hnitakerfa skal reyna gera það á fyrstu stigum verkefnis þar sem annarsvegar vörpun getur boðið upp á skekkju í gögnum auk þess sem 
+erfitt vegur reynst að varpa öllum gerðum af „object“ -um, t.d. er ekki hægt að varpa Civil 3D hlutum.  
+Öll hönnun á landi og allar innmælingar skulu vera í metrum.  
+ PLANHNIT  
+Almenna reglan er sú að planhnit skal mæla inn í landshnitakerfinu ISN93.  
+Þar sem um nýframkvæmdir er að ræða má (að höfðu samráði við Veitur) mæla inn planhnit í því hnitakerfi sem verkið 
+er hannað og unnið í.  
+Skýrt skal taka fram í gögnum og á teikningum í hvaða planhnitakerfi gögnin séu í.  
+ HÆÐARKERFI  
+Almenna reglan er sú að hæð skal mæla inn í hæðarkerfi Reykjavíkurborgar á höfuðborgarsvæðinu, en annars staðar 
+í landshæðarkerfinu eða í hæðarkerfi þar sem vensl við landshæðarkerfið er þekkt.  
+Þar sem um nýframkvæmdir er að ræða skal mæla inn hæð í því hæðarkerfi sem verkið er hannað og unnið í.  
+Lands hæðar kerfi Íslands  = z-ISH2004  
+o Reykjavíkurkerfi:  z- ISH2004 = z-RVK - 0.419 
+o Akranes:            z- ISH2004 = z-Akr - 0.13 
+o Borgarnes:         z- ISH2004 = z-Bor + 1.28  
+o Hveragerði:         z- ISH2004 = z-Hve - 0.32 
+o Þorlákshöfn:       z- ISH2004 = z-Þor - 2.36 
+o Grundarfjörður:    z- ISH2004  = z-Gru - 0.16 
+ 
+Skýrt skal taka fram í gögnum og á teikningum í hvaða hæðarkerfi gögnin séu í.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   39 af 74 
+ 
+ 
+ EININGAR  
+Almennt skulu allar teikningar vera hannaðar í metrum. Sérteikningar og snið geta verið í millimetrum. Ef slíkt er skal 
+það tekið fram á teikningum.  
+Við upphaf teiknivinnslu skal gæta þess að „Units“ séu stilltar á „decimal “, að fjöldi aukastafa sé 4 og að teiknikvarðinn 
+sé stilltur á metra eða millimetra.  
+ 
+Mynd 21: Units fyrir teikningu í metrum.  
+ LAYERS  
+ LAGKERFI  
+Við veituhönnun skal vinna alla punkta, línur og texta á sérstök lög sem hafa lýsandi heiti fyrir það sem verið er að vinna með.  
+Almennt gildir að engin hlutur skal vera á 0 lagi. Lag 0 er ekki lýsandi og ekki er hægt að frysta það í XREF.  
+Öll XREF í teikningu skulu vera sett á sér lag og skal lagið vera með lýsandi nafn, t.d.  
+ „XREF – (nafn teikningar)“  
+ LITIR Á HLUTUM  
+Allir litir á hlutum skulu vera „By Layer“ eins og frekast er unnt.  
+ LÍNUGERÐIR  
+Allar línugerðir á hlutum skulu vera „By Layer“ eins og frekast er unnt.  
+ LÍNUÞYKKT  
+Allar línuþykktir á hlutum skulu vera „By Layer“ eins og frekast er unnt.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   40 af 74 
+ 
+ 
+ BLOKKIR  
+ NORÐURPÍLUR  
+Setja skal norðurpílu á allar planteikningar og yfirlitsteikningar. Ef fleiri en eitt „view“ er á teikningu skal vera norðurpíla 
+í hverju „ viewporti “. Norðurpíla  skal almennt vera staðsett í efra hægra horni teikningar. Nota skal blokkina 
+„NORDURPILA“ og nota  
+• „scale“ = 1 fyrir teikningu í skala 1:500  
+• „scale“ = 2 fyrir teikningu í skala 1:1000  
+• „scale“ = 0,4 fyrir teikningu í skala 1:200  
+o.s.frv.  
+Blokk fyrir norðurpílu skal vera sett á sér lag („Layer“), t.d. BLOCK_NORDUR.  
+ 
+ 
+Mynd 22: Fyrir teikningu í skala 1:500 skal nota "Scale"=1.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   41 af 74 
+ 
+ 
+ 
+Mynd 23: Norðurpíla staðsett í efra hægra horni.  
+ SNIÐPÍLUR  
+Í sniðpílum  skal vera númer eða bókstafur sem vísar á viðkomandi snið. Ef snið er ekki á sömu teikningu þarf líka að 
+koma fram teikninganúmer þar sem snið er teiknað.  
+Í sniðmerki skal koma fram númer eða bókstafur sniðpílu, teikninganúmer sniðpílu (ef hún er ekki að sömu teikningu) 
+og skali sniðs.  
+ 
+Mynd 24: Sniðpílur með bókstafstilvísun.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   42 af 74 
+ 
+ 
+ „Í VINNSLU “ 
+Á öllum prentteikningum skal koma skýrt fram að teikning sé vinnuteikning, t.d. setja blokk „Í VINNSLU“ sem gefur upp 
+hvenær annarsvegar teikningin var síðast vistuð og hvenær teikningin var síðast prentuð út. Merkingin (blokkin) skal 
+vera til staðar þanga ð til teikning er tilbúin til útgáfu. Er þá blokkinni eytt út og teikning gefin út.  
+ 
+ 
+Mynd 25: Teikning með "Í VINNSLU" blokk.  
+ MÁLSETNINGAR, TEXTI  
+ LETURGERÐ OG LETURSTÆRÐ  
+Miða skal leturgerð og leturstærð við að hægt sé að lesa textann með góðu móti ef teikningin er prentuð í einni 
+blaðsíðustærð minni en áætlaðri prentunarstærð. Sem dæmi má nefna að ef prenta á teikningu í A2 skal texti vera vel 
+skiljanlegur í útprentaðri A3 teikningu.  
+Almennt skal nota font ISOCP2 eða ARIAL og almenn textastærð skal vera 1.8mm, 2.5mm eða 3.0mm á útprentuðu blaði.  
+ MÁLSETNINGAR  
+Málsetningar skulu vera heilar línur með skálínum eða fylltum örvum á endum. Leturgerð og leturstærð skal vera í samræmi við kafla á undan.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   43 af 74 
+ 
+ 
+ 
+Mynd 26: Málsetningar með fylltum örvum.  
+ 
+Mynd 27: Málsetningar með skálínum.  
+ 
+  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   44 af 74 
+ 
+ 
+ LOFTMYNDIR  
+Þegar unnið er með loftmyndir er mælst til að útbúa sér DWG skrá með loftmyndum sem síðan er XREF -uð við 
+hönnunarteikningar. Allar nýrri loftmyndir eru geymdar í Vault og þarf að sækja þær þaðan og hlaða niður á viðkomandi 
+vél svo hægt sé að setja þær inn í DWG skjal.  
+Slökkva skal á römmum utan um loftmyndir („mapiframe“) og deyfa þær um 50% („imageadjust“) til að draga betur hönnun fram á teikningum.  
+ 
+ 
+Mynd 28: Til vinstri loftmyndir með ramma og fullum styrk, til hægri enginn rammi og 50% styrkur.  
+  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   45 af 74 
+ 
+ 
+6. TEIKNINGAR 
+ TEIKNIHAUS  
+[Kaflinn hefur tekið gagngerum breytingum frá fyrri útgáfu]  
+ 
+Allar hönnunarteikningar skulu merktar og númeraðar samkvæmt neðanskráðu kerfi. Undanskildar eru teikningar þar 
+sem hönnun er ekki umfangsmikil, svo sem færsla stólpa og skápa, strenglögn stuttra vegalengda, o.þ.h. sem fylgja 
+frumritum verkfyrirmæla. Einnig eru undanskildir teikningahausar LUKOR teikninga, sem hafa sér númerak erfi. 
+Hönnuður metur hverju sinni, eftir umfangi, hvort þörf sé að gefa teikningu númer.  
+Í teiknihausnum skulu vera upplýsingar um hönnuð/hönnuði auk upplýsinga um teikninguna sjálfa. Tilvísanir í aðrar 
+teikningar, má setja á teikninguna ef með þarf, en ekki í teiknihausinn.  
+Teiknihausinn er í þremur hlutum:  
+1. Efnishluti  
+Sá hluti teiknihaussins sem hefur að geyma helstu upplýsingar fyrir viðkomandi teikningu, varðandi skjalavistun og leit. Hann er neðst í hægra horni teikningarinnar og þurfa e ftirfarandi upplýsingar að koma þar fram:  
+Verkefni: Hér skal sett nafn viðkomandi verkefnis s.s. „Kringlumýrar braut  – Stígar, lagnir og hljóðv. “, 
+„Háteigsvegur - færsla á stofnæð “.
+ 
+Í tilfelli stöðva (dælustöðvar, dreifistöðvar o.þ.h.), þar sem teikningar lifa almennt lengur en einstök verkefni, skal hér setja heiti stöðvarinnar. T.d. „Dælustöð Reynisvatnsheiði“. 
+ 
+Eignarkóði:   Hér skal settur  eignarkóði  viðkomandi stöðvar . Sjá nánar í kafla 6.1.1.1 . 
+Ef verkefnið er ekki hluti af stöð (dælustöð, dreifistöð o.þ.h.) skal þess í stað nota bókstaf miðilsins 
+sem um ræðir. Ef teikningin tilheyrir fleiri en einum miðli skal hún merkt sem almenn teikning. T.d. 
+verkmörk, vinnusvæðamerkingar o.þ.h.  
+Bókstafir miðlanna eru:  
+A Almennt  
+F Fráveita  
+H Hitaveita  
+K Vatnsveita  
+R Rafveita  
+ Nánari staðsetning: Hér kemur fram nánari staðsetning viðkomandi teikningar s.s. götuheiti, póstnúmer, sveitarfélag o.s.frv.  Dæmi: „ Miklabraut - Litlahlíð, 105 Rvk. “, „Álfhólsvegur 81 - 93, 200 
+Kópavogur“.  
+ Efni teikningar : Hér kemur fram efni viðkomandi teikningar s.s. miðill ( Rafmagn , Hitaveita , 
+Vatnsveita , Fráveita), Vinnusvæðamerkingar, Verkmörk  o.s.frv.  
+ Tegund teikningar:  Hér kemur fram það sem sýnt er á viðkomandi teikningu s.s. Grunnmynd, Snið, 
+Hnit, Yfirlitsmynd , Kerfismynd  o.s.frv.  
+ Kvarði: Sé teikningin í kvarða skal koma fram við hvaða blaðstærð hann miðast. Á lagnateikningum 
+og öðrum ómálsettum teikningum skal mælistika vera á teikningunni, til að auðvelda lengdarmat ef hún er prentuð í öðrum stærðum en hún er hönnuð í.  
+ 
+Teikningarnúmer: Hér er númer viðkomandi teikningar samkvæmt kafla 6.1.1.2  um Teikningarlykil.  
+Fyrir skjöl í rekstrarhandbók skal hér vera sett rekstrarhandbókar númer s.s. „LAV -130“. 
+Veitur útvega númer fyrir skjöl í Rekstrarhandbók.  
+ 
+Útgáfa: Neðst í hægra horni teiknihauss kemur útgáfunúmer teikningarinnar fram.  
+ 
+2. Fyrirtækjahluti
+ 
+Hér koma upplýsingar frá því fyrirtæki sem vann útgáfuna, hvort sem það eru Veitur eða ráðgjafi.  Hér hafa 
+ráðgjafar frjálsar hendur til að koma fram þeim upplýsingum sem hann þarf fyrir eigið skjalakerfi. Þessi reitur 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   46 af 74 
+ 
+ 
+breytist á milli útgáfa ef ráðgjafafyrirtæki breytist.  
+ 
+3. Útgáfuhluti  
+Hér koma fram helstu upplýsingar um núverandi og fyrrverandi útgáfur. Þ.e. útgáfunúmer, útgáfudagsetning, 
+útgáfulýsing, han/yfirf./sam., fyrirtæki og verkefnisnúmer viðkomandi útgáfu.Teikningar í rýni skulu vera með 
+“í vinnslu” stimpil og skal hann ekki fj arlægður fyrr en teikning hefur verið rýnd og útgefin.  
+Þegar teikning er útgefin í upphafi skal henni gefið útgáfunúmer A og fyrir hverja breytingu skal útgáfunúmer 
+uppfært og breytingaský dregið utan um breytinguna. Breytingarský skal aðeins sýna nýjustu breytingu og 
+fjarlægja skal eldri ský af teikningu.  
+ Teiknihausinn er byggður upp með þessum hætti svo teikning tilheyri og lifi með eigninni en ekki verkefninu. Þannig 
+er hægt nýta eldri teikningar  í nýjum verkefnum og rekja breytingar í stöðvum með útgáfusögu þeirra.  
+ 
+ 
+ 
+Mynd 29: Dæmi um útfylltan teiknihaus með útgáfubreytingum  þar sem Veitur unnu nýjustu útgáfu.  
+ 
+ 
+Mynd 30: Teiknihausar fyrir einn eða tvo ráðgjafa/hönnuði.  
+ 
+Allir teiknihausa r eru einnig til lóðréttir ef það hentar betur. Notkun lóðréttra teiknihausa skal bera sérstaklega undir 
+Veitur.  
+  
+ 
+Mynd 31: Lóðréttur t eiknihaus fyrir einn ráðgjafa/hönnuð.  
+  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   47 af 74 
+ 
+ 
+ AUÐKENNI TEIKNINGA  
+Teikningar eru auðkenndar með tveimur reitum. Annars vegar með eignakóða, þegar hann á við, og hins vegar með 
+teikningarnúmeri.  
+6.1.1.1.  Eignakóðar  
+Eignir Veitna bera sinn kóða sér til auðkenningar . Þar sem það á við, s.s. í dælustöðvum vatnsmiðla eða í dreifistöðvum 
+rafmagns, skal teikninga auðkennd með viðeigandi eignarkóða.  
+Allir eignakóðar byggja á nokkrum þrepum sem fjölgar eftir því sem neðar er farið eftir kóðatrénu. Eignakóðar byrja á bókstaf viðkomandi miðils og eru síðan, í flestum tilfellum, aðgreindir með land-  eða veitusvæði áður en komið er að 
+stöðvarhlutanum sjálf um. Sem dæmi er eignakóði dælustöðvar hitaveitunnar á Reynisvatnsheiði H-RVK -DRH .  
+Upplýsingar um eignakóða fær ráðgjafi frá Veitum í upphafi verks.  
+6.1.1.2.  Teikningalykill  
+Teikningalykill er 7 stafa og skipt upp í ( A-TT-XXXX), eins bókstafs yfirflokk , tveggja tölustafa undir flokk og svo fjögurra 
+stafa raðnúmer . Lykillinn er byggður upp á eftirfarandi hátt:  
+A – Yfirflokku r 
+Yfirflokkarnir eru 9 talsins.  
+Einn almennur flokkur:  
+A Almennt  
+ 
+Fjórir flokkar fyr ir veitukerfi  í jörðu, einn fyrir hvern miðiðl:  
+F Fráveita  
+H Hitaveita  
+K Vatnsveita  
+R Rafveita  
+ 
+Fjórir fyrir stöðvar eða mannvirki og búnaðinn innan þeirra:  
+ 
+C Byggingar og húskerfi  
+E Rafmagn  
+M Vélar  
+P Kerfismyndir  
+  
+TT - Undirflokkar eru skilgreindir sérstaklega í töflum  hér á eftir.  Undirflokkar eru mismunandi innan yfirflokka.   
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   48 af 74 
+ 
+ 
+ 
+ 
+Flokkun hitaveituteikninga  
+H   Hitaveita  
+H-00 Almennt, yfirlitsmyndir & verkmörk  
+H-01 - 
+H-02 Núverandi hitaveitulagnir  
+H-03 Skurðplan & skurðsnið  
+H-04 Planmynd & langsnið  
+H-05 Vöktunarkerfi Hitaveitu  
+H-06 - 
+H-07 - 
+H-08 - 
+H-09 - 
+H-10 - 
+H-11 - 
+H-12 - 
+H-13 - 
+H-14 - 
+H-15 Sérteikningar  
+ 
+Flokkun fráveituteikninga  
+F   Fráveita  
+F-00 Almennt, yfirlitsmyndir & verkmörk  
+F-01 - 
+F-02 Núverandi fráveitulagnir  
+F-03 Skurðplan & skurðsnið  
+F-04 Planmynd & langsnið  
+F-05 Grænir innviðir (settjarnir o.s.frv.)  
+F-06 - 
+F-07 - 
+F-08 - 
+F-09 - 
+F-10 - 
+F-11 - 
+F-12 - 
+F-13 - 
+F-14 - 
+F-15 Sérteikningar  
+ Flokkun almennra teikninga  
+A   Almennt  
+A-00 Almennt, yfirlitsmyndir & verkmörk  
+A-01 Vinnusvæðamerkingar  
+A-02 Núverandi lagnir (fleiri en einn miðill)  
+A-03 Sameiginleg skurðsnið  
+A-04 Sameiginleg þversnið  
+A-05 - 
+A-06 - 
+A-07 - 
+A-08 - 
+A-09 - 
+A-10 - 
+A-11 - 
+A-12 - 
+A-13 - 
+A-14 - 
+A-15 Sérteikningar  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   49 af 74 
+ 
+ 
+ 
+Flokkun rafveituteikninga  
+R   Rafveita  
+R-00 Almennt, yfirlitsmyndir & verkmörk  
+R-01 - 
+R-02 Núverandi rafveitulagnir  
+R-03 Skurðplan & skurðsnið  
+R-04 Planmynd & langsnið  
+R-05 Skápateikningar  
+R-06 Loftlínustaurar  
+R-07 - 
+R-08 - 
+R-09 - 
+R-10 - 
+R-11 - 
+R-12 - 
+R-13 - 
+R-14 - 
+R-15 Sérteikningar  
+ 
+Flokkun vatnsveituteikninga  
+K   Vatnsveita 
+K-00 Almennt, yfirlitsmyndir & verkmörk  
+K-01 - 
+K-02 Núverandi vatnsveitulagnir  
+K-03 Skurðplan & skurðsnið  
+K-04 Planmynd & langsnið  
+K-05 - 
+K-06 - 
+K-07 - 
+K-08 - 
+K-09 - 
+K-10 - 
+K-11 - 
+K-12 - 
+K-13 - 
+K-14 - 
+K-15 Sérteikningar  
+ 
+Flokkun rafmagnsteikninga  
+E   Rafmagnsteikningar  
+E-00 Almennt, yfirlitsmyndir  
+E-01 Grunnmyndir og snið  
+E-02 Útlitsmyndir  
+E-03 Aflrásir  
+E-04 Stýrirásir  
+E-05 Álagsstýrikerfi  
+E-06 - 
+E-07 - 
+E-08 - 
+E-09 - 
+E-10 - 
+E-11 - 
+E-12 - 
+E-13 - 
+E-14 - 
+E-15 Sérteikningar  
+ 
+Flokkun byggingateikninga  
+C   Byggingar og húskerfi  
+C-00 Almennt, yfirlitsmyndir  
+C-01 Byggingarnefndarteikningar  
+C-02 Arkitektateikningar  
+C-03 Jarðvinna  
+C-04 Burðarþol  
+C-05 Grunnlagnir (skólp og regnvatn)  
+C-06 Hita- og neysluvatnslagnir  
+C-07 Rafmagn, raflagnir (húskerfi)  
+C-08 Loftræstikerfi  
+C-09 Þrýsiloftskerfi  
+C-10 Sprinklerkerfi, vatnsslökkvikerfi  
+C-11 Öryggiskerfi  
+C-12 Vegir og flóðavarnir  
+C-13 - 
+C-14 Lóðir  
+C-15 Sérteikningar  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   50 af 74 
+ 
+ 
+ 
+XXXX – Raðnúmer . Hönnuði er frjálst að stilla upp númeraröð sem hentar verkefninu/mannvirkinu.  
+6.1.1.3.  Skráarheiti  
+Skráarheiti  teikninga skal saman standa af eignakóða og teikningarnúmeri, aðgreint með undirstriki.  
+6.1.1.4. Dæmi  
+Í verkefnum með fleirum en einum miðli skal nota yfirflokkinn A fyrir sameiginlegar teikningar eins og t.a.m. verkmörk, 
+vinnusvæðamerkingar, núverandi lagnir (ef fleiri en einn miðill koma fram á teikningunni) og sameiginleg skurð - og 
+þversnið. Teikningar af þessu tagi tilheyra einnig ekki neinum einum miðli og fá því  eignakóðan A líka. 
+Ath. Almennt skulu teikningar af núverandi lögnum aðeins innhalda einn miðil.  
+Ef verkið inniheldur aðeins einn miðil eru yfirlitsmyndir, skurð - og þversnið kennd við viðkomandi miðil í eignakóða og 
+teikningarnúmeri.   
+Lýsing  Eignakóði  Teikninganúmer  Skjalaheiti  
+Verkmörk í verki með fleiri en 
+einum miðli  A A-00-0001  A_ A-00-0001  
+Vinnusvæðamerking í verki.  
+Óháð fjölda miðla.  A A-01-0001  A_ A -01-0001  
+Núverandi lagnir:  
+Fleiri en einn miðill  A A-02-0001  A_A-02-0001  
+Núverandi lagnir hitaveitu  H H-02-0001  H_H-02-002-01 
+ 
+  
+Flokkun kerfismynda  
+P   Kerfismyndir (P&ID)  
+P-00 Skýringamyndir  
+P-01 Yfirlitsmyndir  
+P-02 Yfirlitsmyndir með hæðarlínum  
+P-03 Kerfismyndir veitna  
+P-04 Kerfismyndir samskipta  
+P-05 - 
+P-06 - 
+P-07 - 
+P-08 - 
+P-09 - 
+P-10 - 
+P-11 - 
+P-12 - 
+P-13 - 
+P-14 - 
+P-15 Sérteikningar  
+ 
+Flokkun vélateikninga  
+M Vélateikningar   
+M-00 Almennt, yfirlitsmyndir  
+M-01 Grunnmyndir og snið  
+M-02 Borholur  
+M-03 Lagnir  
+M-04 Vélbúnaður (uppsetning...)  
+M-05 Undirstöður  
+M-06 Pallar og stigar  
+M-07 Geymar  
+M-08 Einangrun og klæðning  
+M-09 Kranar  
+M-10 - 
+M-11 - 
+M-12 - 
+M-13 - 
+M-14 - 
+M-15 Sérteikningar  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   51 af 74 
+ 
+ 
+Planmyndir (grunnmyndir) og langsnið fráveitu og dreifikerfum raf -, vatns - og hitaveitu eru aldrei af fleiri en einum miðli. 
+Þær teikningar eru því ávalt kenndar við viðkomandi miðil (eignakóði og teikningarnúmer)  
+Lýsing  Eignakóði  Teikninganúmer  Skjalaheiti  
+Planmynd fráveitu  F F-04-0001  F_F-04-0001  
+Planmynd hitaveitu  H H-04-0001  H_H-04-0001  
+Planmynd vatnsveitu  K K-04-0001  K_K-04-0001  
+Planmynd rafveitu  R R-04-0001  R_R-04-0001  
+ 
+Teikningar af stöðvum, s.s. dælustöðvum, dreifistöðum eða hreinsistöðvum, skulu bera eignakóða viðkomandi stöðvar. 
+Teikningar fá svo teikinngarnúmer skv. yfirflokkum C, E, M og P og undirflokkum þeirra.  
+Lýsing  Eignakóði  Teikninganúmer  Skjalaheiti  
+Aðaluppdráttur aðveitust. A01  R-A01 C-01-0001  R-A01_C -01-0001  
+Þversnið borholu RG -20 H-RVK-RG20  M-02-0001  H-RVK-RG20_M -02-0001  
+Undirstöður í dælustöð 
+vatnsveitunnar Hvanneyri  K-BOR -352 M-05-0001  K-BOR -352_M -05-0001  
+Uppsetning þrepasía í 
+hreinsistöðinni í Klettagörðum  F-RVK-KLE M-04-0001  F-RVK-KLE_M -04-0001  
+Aflskápur í skólpdælustöðinni í 
+Faxaskjóli F-RVK-FAX E-03-0001  F-RVK-FAX_ E -03-0001  
+Stjórnskápur í dælustöðinni á 
+Reynisvatnsheiði  H-RVK-DRH  E-04-0001  H-RVK-DRH _E -04-0001  
+Strengstigar og í dælustöðinni 
+í Bolholti  H-RVK-BO E-01-0001  H-RVK-BO_E -01-0001  
+Kerfismynd  
+Yfirlit yfir Rangárveitur  H-RAN  P-01-0001  H-RAN_ P -01-0001  
+Kerfismynd  
+Dælustöðin í Marteinstungu  H-RAN -MAR  P-03-0001  H-RAN -MAR_P -03-0001  
+ 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   52 af 74 
+ 
+ 
+ FRAMSETNING TEIKNINGA  
+Mikilvægt er að vanda til verka og setja teikningar fram á skýran og greinargóðan hátt. Huga skal sérstaklega vel að 
+öllum línugerðum, litum, útliti texta og öðru slíku. Línur og bogar skulu tengjast saman á hornum og mynda lokaða 
+polygon -a þar sem við á. Teikning skal aðeins innihalda þau gögn sem nauðsynleg eru í framsetningu og á ekki að 
+innihalda önnur óþarfa gögn s.s. auka línur og annað sem ekki er hluti af heildarmyndinni.  
+Leitast skal við að framsetning teikninga sé eins einsleit á milli miðla og verkefna eins og unnt sé. Teikningar skulu vera skýrar og auðlæsar. Eftirfarandi eru nokkrir punktar um hvernig Veitur setja upp sínar teikningar, hvaða upplýsingar skulu koma fram. Ráðgjafar skulu leitast við að fylgja uppsetningu Veitna eins og kostur er.  
+Dæmigert forhönnunarsett inniheldur eftirfarandi teikningar:  
+• Forsíða  
+• Teikningaskrá 
+• Yfirlitsmynd af verkmörkum  
+• Yfirlitsmynd fyrir viðkomandi veitumiðla  
+• Grunnmyndir fyrir viðkomandi veitumiðla  
+• Drög að sérteikningum umfram kennisnið 
+• Drög að tengi og lokunar áætlun 
+Dæmigert verkteikningasett inniheldur eftirfarandi teikningar:  
+• Forsíða  
+• Teikningaskrá 
+• Yfirlitsmynd af verkmörkum  
+• Yfirlitsmynd af vinnusvæðamerkingum  
+• Skurðplan  
+• Skurðsnið  
+• Yfirlitsmynd af núverandi lögnum  
+• Yfirlitsmynd fyrir viðkomandi veitumiðla  
+• Grunnmyndir fyrir viðkomandi veitumiðla  
+• Sérteikningar fyrir viðkomandi veitumiðla  
+• Tengi og lokunaráætlun 
+ 
+ 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   53 af 74 
+ 
+ 
+ ALMENNT  
+Samræmi þarf að vera á milli teikninga í teiknisetti. Gildar ástæður geta verið fyrir ósamræmi á milli teikninga en skoða 
+skal það í hvert skipti og lágmarka ef hægt er.  Varðandi samræmi á milli teikninga skal skoða sérstaklega:  
+• Upplýsingar í teikningahaus s.s. verkefnaheiti, verknúmer o.s.frv.  
+• Hvernig „ View“  snúa í teikningum.  
+• Blaðsíðustærðir.  Prentteikningar skulu almennt vera í stærð A2 eða A3.  Innan sama verkefnis skal halda sömu blaðsíðustærð á öllum teikningum.  
+Allar teikningar skulu innihalda eftirfarandi (eins og við á hverju sinni):  
+• Norðurpíla  – á þeim teikningum sem teiknaðar eru í plani  
+• Skali  – Á þeim teikningum sem teiknaðar eru í skala  
+• Skýringar – Skýringartexti fyrir strik og blokkir í teikningunni. Upplýsingar um hnitakerfi og hæðarkerfi.  
+• Lykilmynd  – Á grunnteikningum. Sýnir grunnmynd í lægri skala auk staðsetningar viðkomandi teikningar.   
+• Götuheiti og húsnúmer – Auk staðheita/örnefna ef utan þéttbýlis.   
+• „Í Vinnslu“ blokk  – Á óútgefnum teikningum.  
+Grunngögn 
+Grunngögn s.s. götur, hús, lóðir o.s.frv. skulu vera í sér skjali. Ef breyting er á núverandi grunngögnum (t.d. breyting á 
+húsum, lóðum o.s.frv.) skal setja þau saman við núverandi gögn og gera eitt skjal sem hægt er að setja undir allar 
+teikningar.  
+• Litur: 252 (RGB 91.91,91)  
+• Línuþykkt : 0.13mm  
+Deili 
+Hring skal setja utan um viðkomandi deili ef á við. Merkja skal deili með númer eða bókstaf. Ef deili er ekki á sömu teikningu þarf líka að koma fram teikninganúmer þar sem deili er teiknað.  
+Loftmyndir 
+Hafa skal loftmynd á a.m.k. einni teikningu. Yfirleitt er yfirlitsteikning af verkmörkum.  Loftmynd skal deyfð niður um 50% til að hún sé ekki of yfirþyrmandi og dragi ekki úr þeim upplýsingum sem teikningin á að sýna.  
+Skurðplan og skurðsnið 
+Sýna skal skurðplan af öllum miðlum Veitna. Á skurðsniði skal sýna alla miðla Veitna. Málsetja skal fláa, breidd skurðbotna, hæð skurðsniða, dýpi niður á lagnir. Auðkenna þarf tegund lagna.  
+Yfirlitsmynd af núverandi lögnum  
+Í öllum verkum skal skila teikningum með núverandi lögnum. Á teikningum með núverandi lögnum  skal eftirfarandi 
+texti vera:   
+ 
+ NOTIST EKKI SEM HEIMILD TIL GRAFTAR.  
+VERKTAKI SKAL LEITA NÁKVÆMRA UPPLÝSINGA UM LAGNIR HJÁ VIÐKOMANDI VEITUSTOFNUNUM ÁÐUR EN FRAMKVÆMDIR HEFJAST VIÐ HVERN VERKÁFANGA OG FÁ STAÐSETNINGU ÞEIRRA MÆLDA 
+INN EF MÖGULEGT ER.   
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   54 af 74 
+ 
+ 
+Tengi og lokuna ráætlun 
+Í öllum verkum skal skila  tengi og lokunarplani á teikningum, annars vegar fyrir lagnir og hins vegar fyrir götur. Huga 
+skal að fyrirbyggjandi verkefnum eins og að setja niður loka sé þörf á því. Tengi og lokunaráætlun inniheldur 
+yfirlitsteikningu sem sýnir allar lokanir og svo aðgerðaráætlun sem lýsir hvað þarf að gera á degi hverjum sem lokun 
+stendur yfir og hvað þarf að undirbúa áður en lokun getur farið fram.  
+Fyrir lagnir  
+• Hvaða lokum þarf að loka  
+• Hvaða svæði verður fyrir áhrifum af lokun 
+• Hvenær á lokun að fara fram  
+• Hve langa tíma má lokun standa yfir  
+Fyrir göngustíga og götur  
+• Hvaða götum má loka  
+• Hvaða svæði verður fyrir áhrifum af lokun og hvaða fyrirtæki  
+• Hvenær á lokun að fara fram  
+• Hve langa tíma má lokun standa yfir  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   55 af 74 
+ 
+ 
+ 
+Mynd 32: Dæmi um almenna teikningu, deyfð loftmynd, grunngögn í lit 252 o.s.frv.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   56 af 74 
+ 
+ 
+ RAFVEITA  
+Rafmagnsteikningar eru settar fram skematíst með 0,5 bili á milli teiknilína til að gera teikningar skýrari. Hönnuðum 
+ber að nota táknasafn Veitna við hönnun en táknasafnið og skýringar má sjá í kafla um hönnunarforsendur.  
+Grunnmynd  
+• Strenglögn skal merkt með stærð og gerð strengja s.s. 4x240Al PEX 11kV.  
+• Strenglagnir skulu teiknaðar með 0,5m bili milli lagna.  
+• Skápar skulu vera með hnit og merktir eftir gerð s.s. CDC 440 WP.  
+• Endar þverunarröra skulu merktir með hnitum.  
+• Skýringatexti fyrir raflagnir skal vera í lit 10 og textastærð 1.3  
+ 
+Hnitaskrá  
+• Hnitaskrá raflagna skal hafa eftirfarandi auðkenni t.d.:  
+o Götuskápar  100, 101, 102 ..  
+o Rörendar  200, 201, 202 ..  
+Pennastíll  
+• Núverandi lagnir skulu vera gráar (litur : 8).  
+• Raflagnir skulu auðkenndar á prentteikningu með eftirfarandi pennastíl:  
+o Háspennustrengir  
+ Litur: 240 
+ Línuþykkt: 0.53 
+ Línugerð: Continuous  
+o Notendastrengur  
+ Litur: 80 
+ Línuþykkt: 0.5 
+ Línugerð:  Continuous  
+o Lágspennustrengur  
+ Litur: 150 
+ Línuþykkt: 0.5 
+ Línugerð: Continuous  
+o Þverunarrör  
+ Litur: CYAN 
+ Línuþykkt: 0.45 
+ Línugerð: DASHED  
+o Jarðvír  
+ Litur: BLACK  
+ Línuþykkt: Default  
+ Línugerð: DASHDOT   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   57 af 74 
+ 
+ 
+ 
+Mynd 33: Línutákn fyrir Rafmagn  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   58 af 74 
+ 
+ 
+ 
+Mynd 34:  Dæmi um hönnunarteikningu fyrir rafveitu.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   59 af 74 
+ 
+ 
+ HITAVEITA  
+Hitaveituhönnun er takmörkuð af því efni sem leggja á með. Algengast er að hönnuð sé hitaveita með stálrörum. Slík 
+hönnun er lítt sveigjanleg, sérstaklega í stærri stærðum. Hafa þarf það sérstaklega í huga við ákvörðun lagnalegu.  
+Á hitaveituteikningum skulu gefin upp þau tengistykki sem notast skal við auk efnislista. Allar lagnir DN300 og stærri 
+skulu vera hannaðar í hæð og sýndar í langsniði. Ákveða skal í upphafi verks í samvinnu við hönnuði Veitna hvort tilefni sé til að sýna hönnun einnig í langsniði.  
+Grunnmynd: 
+Framsetning eftir 
+hönnunarstigi Valmöguleikar/Dæmi  
+Forhönnun  
+Verkhönnun  
+Reyndargögn  
+Rekstarhlutverk lagnar  Litur, línuþykkt og línugerð: Framrás og bakrás     
+Nafnmál lagnar (mm)  Dæmi: DN250 og PEX50.     
+Stefnuör lagnar  Við lögn á grunnmynd skal vera stefnuör fyrir rennsli í lögn. Í tvöföldu kerfi er reglan sú að ef horft er í straumátt framrennslis, sé framrennsli ávallt hægra megin í skurði.     
+Efnisgerð lagnar  DNxx fyrir stál og PEXxx fyrir pex efni.     
+Lokar  Staðsetning og gerð.     
+Tengistykki  Texti með lýsingu, s.s. DN200x150 MINNKUN eða DN150 YFIRTÉ.     
+Bogar á lögn  Sýna radíus m.v. leiðbeiningar frá efnisframleiðanda varðandi leyfilegan beygjuradiíus.     
+Suðubrot  Ef gera þarf suðubrot skal það sýnt á teikningu ásamt stærð á broti, t.d.  2°.    
+Nýjar heimæðar  Stærð, efni og inntaksstaður.     
+Tengipunktar  Tengipunktar við núverandi kerfi skulu vera með hnit og merktir, t.d. TP01, ásamt því að tilgreina tengiaðferð.     
+Núverandi brunnar  Núverandi brunnar skulu sýndir á teikningu og tekið fram ef á að afleggja þá.     
+Núverandi hitaveita  Grunnmynd skal sýna núverandi lagnir hitaveitu, ásamt aflögðum lögnum.     
+Hnitaskrá  Hnitsetja skal allar stefnubreytingar, íhluti, fittings og lagnaenda, t.d. H01, TP01, BP01.     
+Þenslur  Grunnmynd skal sýna útfærslur vegna þenslu í lögnum.     
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   60 af 74 
+ 
+ 
+Frauðmottur  Þar sem setja skal frauðmottur skal merkja stað með 
+upplýsingum um fjölda frauðplatna og lengd meðfram röri (LAV- 360).     
+Efnislistar  Efnislisti með öllu lagnarefni og íhlutum     
+Vöktunarkerfi  Þegar við á, skv. hönnunarleiðbeiningum LAV -819    
+ 
+Langsnið: Framsetning 
+eftir hönnunarstigi  Valmöguleikar/Dæmi  
+Forhönnun  
+Verkhönnun  
+Reyndargögn  
+ 
+Rekstarhlutverk lagnar  Litur, línuþykkt og línugerð: Framrás og bakrás.     
+Gagnaband  Draga þarf línu frá gagnabandi upp í stefnubreytingar, 
+tengipunkta, hæð undir lögn og stöðvagildi, íhluti, fittings og 
+lagnaenda.  
+Sýna stærð og efni, dæmi: DN300.     
+Lögn í langsniði  Skal standa stærð og efni, dæmi: DN300.     
+Núverandi lagnir og 
+stokkar  Sýna núverandi lagnir, fram - og bakrás, aðrar lagnir og stokkar 
+sem eru þveraðir     
+Bogar á lögn  Sýni radíus, miða við leiðbeiningar frá efnisframleiðanda varðandi leyfilega boga     
+ 
+• Nýjar hitaveitulagnir  
+o Litur:  
+ Framrás : 10 (rauður)  
+ Bakrás : 160 (blár)  
+o Línuþykkt : 0.5mm  
+o Línugerð:  
+ Continuous fyrir framrás  
+ DASHED fyrir bakrás  
+• Grunnmynd skal sýna núverandi lagnir  
+o Litur:  
+ Framrás : 10 (rauður)  
+ Bakrás : 160 (blár)  
+ Stokkur: 200 (fjólublár)  
+o Línuþykkt : 0.15mm og 0.3mm fyrir stokk  
+o Línugerð:  
+ Continuous fyrir framrás og stokk  
+ DASHED fyrir bakrás  
+• Grunnmynd skal sýna aflagðar lagnir  
+o Litur: 250 (Svart)  
+o Línuþykkt : 0.15mm  
+o Línugerð: DASHDOT  
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   61 af 74 
+ 
+ 
+ 
+Eftirfarandi skýringartextar skulu vera á hönnunarteikningu eins og tilefni er til.   
+ 
+ 
+Mynd 35: Dæmi um skýringartexta á hitaveituteikningu  
+ 
+Komi fram ósamræmi á teikningum við það sem kemur í ljós við uppgröft, skal fyrirkomulag heimæða og 
+tenginga ákveðið í samráði við lagnahönnuð sem gefur út uppfærðar verkteikningar.   
+ Teikning sýnir hversu mörg lög af frauðplastmottum  (3901- 210) skulu settar og hversu langt eftir lög þær skulu 
+ná. Verktaki skal ganga frá frauðplastmottum í samráði við eftirlitsaðila . Sjá nánar á staðalsniði hitaveitu (LAV -
+360). Frauðplastmottur skulu settar á framrás.  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   62 af 74 
+ 
+ 
+  
+Mynd 36: Dæmi um hönnunarteikningu fyrir hitaveitu.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   63 af 74 
+ 
+ 
+ VATNSVEITA  
+Ef vatnsveita er lögð samhliða fráveitu skal einnig sýna fráveitu á vatnsveituteikningunni (í grunnmynd og langsniði). 
+Ákveða skal í upphafi verks í samvinnu með hönnuði Veitna hvort tilefni sé til að sýna hönnun einnig í langsniði. Á 
+vatnveituteikningum skulu gefin upp þau tengistykki sem notast skal við auk efnislista.  
+Grunnmynd: 
+Framsetning eftir 
+hönnunarstigi Valmöguleikar/Dæmi  
+Forhönnun  
+Verkhönnun  
+Reyndargögn  
+Rekstarhlutverk lagnar  Litur, línuþykkt og línugerð     
+Nafnmál lagnar (mm)  Dæmi: Ø225 PE SDR 17 eða DN450 P10 (Tekið skal mið 
+af kerfisþrýstingi við val á efni)    
+Efnisgerð lagnar  Merkingin PE, Ductile eða annað     
+Lokar  Staðsetning og gerð.     
+Tengistykki  Texti með lýsingu, s.s. suðuté, suðubeygja     
+Bogar á lögn  Sýna radíus m.v. leiðbeiningar frá efnisframleiðanda varðandi leyfilegan beygjuradiíus.     
+Beygjubrot  Sýnt á teikningu ásamt stærð á broti t.d. 2°     
+Nýjar heimæðar  Stærð, efni og inntaksstaður.     
+Tengipunktar  Tengipunktar við núverandi kerfi skulu vera með hnit og 
+merktir, t.d. TP01, ásamt því að tilgreina tengiaðferð.     
+Núverandi brunnar  Núverandi brunnar skulu sýndir á teikningu ef það á við.     
+Núverandi vatnsveita  Grunnmynd skal sýna núverandi lagnir vatnsveitu, ásamt aflögðum lögnum og núverandi fráveitulögnum.     
+Hnitaskrá  Hnitsetja skal allar stefnubreytingar, íhluti, fittings,  lagnaenda og festur, t.d. V01, TP01, BP01, Fxx     
+Hnita - og hæðarkerfi  Sýna hnita og hæðarkerfi viðkomandi teikning er hönnun í.     
+Festur  Útfærsla á málsettum festum og sýna festu á planteikningu og sérteikningu. Lýsa einnig bráðabirgðafestum ef við á.     
+Brunahanar  Brunahanar skulu vera með hnit og merktir BHxx. Gefa skal einnig upp hæð undir brunahana.     
+Efnislistar  Efnislisti með öllu lagnarefni og íhlutum     
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   64 af 74 
+ 
+ 
+Langsnið: Framsetning 
+eftir hönnunarstigi  Valmöguleikar/Dæmi  
+Forhönnun  
+Verkhönnun  
+Reyndargögn  
+ 
+Rekstarhlutverk lagnar  Litur, línuþykkt og línugerð     
+Gagnaband  Draga þarf línu frá gagnabandi upp í stefnubreytingar, 
+tengipunkta, hæð undir lögn og stöðvagildi, íhluti, fittings og 
+lagnaenda.  
+Sýna stærð og efni, dæmi: Ø225 PE     
+Lögn í langsniði  Skal standa stærð og efni, dæmi: Ø225 PE     
+Núverandi lagnir  Sýna núverandi vatnsveitulagnir, fráveitulagnir, aflagðar lagnir og loka.     
+Fráveita Sýna fráveitu sem er lögð samhliða vatnsveitu.     
+Bogar á lögn  Sýni radíus, miða við leiðbeiningar frá efnisframleiðanda varðandi leyfilega boga.     
+Mannvirki  Sýna hæðir á inntökum ef við á. Gæti átt við jöfnunartanka, dælustöðvar, lokahús og tækjabrunna.     
+ 
+• Nýjar vatnsveitulagnir  
+o Litur:  
+ Lagnir: 150 (blár)  
+ Brunahanar : 10 (rauður)  
+o Línuþykkt : 0.5mm  
+o Línugerð: Continous  
+• Grunnmynd skal sýna núverandi lagnir  
+o Litur:  
+ Lagnir: 150 (blár)  
+ Búnaður:  250 (svartur)  
+o Línuþykkt : 0.15mm  
+o Línugerð: Continous  
+• Grunnmynd skal sýna aflagðar lagnir  
+o Litur: 250 (svartur)  
+o Línuþykkt : 0.15mm  
+o Línugerð: BORDER2  
+• Fráveita 
+o Litur: 253 (Grár)  
+o Línuþykkt : 0.15mm  
+o Línugerð: Sama og á fráveituteikningu 
+ 
+ 
+ 
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   65 af 74 
+ 
+ 
+Eftirfarandi skýringartextar skulu vera á hönnunarteikningu eins og tilefni er til.  
+ 
+ 
+Mynd 37: Dæmi um skýringartexta á vatnsveituteikningu  
+ 
+Komi fram ósamræmi á teikningum við það sem kemur í ljós við uppgröft, skal fyrirkomulag heimæða og 
+tenginga ákveðið í samráði við lagnahönnuð sem gefur út uppfærðar verkteikningar.   
+ 
+Allar lagnir Ø63 og minni eru í ídráttarröri tveimur stærðum ofar.  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   66 af 74 
+ 
+ 
+  
+Mynd 38: Dæmi um hönnunarteikningu fyrir vatnsveitu.  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   67 af 74 
+ 
+ 
+ FRÁVEITA  
+Fráveituteikningar skulu sýna bæði grunnmynd og langsnið í verkhönnun. Almennt skal sýna grunnmynd og langsnið 
+í forhönnun.  
+Ef fráveita er hönnuð í götu jafnhliða gatnahönnun skulu fráveituteikningar fylgja hönnunarlínu götunnar og skal 
+gatnahönnun sýnd samhliða í langsniði. Huga þarf að framkvæmdaröð og bráðabirgðatengingum á verktíma.  Í einhverjum tilvikum þarf að útbúa sérteikningar.  Sérteikningar séu í kvarða 1:50.  
+Grunnmynd: 
+Framsetning eftir 
+hönnunarstigi Valmöguleikar/Dæmi  
+Forhönnun  
+Verkhönnun  
+Reyndargögn  
+Rekstarhlutverk lagnar  Litur, línuþykkt og línugerð: Regnvatn, Skólp, Blandað.     
+Nafnmál lagnar (mm)  Dæmi: Ø250     
+Efnisgerð lagnar  Dæmi: Ø250ST     
+Halli lagna  Þegar ekki er óskað eftir langsniði.Skal standa stærð, efni og halli lagnar. Dæmi: Ø250ST 12,34‰.     
+Lengd lagnar  Dæmi: Ø250ST L=123.45m     
+Lagnaendar  Á teikningu merkt LRxx, LSxx eftir hlutverki. Rennsliskóti fylgir.     
+Nýjar heimæðar  Regnvatn Hrxx (hnit) og Fr=12,34m (tengikóti).  
+Skólp Hsxx (hnit) og Fs=12,34m (tengikóti).     
+Tengipunktar  Við núverandi kerfi eru merktir TPxx og TKxx (tengikóti).     
+Niðurföll  Á teikningu merkt NFxx     
+Svelgir  Á teikningu merkt SVxx     
+Brunnar  Á teikningu með merkir DBxx, RBxx, SBxx eftir hlutverki.     
+Núverandi fráveita  Sýna núverandi fráveitu. Regnvatn, Skólp, Blandað, aflagt efni. Stærð og efni lagna. Lukor númer við brunna.     
+Vatnsveita  Sýna vatnsveitu sem er lögð samhliða fráveitu.     
+Hnita - og hæðarkerfi  Sýna hnita og hæðarkerfi viðkomandi teikning er hönnun í.     
+Hnitaskrá  NFxx, SVxx, RBxx, SBxx, DBxx, Hrxx, Hsxx, LRxx, LSxx, TPxx.     
+Blágrænar ofanvatnslausnir  Tilheyra fráveitu og skulu sýndar á fráveituteikningum. Leiðbeiningar neðan í kaflanum og LAV -120.  
+   
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   68 af 74 
+ 
+ 
+Langsnið: Framsetning 
+eftir hönnunarstigi  Valmöguleikar/Dæmi  
+Forhönnun  
+Verkhönnun  
+Reyndargögn  
+ 
+Rekstarhlutverk lagnar  Litur, línuþykkt og línugerð: Regnvatn, Skólp, Blandað.     
+Gagnaband  Draga þarf línu frá gagnabandi upp í brunn. Sýna stærð, efni, 
+halla og lengd lagnar. Dæmi: Ø250ST 12,34‰ L=123.45m.     
+Lögn í langsniði  Skal standa stærð, efni og halli lagnar. Dæmi: Ø250ST 12,34‰.     
+Lagnaendar  Draga þarf línu frá gagnabandi upp í lögn. Sýna rennsliskóta.     
+Tengipunktar  Draga þarf línu frá gagnabandi upp í lögn. Sýna rennsliskóta.     
+Brunnar í lagnsniði  Sýna merkingu. Sýna stöðvargildi miðlínu og hæð brunnloks, St. 123,45 fyrir stöð miðlinu og YH: 12,34m fyrir hæð brunnloks.     
+Núverandi lagnir  Regnvatn, Skólp, Blandað, aflagt efni. Auk annarra lagna sem hafa áhrif á hönnun fráveitu.     
+Vatnsveita  Sýna vatnsveitu sem er lögð samhliða fráveitu.     
+ 
+• Nýjar fráveitulagnir  
+o Litur:  
+ Regnvatn: 160 (blár)  
+ Skólp : 10 (rauður)  
+ Bland:  92 (grænn)  
+ Regnvatn í eigu annarra:  130 (ljósblár)  
+ Skólp í eigu annarra:  30 (appelsínugulur)  
+o Línuþykkt : 0.5mm  
+o Línugerð:  
+ DASHDOT  fyrir regnvatn  
+ Continuous fyrir skólp og bland  
+ DASHED2 fyrir þrýstilögn  
+• Grunnmynd skal sýna núverandi lagnir  
+o Litur:  
+ Regnvatn: 160 (blár)  
+ Skólp : 10 (rauður)  
+ Bland:  92 (grænn)  
+ Búnaður:  250 (svartur)  
+ Regnvatn í eigu annarra:  130 (ljósblár)  
+ Skólp í eigu annarra:  30 (appelsínugulur)  
+o Línuþykkt : 0.15mm  
+o Línugerð:  
+ DASHDOT  fyrir regnvatn  
+ Continuous fyrir skólp og bland  
+ DASHED2 fyrir þrýstilögn  
+• Grunnmynd skal sýna aflagðar lagnir  
+o Litur: 250 (Svart)  
+o Línuþykkt : 0.15mm  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   69 af 74 
+ 
+ 
+o Línugerð: Sama og núv.  
+• Vatnsveita  lögð samhliða fráveita  
+o Litur: 253 (Grár)  
+o Línuþykkt : 0.15mm  
+o Línugerð: Sama og á vatnsveituteikningu 
+ 
+Eftirfarandi skýringartextar skulu vera eins og tilefni er til.  
+ 
+ 
+Mynd 39: Dæmi um skýringartexta á fráveituteikningu.
+ 
+Mynd 40: Hönnunarteikning fyrir fráveitu. 
+ 
+Blágrænar ofanvatnslausnir  
+Blágrænar ofanvatnslausnir eru að því leyti frábrugðnar öðrum kerfum Veitna að þær eru sýndar sem lokaðir og 
+afmarkaðir fletir í LUKOR, en önnur kerfi eru almennt táknuð með punktum fyrir búnað og línum fyrir lagnir. Hönnunarteikningar fylgi almennt leiðbeiningum fyrir hönnun fráveitu.  
+Nota skal eftirfarandi liti og línubreidd fyrir blágrænar ofanvatnslausnir í CAD og GIS umhverfi. Allir hlutir eru lokuð form.  
+ 
+AutoCAD Color Index # RGB  Hexad.  ATH 
+146 0,78,104  #004E68  Fletir – útlína (0,5mm, 40%)  
+132 0,189,189  #00BDBD  Fletir – fylling (40%)  
+142 0,141,189  #008DBD  Farvegir – útlína (0,5mm, 40%)  
+121 170,255,234  #AAFFEA Farvegir – fylling (40%)  
+  
+Komi fram ósamræmi á teikningum við það sem kemur í ljós við uppgröft, skal fyrirkomulag heimæða og tenginga 
+ákveðið í samráði við lagnahönnuð sem gefur út uppfærðar verkteikningar.   
+ 
+Tengingar eru ∅150mm með 20-300 ‰ halla nema að annað sé tekið fram.  
+ 
+ 
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   70 af 74 
+ 
+ 
+ 
+ KERFISMYNDIR – P&ID  (PIPING & INSTRUMENTATION DIAGRAM ) 
+Kerfismynd er hluti af vélbúnaðarhönnun stöðvar og má líta á sem grunnskilgreiningu hennar.  
+Kerfismyndir skal vinna í Autocad Plant  3D á ACC kerfismyndagrunni Veitna. Til þess þarf hönnuður að vera með ACC 
+BIM Collaborate Pro leyfi. Sérfræðingur Veitna í hönnun á vélbúnaði og veitukerfum veitir aðgang að 
+kerfismyndagrunni og frekari upplýsingar um uppsetningu.  
+Kerfismynd er að jafnaði teiknuð með flæðiátt frá vinstri til hægri, ofan og niður og skal innihalda að lágmarki:  
+• Lagnaverk stöðvar.  
+o Flæðiáttir í lagnaverki.  
+o Niðurhleypingu þar sem við á.  
+o Allar dælur og mótorar.  
+o Alla loka, s.s. einstefnu -, hand- , öryggis - og mótorstýrða loka ásamt stærðum þeirra.  
+o Alla skynjara, s.s. rennslis -, hita -, hæðar - og þrýstiskynjara.  
+o Alla liða, s.s. þrýsti -, hæðar - og hitaliða.  
+o Öll önnur tæki sem við á, s.s. minnkarnir, þana, þensluker, hæðarker, skiljur osfrv. og upplýsingar um 
+þau. 
+• Stýrimerki ásamt búnaði í reglunarrásum s.s. reglar, hraðastýringar og reiknireglur.  
+• TAG heiti við hvert tæki (öll tæki)  
+Inni á kerfismyndagrunni er skráin Kerfismyndir – Leiðbeiningar  sem betur greinir frá kröfum til framsetningar.  
+Ekki er skylda að kerfismyndir innihaldi stærðir á borð við rennsli eða lyftihæð dælna en það er matsatriði hverju sinni.  
+Á hverri teikningu skal vera tilvísun í skýringarblað fyrir viðkomandi krefismynd sem og lýsing á eignarkóða 
+stöðvarinnar. Einnig skal á hverri kerfismynd vera útskýring á uppsetningu kerfisrása í stöðinni.  
+Mjög mikilvægt er að teikna kerfismyndir í griddi.  
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   71 af 74 
+ 
+ 
+ 
+ 
+Mynd 41: Kerfismynd vatnsveitu  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   72 af 74 
+ 
+ 
+ 
+7. SKIL Á HÖNNUNARGÖGNUM  
+ HÖNNUNARLAG VATNSMIÐLA OG RAFMAGNS Í LUKOR  
+Þegar hönnun er lokið skal útbúa DWG skrá til að setja inn sem hönnunarlag í LUKOR.   
+ 
+Vista skal hönnunarlagið sem dwg/dxf  skjal. Í teikningunni eiga eingöngu að vera línur fyrir lagnir eða vöktunarvíra og 
+staðsetning fylgihluta s.s. loka og brunna. Taka skal út alla óþarfa hluti s.s. núverandi lagnir og grunngögn.   
+ 
+Allar blokkir og polylínur  á að sprengja . Einnig skal allur texti   vera single line, þ.e. sprengja skal multi line text. Spline 
+linur eru ekki leyfilegar. Línur mega ekki vera styttri en 0.1m . Eyða skal út öllum Hatch og Solid hlutum. Öllum sér CAD 
+hlutum eins og t.d. layouts (blaðuppsetningum) skal eyða úr teikningu. Gott er að keyra “purge” og “audit ” í AutoCAD 
+eða sambærilegar skipanir úr öðrum CAD kerfum til að hreinsa teikningu af ónotuðum hlutum.    
+ 
+Við lagnir og fylgihluti skal vera texti með helstu eigindum s.s. stærð, efni og upphafs - og endakóti ef hannað er í hæð.   
+  
+  
+Mynd 42: Dæmigert hönnunarlag fyrir hitaveitulögn með merkingum.   
+ 
+Nafn skráar skal innihalda hnitakerfi, verknúmer og gerð veitu. Dæmi um hönnunarlag fyrir Hitaveitu í Reykjavíkurhnitum á verkefni 21001234 væri þá Hrvk21001234.dwg og skrá í isn- 93 fyrir sama verkefni heitir 
+Hisn21001234.dwg. Fyrir hverja veitu skal nota:   
+ 
+• R fyrir rafmagn  
+• H fyrir hitaveitu   
+• K fyrir vatnsveitu   
+• F fyrir fráveitu   
+• O fyrir blágrænar ofanvatnslausnir.  
+• E fyrir Vöktunarkerfi Hitaveitu  
+ 
+Sömu reglur gilda um breytingu á hönnun. Auðkenna skal slíka skrá með því að bæta útgáfunúmeri fyrir aftan verkefnanúmer í nafni skráar.   Ný skrá er svo send með tölvupósti til innfærslustjóra með lýsingu á breyttri hönnun.  
+ 
+ 
+Hönnunarlagsskrá skal send með tölvupósti til sérfræðinga í landupplýsingateymi landupplysingar@veitur.is  og afrit til 
+verkefnastjóra.  
+  
+
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   73 af 74 
+ 
+ 
+ HÖNNUNARLAG BLÁGRÆNNA OFANVATNSLAUSNA  
+ ARCGIS  FILEGEODATABASE EÐA ESRI  SHAPE FILE (SHP)*  
+Fyrsti kostur, og sá sem ráðlagt er að nota, er að skila hönnun inn í formi ArcGIS FileGeodatabase með útfylltum 
+tilbúnum eigindum. Leiðbeiningar um eigindir sem fylgja skulu hönnun eru samkvæmt LAV -120 fyrir ofanvatnsfarvegi 
+og ofanvatnsfleti. Tilbúinn gagnagrunn með öllum eigindum sem krafist er, má nálgast til niðurhals á vefsvæði hjá Veitum.  
+Annar möguleiki er að skila inn ESRI shape skrám (SHP) þar sem sömu eigindir koma fram og tilteknar eru í leiðbeiningum LAV -120. 
+ DWG  SKRÁ  
+Ef ekki er unnt að skila gögnum inn á GIS formati er næsti kostur að skila þeim á CAD formati.  
+Vista skal hönnunarlagið sem dwg/dxf skjal. Í teikningunni eiga eingöngu að vera lokuð form fyrir ofanvatnslausnir s.s. regnbeð, rásir og lautir. Taka skal út alla óþarfa hluti s.s. gróður, málsetningar, tvöfaldar línur og önnur grunngögn.  
+Allar blokkir skal sprengja og hreinsa út allan óþarfa. Einnig skal allur texti vera single line, þ.e. sprengja skal multi li ne 
+text. Spline linur eru ekki leyfilegar. Línur mega ekki vera stakar heldur að mynda lokuð form. Eyða skal út öllum Hatch og Solid hlutum. Öllum sér CAD hlutum eins og t.d. layouts (blaðuppsetningum) skal eyða úr teikningu. Gott er að 
+keyra “purge” og “audit” í AutoCAD eða sambærilegar skipanir úr öðrum CAD kerfum til að hreinsa teikningu af 
+ónotuðum hlutum.  
+Við fleti og farvegi skal vera texti með helstu eigindum s.s. flatarmál, gerð yfirborðs, halli, breidd, lekt, rýmd og upphafs - 
+og endakóti ef hannað er í hæð. Leiðbeiningar fyrir eigindir sem æskilegt er að séu í textaformi á teikningunni er samkvæmt LAV -120 fyrir ofanvatnsfarvegi og ofanvatnsfleti.  
+Ef hönnun er unnin í BIM er mikilvægt að fylla inn í Property box allar eigindir samkvæmt sömu leiðbeiningum.  
+Nafn skráar skal innihalda hnitakerfi, verknúmer og gerð veitu. Dæmi um hönnunarlag fyrir Blágrænarofanvatnslausnir í Reykjavíkurhnitum á verkefni 21001234 væri þá bgorvk21001234.dwg og skrá í isn- 93 fyrir sama verkefni heitir 
+bgoisn21001234.dwg.  
+ TEIKNINGAR SKIL  
+Skila skal teikningum til vistunar ásamt lýsigagnalista á netfangið teikningar@veitur.is  ásamt afriti til verkefnastjóra og 
+hönnuða Veitna. Leiðbeiningar og sniðmát lýsigagnalista er í skjalinu EBV -815 sem er að finna á heimasíðu veitna.  
+   
+ 
+ 
+  
+ VEITUR SAMEIGINLEGT   
+ HÖNNUNARLEIÐBEININGAR FYRIR 
+RÁÐGJAFA   
+LAV-815-36.0 
+ 
+Ábyrgð:  Rúnar Ingi Tryggvason  Útgefið . 26.11.2024   74 af 74 
+ 
+ 
+8. VIÐAUKAR  
+ 
+ 
+ 

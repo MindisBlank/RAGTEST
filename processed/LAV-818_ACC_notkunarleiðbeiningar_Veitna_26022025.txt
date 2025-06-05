@@ -1,0 +1,387 @@
+ACC notkunarleiðbeiningar Veitna  
+ 
+ÞJÓNUSTA  
+ 
+ 
+LAV-818-4.0 
+ 
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   1 af 19 
+ 
+ 
+Útgáfutafla  
+ 
+Útg. Dags . Breytingar  HÖ/YF 
+1.0 26.04.23  Nýjar leiðbeiningar  ÞÞ/SKJ  
+2.0 26.05.23  Forsíðu bætt við – Engar efnislegar breytingar  ÞÞ/RIT  
+    
+    
+    
+    
+    
+  
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   2 af 19 
+ 
+ 
+Efnisyfirlit  
+1. Inngangur  ................................ ................................ ................................ ................................ ................................ . 3 
+2. Stofnun verkefnis  ................................ ................................ ................................ ................................ .....................  3 
+2.1 Aðilar verksins  ................................ ................................ ................................ ................................ .................  4 
+2.2 Aðgangsstýring ................................ ................................ ................................ ................................ ................  5 
+2.2.1  Aðgangur að skjölum  ................................ ................................ ................................ ................................ .. 5 
+2.2.2  Aðgangur að málefnum (e. Issues)  ................................ ................................ ................................ .............  6 
+2.3 Virkjun rýniferla (e. Review Workflow)  ................................ ................................ ................................ ............  7 
+3. Skjöl og möppur  ................................ ................................ ................................ ................................ .......................  9 
+3.1 00 – Líkön  ................................ ................................ ................................ ................................ ........................  9 
+3.2 01 – Hönnunargögn  ................................ ................................ ................................ ................................ ........  9 
+3.3 02 – Gögn til yfirferðar  ................................ ................................ ................................ ................................ ... 10 
+3.4 03 – Útboðsgögn  ................................ ................................ ................................ ................................ ...........  10 
+3.5 04 – Gögn á verkstað  ................................ ................................ ................................ ................................ .... 10 
+3.6 05 – Önnur gögn  ................................ ................................ ................................ ................................ ...........  10 
+3.7 06 – Rekstrargögn  ................................ ................................ ................................ ................................ .........  11 
+3.8 07 – Reyndargögn  ................................ ................................ ................................ ................................ .........  11 
+4. Uppfærsla á skjölum  ................................ ................................ ................................ ................................ ..............  11 
+5. Rýniferli (e. Reviews)  ................................ ................................ ................................ ................................ .............  12 
+5.1 Skjalategundir í rýniferlum  ................................ ................................ ................................ .............................  13 
+6. Málefni (e. Issues)  ................................ ................................ ................................ ................................ ..................  14 
+6.1 Málefnaflokkar  ................................ ................................ ................................ ................................ ...............  14 
+6.2 Stofnun málefnis ................................ ................................ ................................ ................................ ............  14 
+6.3 Mále fnaskráning  ................................ ................................ ................................ ................................ ............  15 
+6.4 Úrvinnsla málefna ................................ ................................ ................................ ................................ ..........  16 
+6.5 Yfirlit málefna  ................................ ................................ ................................ ................................ .................  17 
+ 
+  
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   3 af 19 
+ 
+ 
+ 
+1. Inngangur  
+Tilgangur þessarar handbókar er að tryggja samræmt verklag og flæði gagna á Autodesk Construction Cloud (ACC), 
+verkefnavef Veitna.  
+Handbókin tekur á hlutverkum og ábyr gðum,  upphlöðun gagna, formlegum rýniferlum (e. Reviews), stofnun og 
+úrvinnslu málefnaspjalda (e. Issues).  
+Handbókin er ætluð fyrir starfsfólk Veitna auk utanaðkomandi ráðgjafa og verktaka.  
+2. Stofnun verkefnis  
+Rýnihönnuður stofnar verkefnið með þar til gerðu snið máti.  
+ 
+ 
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   4 af 19 
+ 
+ 
+2.1 Aðilar verksins  
+Aðilum er bætt inn á verkið, þeir skráðir á viðeigandi fyrirtæki (e. Company) og þeim útvegað ákveðið hlutverk (e. Role).  
+Einnig þarf að kveikja á þeim vörum (e. Products) sem viðkomandi hefur aðgang að í verkinu. Í flestum tilfell um er það 
+bara Docs . 
+ 
+Mikilvægt er að fyrirtæki og hlutverk séu rétt skráð því bæði tvennt er mikið notað við aðgangsstýringu og úrvinnslu í 
+gegnum allan líftíma verksins.  
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   5 af 19 
+ 
+ 
+2.2 Aðgangsstýring  
+Gefa þarf aðilum aðgang að bæði skjölum og málefnum (e. Issues).  
+2.2.1  Aðgangur að skjölum  
+Aðgangur að skjölum er veittur á grundvelli mappa og hefur viðkomandi aðili aðgang að öllum undirmöppum og skjölum 
+í þeirri möppu sem hann fær aðgang að. Til að tryggja að allir aðilar séu með réttan aðgang er best að veita viðkomandi 
+fyrirtæki  aðgang en ekki einstaka aðilum.  
+Sem dæmi væri eðlilegt að starfsmenn Veitna og ráðgjafi fái Edit aðgang að yfirmöppunni Project Files .  
+Verktaki fengi Edit aðgang að möppunni 04 – Gögn á verkstað . 
+ 
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   6 af 19 
+ 
+ 
+2.2.2  Aðgangur að málefnum (e. Issues)  
+Mælst er til þess að starfsmenn Veitna og Verkefnastjóri Ráðsgjafa fái Create for other companies  aðgang að öllum 
+málefnum.  
+Fyrir utan aðgangsstillingar fá úrlausnaraðilar og áhorfendur aðgang að þeim málefnum sem skráð eru á þau eins og 
+nánar er farið yfi r í kafla 6 - Málefni (e. Issues) . 
+ 
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   7 af 19 
+ 
+ 
+2.3 Virkjun rýniferla  (e. Review Workfl ow) 
+Virkja þarf rýniferla (samþykktarferla) sem nota á í verkinu. Fara þarf undir Reviews  > Settings  > Draft approval 
+workflow  og velja Edit á viðkomandi rýniferli. Yfirfara þarf stillingarnar áður en hægt er að kveikja á ferlinu.  
+ 
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   8 af 19 
+ 
+ 
+Yfirfara þarf hver geta stofnað rýniferlið (e. Initiator) og hver geta samþykkt (e. Approver).  
+Stofnendur skulu vera allir starfsmenn Veitna (OR -Veitur) og hlutverkin Arkitekt, BIM umsjón, öll ráðgjafahlutverkin og 
+verkefnastjóri ráðgjafa.  
+Samþykktaraðilar rýniferla útboðsga gna, verkteikninga og reyndarteikninga skulu vera verkefnastjóri og viðkomandi 
+rýnihönnuður.  Samþykktaraðilar kostnaðaráætlana skulu vera verkefnastjóri og allir rýnihönnuðir.  
+Þannig verða til sér rýniferli fyrir hvern rýnihönnuð sem tryggir að rýnin lendi  alltaf hjá réttum aðila.  
+ 
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   9 af 19 
+ 
+ 
+3. Skjöl og möppur  
+Í sniðmátinu er tilbúinn möppustrúktur sem skal halda sér eftir fremsta megni.  
+ 
+3.1 00 – Líkön  
+Hér eru grunnlíkön geymd, ef þau eru geymd og unnin beint í gegnum svæðið en ekki í skjalakerfi ráðgjafa.  
+3.2 01 – Hönnun argögn  
+Hér eru ýmis hönnunargögn sem hlaða skal í viðeigandi undirmöppu.  
+Mappa  Dæmi um gögn  
+01.1.1 – Verkefnislýsing og forsendur  Forsenduskýrsla og/eða aðrar verkefnislýsingar  
+01.1.2 – Minnisblöð  Minnisblöð, jafnvel skýrslur.  
+01.1.3 – Fylgiskjöl  T.a.m. afurðalistar.  
+01.1.4 – Sniðmát  Sniðmát sem verkkaupi afhendir ráðgjafa, önnur en þau sem útgefin eru á 
+ytri vef Veitna.  
+01.1.5 – Gamlar teikningar  Gamlar teikningar sem verkkaupi á og hafa erindi við verkefnið.  
+01.1.6 – Myndir  Allar myndir. Gott að búa til undirmöppur fyrir núverandi, framkvæmd o.þ.h.  
+01.2 – Fundargerðir  Allar fundargerðir. Gott að flokka eftir tegund funda, ef fleiri en ein.  
+01.3 – Líkön  Afrit af líkönum sem ekki eru unnin beint í gegnum svæðið en verkkaupi 
+óskar eftir að fá afhent reglulega, t.d. á 2 vikna fresti.  
+01.4 – Efnislistar  Allir efnislistar er við koma verkinu.  
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   10 af 19 
+ 
+ 
+3.3 02 – Gögn til yfirferðar  
+Hér hleður ráðgjafi upp öllum gögnum sem verkkaupi yfirfer.  
+Búa skal til sér möppu fyrir hvert útboð og flokka skjölin þar undir  í þrjár möppur:  
+• 00 – IFC Líkön  
+• 01 – Teikningar  
+• 02 – Verklýsingar og tilboðsskrár  
+ 
+3.4 03 – Útboðsgögn  
+3.5 Hingað eru engin skjöl sett handvirkt inn heldur afritast samþykkt gögn hingað yfir, nánar í kafla 3.5 - 04 
+– Gögn á verkstað  
+Eins og með möppuna 03 – Útboðsgögn  þá eru engin skjöl sett handvirkt hingað inn. Þau eiga öll að afritast úr 
+viðeigandi samþykktarferli.  
+3.6 05 – Önnur gögn  
+Hér eru önnur gögn sem skal hlaða upp í viðeigandi undirmöppu.  
+Mappa  Dæmi um gögn  
+05.1 – Tækniskjöl búnaðar  Öll tækniskjöl sem berast um keyptan búnað í verkinu.  
+Búa skal til sér möppu fyrir hvert tæki.  
+05.2 – Áhættugreiningar  EBO -600 og aðrar áhættugreiningar  
+05.3 – Prófanalistar og úttektareyðublöð  T.a.m. vegna gangsetningar á nýjum bú naði.  
+05.4 – Áætlanir  Tímaáætlanir  og samþykktar kostnaðaráætlanir . 
+Athugið að undir möppu 05.4 – Áætlanir  eru kostnaðaráætlanir ekki settar handvirkt inn heldur afritast samþykktar 
+áætlanir þangað í kjölfar rýni -/samþykktarferlis, sjá nánar í kafla 5. 
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   11 af 19 
+ 
+ 
+3.7 06 – Rekstrargögn  
+Hér skal hlaða inn skjölum sem skila sér til rekstur. T.a.m. stöðvarlýsingar og handbækur.  
+ 
+3.8 07 – Reyndargögn  
+Líkt og með möppuna 03 – Útboðsgögn  þá eru engin skjöl sett handvirkt hingað inn. Þau eiga öll að afritast úr 
+viðeigandi samþykktarferli.  
+ 
+4. Uppfærsla á skjölum  
+Þegar skjöl/gögn eru uppfærð er mjög mikilvægt  að nýja skjalið sé með sama nafn og það fyrra. Það tryggir að ný 
+útgáfa myn dist af upprunalega skjalinu í stað þess að  fá fyrstu útgáfu af nýju skjali.  
+  
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   12 af 19 
+ 
+ 
+Rýniferli (e. Reviews) . Möppur hér þurfa því að endurspegla þær möppur sem eru í 02 – Gögn til yfirferðar . 
+4.1 04 – Gögn á verkstað  
+Eins og með möppuna 03 – Útboðsgögn  þá eru engin skjöl sett handvirkt hingað inn. Þau eiga öll að afritast úr 
+viðeigandi samþykktarferli.  
+4.2 05 – Önnur gögn  
+Hér eru önnur gögn sem skal hlaða upp í viðeigandi undirmöppu.  
+Mappa  Dæmi um gögn  
+05.1 – Tækniskjöl búnaðar  Öll tækniskjöl sem berast um keyptan búnað í verkinu.  
+Búa skal til sér möppu fyrir hvert tæki.  
+05.2 – Áhættugreiningar  EBO -600 og aðrar áhættugreiningar  
+05.3 – Prófanalistar og úttektareyðublöð  T.a.m. vegna gangsetningar á nýjum bú naði.  
+05.4 – Áætlanir  Tímaáætlanir  og samþykktar kostnaðaráætlanir . 
+Athugið að undir möppu 05.4 – Áætlanir  eru kostnaðaráætlanir ekki settar handvirkt inn heldur afritast samþykktar 
+áætlanir þangað í kjölfar rýni -/samþykktarferlis, sjá nánar í kafla 5. 
+  
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   13 af 19 
+ 
+ 
+4.3 06 – Rekstrargögn  
+Hér skal hlaða inn skjölum sem skila sér til rekstur. T.a.m. stöðvarlýsingar og handbækur.  
+ 
+4.4 07 – Reyndargögn  
+Líkt og með möppuna 03 – Útboðsgögn  þá eru engin skjöl sett handvirkt hingað inn. Þau eiga öll að afritast úr 
+viðeigandi samþykktarferli.  
+ 
+5. Uppfærsla á skjölum  
+Þegar skjöl/gögn eru uppfærð er mjög mikilvægt  að nýja skjalið sé með sama nafn og það fyrra. Það tryggir að ný 
+útgáfa myn dist af upprunalega skjalinu í stað þess að  fá fyrstu útgáfu af nýju skjali.  
+  
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   14 af 19 
+ 
+ 
+6. Rýniferli (e. Reviews)  
+Þegar gögnum hefur verið hlaðið í viðkomandi möppur undir 02 – Gögn til yfirferðar  og samskonar möppur hafa verið 
+stofnaðar undir 03 – Útboðsgögn  er hægt að senda þau til yfirferðar . Það er á ábyrgð ráðgjafa.  
+ 
+Velja þarf skjölin sem se nda á til yfirferðar . Teikningar fara ekki í sama rýniferli og verklýsingar og tilboðsskrár þar sem 
+skjölin fara í sitthvora möppuna þegar þau eru samþykkt.  Að sama skapi er sér samþykktarferli fyrir kostnaðaráætlanir.  
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   15 af 19 
+ 
+ 
+Velja þarf rýniferli. Ferlið stýrir því hvert skjölin fara til yfirferðar , til rýnihönnuðar vatnsmiðla, rafveitu, vélbúnaðar 
+vatnsmiðla eða rafbúnaðar vatnsmiðla.  
+Síðan þarf að velja rétta u ndirmöppu undir 03 – Útboðsgögn . Þ.e. rétt útboð og svo Teikningar eða Verklýsingar og 
+tilboðsskrá, eftir því sem við á.  
+Því næst er rýninni gefið nafn  og haldið áfram í næsta skref.  
+ 
+ 
+Þá er hægt að bæti við aðilum sem eiga að verða varir við að gögnin séu tilbúin til yfirferðar , það gæti t.a.m. verið 
+verkefnastjóri. Þau sem f á rýnina til sín (e. Reviewer) eiga að vera sjálfkrafa valin.  
+Að lokum er hægt að skrifa skilaboð, ef þarf.  
+6.1 Skjal ategundir í rýniferlum  
+Eins og fram kemur í kafla 7.2 er ekki hægt að stofna málefni á Word og Excel skjöl. Því skal alltaf setja .pdf skjöl í rýni 
+ásamt  Word og E xcel skjölum. Með því  móti er hægt að halda utan um rýni á .pdf skjölunum en koma Word og Excel 
+skjölum áfram til Innkaupa séu skjölin samþykkt.  
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   16 af 19 
+ 
+ 
+7. Málefni (e. Issues)  
+Við yfirferð gagna er stuðst við málefni. Rýnir stofnar málefni í gegnum viðkomandi skjal  og staðsetur það í námunda 
+við það sem er til umræðu. Við það opnast málefnaspjald sem rýnir fyllir út.  
+Ath. málefni eru birt (e. Published) um leið og þau eru stofnuð.  
+7.1 Málefnaflokkar  
+Hvert málefni er ákveðinni tegund (e. Type) og flokki (e. Category). Fl okkarnir eru tveir, annars vegar hefðbundin 
+athugasemd og hins vegar athugasemd með vægi. Rýnihönnuður ræður hvorn flokkinn hann notar en þeir hafa smá 
+eðlismun.  
+Ef notuð er hefðbundin athugasemd er tegundin einna helst notuð til þess að sía út málefni í m álefnayfirlitinu, sjá kafla 
+7.5. 
+Ef notuð er athugasemd með vægi er rýnihönnuður að gefa merki um hvers er ætlað af viðkomandi hönnuði. 
+Tegundirnar og meining þeir ra eru eftirfarandi:  
+ 
+Í því tilfelli að rýnihönnuður sé aðeins að benda á en fer ekki fram á breytingu þarf hönnuður engu að síður að bregðast 
+við málefninu, t.a.m. með því að svara „Móttekið“ og færa stöðuna úr Open yfir í In review . 
+7.2 Stofnun málefnis  
+Málefni á að stofna í gegnum viðeigandi skjal. Það er gert með því að velja Issue  úr stikunni hægra megin á skjáunum. 
+Þá er valinn athugasemdarflokkur og athugasemdin, eða málefnið, fest við teikninguna eins og teiknibóla.  
+ 
+Ekki er hægt að stofna málefni á Word og Excel skjöl. Því er lagt til að öll skjöl sem send verði til yfirferðar  verði á .pdf 
+formi svo rýni og yfirlit hennar verði skilvirkust.  Sjá einnig kafla 6.1.  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   17 af 19 
+ 
+ 
+7.3 Málefnaskráning  
+Um leið og málefni hefur verið stofnað opnast málefnaspjald sem fylla þarf út . Sjá nánari leiðbeiningar hér fyrir neðan.  
+ 
+  
+
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   18 af 19 
+ 
+ 
+7.4 Úrvinnsla málefna  
+Eins og fram kemur í kafla 7.3 hafa málefni 4 stöður. Þær hafa eftirfarandi þýðingu:  
+Staða  Lýsing  
+Open  Upphafsstaða og/eða hönnuður þarf að bregðast við.  
+Pending  Hönnuður hefur mótekið málefnið og er að vinna að úrlausn.  
+In Review  Hönnuður hefur unnið  úr málinu og uppfært þannig að hægt sé að yfirfara aftur.  
+Closed  Rýnihönnuður hefur samþykkt úrlausnina og lokað málefninu.  
+ 
+Hönnuður kynnir sér opin (e. Open) málefni og setur þau í vinnslu (e. Pending) þegar hann hefur úrlausn. Málefni eiga 
+ekki að vera til yfirferðar (e. In review) fyrr en gögn hafa verið upp færð eða hönnuður hefur í athugasemdum fært rök 
+fyrir því að þau þurfi ekki að uppfæra.  
+Sé rýnihönnuður sáttur við úrlausnina lokar (e. Closed) hann málinu. Sé hann ekki sáttur skýrir frá því í athugasemdum 
+og setur málið aftur í opna stöðu.  
+  
+ ÞJÓNUSTA   
+ ACC NOTKUNARLEIÐBEIN INGAR VEITNA   
+LAV-818-4.0 
+ 
+Ábyrgð:  Kristín Huld Þorvaldsdóttir  Útgefið . 26.2.2025   19 af 19 
+ 
+ 
+7.5 Yfirlit málefna  
+Hægt að er skoða yfirlit málefna með því að velja Issue  í stikunni vinstra megin þegar ekkert skjal er opið.  
+ 
+Þar er hægt að fylgjast með framvindu málefna, opna málefnaspjöld og hoppa á m álefnið á viðkomandi skjali. Einnig 
+er hægt að sía út málefni, t.a.m. eftir stöðu, flokk, eða úrvinns luaðila.  
+ 
+

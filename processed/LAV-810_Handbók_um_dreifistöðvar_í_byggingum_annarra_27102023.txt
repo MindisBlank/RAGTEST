@@ -1,0 +1,394 @@
+   
+ 
+   
+ 
+  
+Handbók um 
+dreifistöðvar í 
+byggingum annarra  
+ 
+RAFVEITA  
+ 
+ 
+LAV-810  
+ 
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   2 af 8 
+ 
+ 
+ 
+EFNISYFIRLIT  
+1. Almennt  ................................ ................................ ................................ ................................ ................................ .3 
+2. Staðsetning  ................................ ................................ ................................ ................................ ............................ 3 
+3. Sérskilmálar fyrir dreifistöðvar í fjöleignahúsum  ................................ ................................ ................................ ..4 
+4. Hönnun  ................................ ................................ ................................ ................................ ................................ ..4 
+5. Brunavarnir  ................................ ................................ ................................ ................................ ............................ 5 
+6. Loftræsing  ................................ ................................ ................................ ................................ .............................. 7 
+7. Hurðir  ................................ ................................ ................................ ................................ ................................ .....7 
+8. Úttekt á dreifistöð og uppsetning rafbúnaðar í stöð  ................................ ................................ ............................. 8 
+9. Greiðslur  ................................ ................................ ................................ ................................ ................................ 8 
+10. Teikningar  ................................ ................................ ................................ ................................ .............................. 8 
+ 
+  
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   3 af 8 
+ 
+ 
+1. Almennt  
+Tilgangur þessarar handbókar er að tryggja samræmi við hönnun dreifistöðva fyrir Veitur í byggingum annarra. 
+Handbókin er ætluð bæði starfsmönnum  Veitna og utanaðkomandi ráðgj öfum .  
+Handbókin er ætluð til að upplýsa eigendur og hönnuði um lágmarkskröfur Ve itna til dreifistöðva í byggingum 
+annarra. Handbókin gildir fyrir steyptar dreifistöðvar með einum eða tveimur spennum.  Að lágmarki skal einn 
+útveggur í dreifistöð liggja að fersklofti.  
+Í upphafi verks skal haft samráð við Veitur um staðsetningu og stærð dreifistöðvar, en stærð heimtaugar frá 
+stöð að töflurými aðalbyggingar getur haft áhrif  á uppröðun búnaðar og aðkomu lagna. Þegar lokið er við, í 
+samráði við Veitur, að útfæra staðsetningu og stærð dreifistöðvar skal ganga frá afnotasamningi um 
+dreifistöð ina og sækja skal um rafmagnsheimtaug áður en byggingarframkvæmdir hefjast.   Samningsdrög eru 
+afhent á upphafsstigi.  
+ 
+Veitur afhenda teikningarnar T1 -T4, þar sem lágmarksstærðir  dreifistöðva  eru skilgreindar og æskilegt 
+fyrirkomu lag er sýnt.  Veitur afhe nda einnig teikninguna „Hurðir fyrir dreifistöðvar í byggingum annarra“ þar 
+sem stærðir og æskileg uppbygging hurða er sýnd.  
+ 
+Almennt er miðað við að stöð sé skilað uppsteyptri , fullfrágenginni að utan og með uppsettu þjónustugólfi úr 
+stálbitum og krossviðarflekum að innan.   
+ 
+Allur búnaður innan dreifistöðvar er í eigu Veitna, öll ráðstöfun á notkun hans, breyting ar, framtíðarmöguleik ar 
+og tenging ar nýrra notenda inn í dreifist öðina er alfarið í höndum Veitna.      
+  
+ 
+2. Staðsetning  
+Mynd 1 sýnir mögulegar staðsetningar dreifistöðva.  (A) Innan byggingar með aðkomu í útvegg.  (B)  Í 
+útbyggingu frá aðalbyggingu með aðkomu í útvegg.  (C) Stakstæð bygging á lóð.   (D) Við innkeyrsluram pa að 
+bílageymslu þar sem lofthæð að stöð er a.m.k. 3,5m .  Hurðir í dreifistöð skulu staðsettar í útvegg þannig að 
+aðgengi inn í dreifistöð sé ávallt að utanverðu  og loftun tryggð .  Húsbyggjandi skal framkvæma öryggismat til 
+að meta hættu á flóði í stöð.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mynd 1 : Mögulegar staðsetningar á dreifistöðvum  
+ 
+Við ákvörðun á staðsetningu skal hafa eftirfarandi í huga:  
+ 
+• Dreifistöð skal ekki liggja að íverurými, svo sem svefnherbergi í íbúðarbyggingu  
+• Dreifistöð skal ekki liggja að rými með tölvubúnaði eða öðrum rafbúnaði sem er viðkvæmur fyrir segulsviði  
+
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   4 af 8 
+ 
+ 
+• Meta þarf öryggisforsendur og afhendingaröryggi gagnvart bruna og vatnshættu  
+• Fyrir framan stöð skal vera a.m.k. 6m akstursplan að sömu breidd og stöð.  Hefðbundinn akvegur skal 
+liggja að akstursplani.  Lágmarkshæð aðkomu er 3,5m og skal aðkoma vera hönnuð fyrir bifreið með 12 
+tonna öxulþunga eða 25 tonna heildarþunga.  Greið aðkoma  að stöð skal tryggð allan sólarhringinn fyrir 
+starfsmenn Veitna og þjónustubifreiðar, þ.m.t bilanaleitarbíl Veitna, sjúkra - og slökkvibifreiðar.  
+• Fyrir framan dreifistöðina skal akstursplanið ekki vera hallandi og  skal það  liggja  10-20cm undir gólfi 
+stöðva r við aðkomu.  
+• Fyrir framan dreifistöðina þurfa Veitur 5m athafnasvæði fyrir starfsfólk, bíla og tækjabúnað á öllum 
+stundum sólarhringsins. Ekki er leyfilegt að hafa bílastæði eða annað sem hindrar aðgengi á því svæði.  
+• Fyrir 1200A heimtaugar og stærri sem a fgreiddar eru úr dreifistöð þarf staðsetning aðaltöflurýmis að vera 
+við hliðina á dreifistöð þ.a. heimtaugar fari beint  í gegnum vegg.  
+• Ef þörf er að fara í gegnum læsta hluta bygginga t.a.m aksturshlið til að komast að dreifistöð Veitna skal 
+útvega Veitum lykil ásamt því að útvega stað fyrir lyklabox / lyklahulsu (sem er kjarnaboruð í vegg) til 
+geymslu á lykli . 
+ 
+3. Sérskilmálar fyrir dreifistöðvar í fjöleignahúsum  
+Í þeim tilvikum þegar dreifistöðvar eru staðsettar í fjöleignahúsi eða húsi með blandaða starfsem i (atvinnu - 
+og íbúðahúsnæði) gildir eftirfarandi:  
+ 
+Rýmin verða hluti af byggingunni sem þau tilheyra og skulu sérstaklega skilgreind og koma fram á 
+aðaluppdrætti   í samræmi við grein 4.3.7 í Byggingareglugerð nr. 112/2012.   Rýmin skulu vera í sameign 
+allra samkvæmt 6. gr. sbr. 8. gr. laga um fjöleignarhús nr. 26/1994.   Veitur fá ótímabundin n og 
+óuppsegjanlegan afnotarétt af rýmunum meðan þörf er á dreifistöðvum.  
+Nánari skilmálar koma fram í samningi milli Veitna og lóðarhaf a. 
+ 
+4. Hönnun  
+Rýmið skal standast kröfur og önnur stjórnvaldsfyrirmæli um frágang húsnæðis skv. Byggingarreglugerð og 
+stöðlum s.s. IST EN 61936 -1:2010 og IST EN 50522:2010.  
+ 
+Á teikningum T1 -T4 eru sýndar lágmarksstærðir dreifistöðva fyrir einn og tvo spenna o g æskilegt fyrirkomulag 
+innan þeirra.  Lágmarkslofthæð innan stöðva frá inngangskóta er 2,5m.  Gryfja skal hönnuð vatnsþétt, bæði 
+gagnvart olíuleka innan frá og vatnsleka utan frá.  Aðgengilegt skal vera að dæla vatni eða olíu upp úr 
+gryfjum.  
+ 
+Burðarvirkishönnuður aðalbyggingar sér um hönnun stöðvarinnar.  Við hönnun steypuvirkja má gera ráð fyrir 
+að sérhver spennir sé að hámarki 4,8 tonn og jafndreift notálag á gólf sé 600 kg/m2. 
+ 
+Loft og veggir innan stöðvar skulu slípuð, holufyllt og máluð hv ít.  Gólf skulu vera stáldregin og pússuð án 
+ílagnar.  Ytra byrði dreifistöðvar má vera með hefðbundinni utanhússklæðningu án einangrunar  eða vera 
+með sjónsteypuáferð.  
+ 
+Steypustyrkingarstál skal vera að lágmarki K10 í dreifistöð vum og með því að þétta möskva má bæta 
+rafsegulhlífun ef þörf er á.  
+ 
+Þjónustugólf dreifistöðva er byggt úr stálbitum klæddum með krossviðarflekum. Veitur leggja til 
+burðarvirkisteikningar af stálbitum og flekum fyrir sérhverja stöð, nema um annað sé samið, en afhenda ska l 
+stöð með uppsettu þjónustugólfi.  Gera má ráð fyrir að þyngd stálvirkis fyrir dæmigerðar stöðvar sé 
+eftirfarandi:  
+ 
+• Stöð fyrir einn spenni – 750 kg af stáli   
+• Stöð fyrir tvo spenna – 950 kg af stáli  
+Stálvirki er fest við steypuvirki með múrboltum og innlí mdum boltum.  Stálvirki er S235 -JR, grunnað með 
+ryðvarnargrunni.  Boltar eru heitgalvanhúðaðir í flokki 8.8.  Krossviðarflekar eru 21mm þykkir með 2stk 
+45x95mm timburstyrkingum.  Krossviðarflekar skulu vera málaðir í ljósgráum lit nr: NCS n1000.  
+ 
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   5 af 8 
+ 
+ 
+Leggja þa rf sér sökkulskaut til spennujöfnunar eingöngu fyrir dreifistöð samkvæmt tæknilegum tengiskil -
+málum raforkudreifingar:  
+https://www.samorka.is/utgafa -og-midlun/utgefid -efni/tengiskilmalar/ . 
+Sökkulskaut skulu auk þess uppfylla IST EN 50522:2010. Setja skal tengibox fyrir sökkulskaut samkvæmt 
+teikningum T1 -T4. 
+ 
+Leggja þarf skrefspennuskaut fyrir utan stöð samkvæmt sérteikningum frá Veitum. Starfsmenn Veitna setja 
+upp aðalja rðskinnu í dreifistöð og tengja skautin inn á hana.  
+ 
+Greið leið þarf að vera til lagningar strengja til og frá stöð.  Staðsetning, stærð og fyrirkomulag gata fyrir 
+strengi í gegnum gryfjuveggi eru sýnd á teikningum T1 -T4.  Háspennustrengir eru yfirleitt á um 70 -90cm dýpi 
+og sé malbikað, hellulagt eða steypt yfir lagnaleið skal leggja ídráttarrör fyrir strengina.   
+ 
+Veitur sjá um allar raflagnir innan stöðvar s.s. rofa, tengla og lýsingu innan stöðvar.  Lagnir sem Veitur sjá 
+um að leggja verða allar utanálig gjandi.  Lagnir annarra en Veitna eru bannaðar í dreifistöð.   
+ 
+Húsbyggjandi dreifistöðvar útvegar  og setur upp hurðar á dreifistöðva r, sjá  nánar kafla 7.  
+ 
+5. Brunavarnir  
+Allir nýir spennar Veitna eru með náttúrulegri og tregbrennanlegri olíu t.d FR3.   Þessi olía er einnig notuð þar 
+sem kröfur eru um auknar brunavarnir í dreifistöð.  
+ 
+Almennt skal fylgja leiðbeiningum og kröfum ÍST EN 61936 -1:2010 ásamt meginreglum Byggingar -
+reglugerðar, nr. 112/2012 með áorðnum breytingum.  Meta þarf brunakröfur út frá  væntanlegu olíumagni í 
+spennum, en fyrir spenna sem eru 1600kVA eða minni má gera ráð fyrir minna en 1000 lítrum af olíu í 
+sérhverjum spenni.   
+ 
+Burðarvirki skal að lágmarki uppfylla REI 60 -M A2 -s1,d0 fyrir spenna með samanlagt minna en 1000 lítra af 
+olíu.  Sé stöð með tvo spenna sem samanlagt eru með meira en 1000 lítra af olíu skulu burðarvirki uppfylla 
+REI 90 -M A2 -s1,d0.  
+ 
+Fylgja skal kröfum samkvæmt töflu 1 hér að neðan.  
+ 
+Tegund spenna  Stærð/Flokkun  Krafa til brunavarna rýmis  
+Olíufylltir spennar (O)  Samanlagt olíumagn   
+≤ 1000 l  EI 60 / REI 60  
+> 1000 l  EI 90 / REI 90  
+Spennar með tregbrennanlegri 
+olíu (K)  Samanlagt olíumagn   
+Engin takmörkun  EI 60 / REI 60  
+Tafla 1 Kröfur til brunavarna dreifistöðvarýmis  
+ 
+Flóttahurð skal vera auðopnanleg og vera hægt að opna hana án lykils eða annarra verkfæra í flóttaátt. 
+Reyklosun úr dreifistöðvarýmum er um hurð og ristar. Dreifistöð skal staðsett þannig að flóttaleiðir frá 
+nærliggjandi rýmum eða öðrum byggingum skerðist ekki af reyk eða olíu.  
+ 
+• Í dreifistöð skal vera neyðarlýsing fyrir sérstök hættusvæði  
+• Utanhússklæðningar skulu vera í flokki 1 (K 210 B-s1,d0) og festingar skulu vera úr A -efnum.   
+• Yfirborð gólfa skulu vera í flokki G skv. ÍST EN 13501 -1 um flokkunina  Bfl-s1. 
+• Einangrun skal vera óbrennanleg A2 -s1,d0  
+• Þakklæðning skal vera í flokki T og skal uppfylla skilyrði ÍST EN 13501 -5 um flokkunina B (roof) (t2) 
+ 
+Gert er ráð fyrir að hurðir verði það fyrsta sem gefi sig ef til kæmi að spennir myndi springa. Því skulu hurði r 
+ekki snúa að opnum svæðum, þar sem búast má við mannsöfnuði eins og skóla - og leikskólalóðum, götum 
+með mikilli umferð eða rýmingarleið frá nærliggjandi byggingum.  
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   6 af 8 
+ 
+ 
+ 
+Mikilvægt er að þétta með öllum lögnum og skinnustokkum sem fara í gegnum brunahólfandi v eggi eða skil, 
+svo brunaskilin rýrist ekki. Notast skal við viðurkenndar þéttingar.  Loka þarf götum milli spennarýma og 
+annarra rýma á sprengiheldan hátt.  Við hönnun skal öryggismat fara fram til að tryggja tiltæki stöðvar ef upp 
+kemur eldsvoði og huga þ arf að mögulegum bruna í dreifistöðvarými, sprengihættu og brunalokunum og þá 
+áhrifum af bruna í nærliggjandi rýmum og tryggja að flóttaleiðir séu í lagi.  
+ 
+Ekki er gert ráð fyrir að reyk - eða hitaskynjarar frá öðrum aðilum en Veitum séu settir upp í rýminu . 
+ 
+Hæð frá opum í dreifistöð að veggopum í aðalbyggingu skal að lágmarki vera skv. mynd 2 hér að neðan.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+           
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mynd 2 : Hæð frá opum í dreifistöð að veggopum.  
+
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   7 af 8 
+ 
+ 
+Fjarlægð frá opum í dreifistöð að veggopum í aðalbyggingu skal að lágmarki vera skv. mynd 3 hér að neðan.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Mynd 3 : Fjarlægð frá opum í dreifistöð að veggopum.  
+ 
+Fjarlægð að öðrum byggingum skal fara eftir ákvæðum í grein 9.7.5 í Byggingarreglugerð.  
+ 
+6. Loftræsing  
+Umtalsverð varmamyndun er frá spennum sem nauðsynlegt er að jafna út með fersklofti, en gera má ráð fyrir 
+15kW varmamyndun frá sérhverjum spenni.  Loftræsing stöðva er almennt í gegnum ristar á hurðum fyrir 
+framan spenna.  
+ 
+7. Hurðir  
+Húsbyggjandi leggur til h urðir í stöðvarnar , eina aðgangshurð,  auk hurða fyrir framan sérhvern spenni.  Í 
+hurðum fyrir framan spenn a skulu vera innbyggðar ristar til loftunar.  Á teikningu „Hurðir fyrir dreifistöðvar í 
+byggingum annarra“ eru viðmiðunar stærðir skilgreindar og  æskil egt þversnið í rist  sýnt.  Bent er á  að mögulega 
+gæti þurft  að stækka ristar í stöðvum með stærstu spennana.  Áður en smíði hurða og rista hefst skal fengið 
+samþykki Veitna á smíðateikningum þeirra.   
+  
+Hurðir  opnast út og skal frágangur þeirra vera þess eðlis að þær séu leka - og rykheldar.  Grind  
+ hurða og karma skal samsett með suðu. Hurðapumpa skal vera á aðgangshurð  stöðvar.  
+Almennt er miðað við að hurðir séu klæddar með ómeðhöndluðum táraplötum.  Sé óskað eftir öðru útliti á 
+hurðum skal það útlit sam þykkt af Veitum.  
+ 
+Læsing ar eru tveggja punkta (rílalæsing) af gerðinni  Fix-285 neyðarhurðaskrá eða sambærileg.  Rílar skulu 
+ganga uppí yfirstykki hurðarkarms og niður í þröskuld.  Læsingarskrá skal þannig úr garði gerð að ekki sé hægt 
+að taka úr lás, auk þ ess sem innri hurðahúnn skal alltaf vera ólæstur.   
+  
+Hurð skal opnast með einu átaki innan frá án þess að snúa læsingarsnertli eða lykli.  Læsingarskrá 
+ skal vera þannig að hægt sé að nota ASSA sílender með henni.  Innri hurð ahúnar skulu vera stórir, 
+ eða um 20cm, en ytri hurðahún n má vera hefðbund inn.   
+
+ RAFVEITA    
+HANDBÓK UM DREIFISTÖ ÐVAR Í BYGGINGUM 
+ANNARRA   
+LAV-810-12.0 
+ 
+Ábyrgð:  Jóhannes Þorleiksson (hann - he/him)  Útgefið . 27.10.2023   8 af 8 
+ 
+ 
+ 
+Hurðarlamir eru þrjár fyrir sérhverja hurð.  Lamir skulu vera úr áli og vera hannaðar fyrir stærð og þyngd hurða, 
+en dæmi um slíkar lamar eru lamir frá Dr Hahn:  
+ 
+ 
+ 
+ 
+8. Úttekt á dreifistöð og uppsetning rafbúnaðar í stöð  
+Áður en rýmið er afhent Veitum til afnota skal fara fram úttekt á rýminu með fulltrúa Veitna.  Þegar rýmið telst 
+fullnægjandi samkvæmt kröfum í handbók þessari og gátlista Veitna er stöðin sett á framkvæmdaplan Veitna .  
+Gera má ráð fyrir að uppsetning rafbúnaðar og lagna í stöðinni hefjist þremur til fjórum vikum eftir að rýmið 
+hefur staðist úttekt Veitna.  
+ 
+9. Greiðslur  
+Fyrir ótímabundin afnot af dreifistöð í byggingu annarra greiða Veitur eingreiðslu sem miðast við nettó 
+fermetra rýmis  (án V SK) í samræmi við töflu : 
+  
+Eining  Einingaverð[1] (án vsk.)  
+Bygging/rými innanmál  kr/m2 (nettó)  211.825  
+Stálbitagólf - flekar - málun  kr/m2  122.595  
+Spennahurð  stk  476.549  
+Aðgangshurð  stk 401.304  
+ 
+(1) Þegar rými er tilbúið og samningur er gerður skulu verð uppfærð miðað við byggingavísitölu, verð í töflunni 
+miðast við byggingavísitölu í september 2023. 
+ 
+10. Teikningar  
+Teikningar af útfærslu  dreifistöðva  T1-T4 fylgja með á pdf - og dwg -sniði.   Teikning af útfærslu hurða „Hurðir 
+fyrir dreifistöðvar í byggingum annarra“ fylg ir með á pdf -sniði.  
+ 
+ 
+

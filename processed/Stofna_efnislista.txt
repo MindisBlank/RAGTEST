@@ -1,0 +1,56 @@
+Stofna efnislista  
+Innlestur efnislista í DMM  
+Til að lesa inn efnislista í DMM þarf að opna þá verkbeiðni sem á að lesa inn efnislista og 
+fylgja eftirfarandi skrefum:  
+1) Vera í Skipulag  reitnum í verkbeiðninni  
+2) Smella á Innlestur áætl. kostnaðar  
+3) Finna tiltekinn efnislista með því að smella á Browse  
+4) Smella á  Hlaða upp  
+ 
+
+Þá opnast þessi gluggi þar sem hægt er að lesa inn efnislistann : 
+ 
+Ath: Til þess að lesa inn efnislista í DMM þarf sá listi að vera á réttu sniðmót i 
+Hér er dæmi um skrá sem virkar að lesa inn : 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Núna ætti listinn að vera sýnilegur undir  Áætlaður kostnaðu r: 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Breyta efnislista:  
+Til að breyta efnislista þarf einfaldlega að velja þær línur sem þú vilt taka út og smella á Taka 
+burt og smella á bæta við  ef bæta þarf við línum  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+Ef taka þarf margar línur út í efnislista er oft betra að 
+taka út allan listann og hlaða honum upp aftur:  
+1) Fara í Áætlaður kostnaður  
+2) Gera ctrl -a á lyklaborðinu til að velja allan listann  
+3) Smella á Taka burt  
+ 
+4) Fara í  Skipulag  
+5) Smella á Lesa inn áætl.kostnaðar  
+6) Lesa inn leiðréttan list a 
+ 
+

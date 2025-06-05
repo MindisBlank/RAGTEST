@@ -1,0 +1,2884 @@
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   1 af 83 
+ 
+ 
+ Lýsing   
+ 
+Skjalið lýsir ferli vegna vinnu við stjórnbúnað og stjórnkerfi vatnsmiðla Veitn a, en einnig 
+upplýs ingar um hönnun stjórnkerfa, fjarskipta og tengingar við stjórnstöð á Bæjarhálsi.  
+ 
+ Tilgangur þessa skjals  
+ 
+Tilgangur þessa skjals er að veita grundvallarupplýsingar til handa starfsfólki Veitna sem og 
+ráðgjöfum  og verktökum  um stjórnbúnað og stjórnkerfi vatnsmiðla. H vernig umgengni skal 
+háttað og leiðbeiningar um hönnun og h önnunargögn , stýrivélar , kerfiráða og stjórnbúnað, 
+hönnun, gagnaskil, forritun og prófanir . 
+Hér er að finna upplýsingar um kerfiráð á Bæjarhálsi, fjarskipti þaðan við útstöðvar, á milli 
+útstöðva sem og frágang stjórnbúnaðar og stjórnkerfa í dælustöðvum og mælabrunnum.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   2 af 83 
+ 
+ 
+Efnisyfirlit  
+ Lýsing  ................................ ................................ ................................ ................................ ................  1 
+ Tilgangur þessa skjals  ................................ ................................ ................................ .......................  1 
+ Skammstafanir  ................................ ................................ ................................ ................................ . 6 
+ Vinnureglur við stjórnbúnað og stjórnkerfi í rekstri  ................................ ................................ ........  6 
+ Ný stöð og nýr búnaður í vöktun og stýringu í vatnsmiðlum Veitna  ................................ ...............  7 
+ Stjórnstöð Vatns og Virkjana á Bæjarhálsi  ................................ ................................ .......................  7 
+ Hönnun  ................................ ................................ ................................ ................................ .............  9 
+ Hönnunargögn til skila  ................................ ................................ ................................ .....................  9 
+ Nánar um Hönnunargögn ................................ ................................ ................................ ...............  10 
+7.2.1  Kerfismynd – P&ID  ................................ ................................ ................................ .................  10 
+7.2.2  Kerfisferlar stöðvar – SCD – System Control Diagram  ................................ ...........................  11 
+7.2.3  Tækjalisti  ................................ ................................ ................................ ................................  12 
+7.2.4  Stöðvarlýsing  ................................ ................................ ................................ ..........................  12 
+7.2.5  Einlínumynd kraftrása  ................................ ................................ ................................ ............  13 
+7.2.6  IO listi stýrivéla  ................................ ................................ ................................ .......................  13 
+7.2.7  Stýrirásateikningar  ................................ ................................ ................................ .................  13 
+7.2.8  Kerfismynd samskipta innan stöðvar/veitu (Topology)  ................................ .........................  15 
+7.2.9  Forritunarlýsing  ................................ ................................ ................................ ......................  15 
+7.2.10  Forrit stýrivéla  ................................ ................................ ................................ ........................  15 
+7.2.11  Forrit aðgerðaskjáa  ................................ ................................ ................................ ................  15 
+7.2.12 Forrit kerfiráða  ................................ ................................ ................................ .......................  15 
+7.2.13  Stilliskrár annars búnaðar  ................................ ................................ ................................ ...... 15 
+ Um rýni gagna fyrir stjórnkerfi  ................................ ................................ ................................ .......  16 
+ Prófanir stjórnbúnaðar og stjórnkerfa  ................................ ................................ ...........................  16 
+ Almennt  ................................ ................................ ................................ ................................ ..........  16 
+ FAT prófanir stjórnkerfa  ................................ ................................ ................................ .................  16 
+ SAT prófanir  ................................ ................................ ................................ ................................ .... 17 
+ Framkvæmd prófana  ................................ ................................ ................................ ...................  17 
+9.4.1  A-prófun: Prófun á búnaði og lögnum  ................................ ................................ ..............  17 
+9.4.2  B-prófun: Stjórnkerfisprófun  ................................ ................................ ...............................  17 
+9.4.3  C-prófun: Virkniprófanir  ................................ ................................ ................................ .........  18 
+9.4.4  D-prófun: Keyrsluprófun og gangsetning vinnslueininga / SAT  ................................ .............  18 
+ Upplýsingar um heiti vélbúnaðar og forrita  ................................ ................................ ...................  19 
+Heiti stýrivéla  ................................ ................................ ................................ ................................ ...... 19 
+Heiti rekka og eininga í rekka  ................................ ................................ ................................ .............  19 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   3 af 83 
+ 
+ 
+Óræðar einingar í rekka – hvað geri ég?  ................................ ................................ ............................  19 
+Heiti forrita  ................................ ................................ ................................ ................................ .........  21 
+ Fjarskipti stjórnkerfa  ................................ ................................ ................................ ......................  22 
+ Fjarskipti, netkerfi, samskipti  ................................ ................................ ................................ .........  22 
+11.1.1  Koparlínur og endabúnaður  ................................ ................................ ................................ ... 22 
+11.1.2  Ljósleiðari, lagnir og ljósbreytur  ................................ ................................ .............................  22 
+11.1.3  3G, 4G og 5G  ................................ ................................ ................................ ..........................  23 
+11.1.4  Örbylgjusambönd  ................................ ................................ ................................ ...................  23 
+11.1.5  Netstrengir  ................................ ................................ ................................ .............................  23 
+11.1.6  Fjarskiptaskápar  ................................ ................................ ................................ .....................  23 
+ IP tölur, MASK og GW ................................ ................................ ................................ .....................  24 
+ Uppbygging netkerfa fyrir stjórnkerfi Veitna  ................................ ................................ .................  24 
+ Samskiptagáttir, Reklar, IO servers, OPC  ................................ ................................ .......................  26 
+ Samskiptagáttir og IO servers (reklar) – OPC  ................................ ................................ .................  26 
+ Um Topic, Allias, Channel og Device Name nafnagiftir í OPC serverum  ................................ ........  26 
+ Aðaldreifing, kraftrásir, stjórnskápar og rafbúnaður  ................................ ................................ ..... 28 
+ Almennt  ................................ ................................ ................................ ................................ ..........  28 
+ Aðaldreifing og aflskápar  ................................ ................................ ................................ ...............  29 
+ Annar búnaður  ................................ ................................ ................................ ...............................  30 
+ Varaaflsvélar  ................................ ................................ ................................ ................................ ... 30 
+ Hraðabreytar  ................................ ................................ ................................ ................................ .. 30 
+ Mjúkræsar  ................................ ................................ ................................ ................................ ...... 31 
+ Mótordrifnir lokar  ................................ ................................ ................................ ..........................  32 
+16.4.1  Stjórnlokar (XR)  ................................ ................................ ................................ ......................  32 
+16.4.2  Fjarstýrðir lokar (XF)  ................................ ................................ ................................ ...............  32 
+16.4.3  Aðrir fjarstýrðir lokar (XF)  ................................ ................................ ................................ ...... 32 
+ Handlokar (XH)  ................................ ................................ ................................ ...............................  33 
+ Aðrir lokar  ................................ ................................ ................................ ................................ .......  33 
+ Varnarbúnaður  ................................ ................................ ................................ ...............................  33 
+ Merkj astrengir  ................................ ................................ ................................ ................................  33 
+ Lýsingatæki  ................................ ................................ ................................ ................................ ..... 34 
+ Upplýsin gar um vélbúnað stýrivéla  ................................ ................................ ................................  35 
+ Aflfæðing og varaafl  ................................ ................................ ................................ .......................  35 
+ Stýrivélar  ................................ ................................ ................................ ................................ ........  35 
+ Stýrivé lategundur í rekstri  ................................ ................................ ................................ ..............  35 
+ Stýrivélaeiningar  ................................ ................................ ................................ .............................  36 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   4 af 83 
+ 
+ 
+17.4.1  Stafrænar inngangseiningar  ................................ ................................ ................................ ... 36 
+ Stafrænar útgangseiningar  ................................ ................................ ................................ .............  36 
+ Hliðrænar inngangseiningar  ................................ ................................ ................................ ...........  36 
+ Hliðrænar útgangseiningar ................................ ................................ ................................ .............  36 
+ Aðgerðaskjáir – HMI  ................................ ................................ ................................ .......................  37 
+ Samskiptastaðlar stýrivéla  ................................ ................................ ................................ .............  38 
+ Ethernet  ................................ ................................ ................................ ................................ ..........  38 
+ Samskipta staðlar annara tækja  ................................ ................................ ................................ ...... 38 
+18.2.1  Ethernet samskipti  ................................ ................................ ................................ .................  38 
+18.2.2  Serial samskipti  ................................ ................................ ................................ .......................  38 
+ Litir samskiptastrengja  ................................ ................................ ................................ ...................  38 
+ Upplýsingar um hugbúnað  ................................ ................................ ................................ .............  39 
+ Stýrivélar  ................................ ................................ ................................ ................................ ........  39 
+ Kerfiráðar – SCADA  ................................ ................................ ................................ .........................  39 
+ HMI og önnur viðmót  ................................ ................................ ................................ .....................  39 
+ Leiðbeiningar vegna forritunar stjórnkerfa fyrir vatnsmiðla Veitna  ................................ ..............  40 
+ Forritun stýrivéla  ................................ ................................ ................................ ............................  44 
+ Breytuheiti  ................................ ................................ ................................ ................................ ...... 44 
+ Forritaheiti (Program/Functions)  ................................ ................................ ................................ ... 44 
+ Forritunarstaðlar  ................................ ................................ ................................ ............................  46 
+ Breytur úr stýrivélum í viðmót  ................................ ................................ ................................ .......  46 
+ Ferlar í stýrivélum  ................................ ................................ ................................ ...........................  50 
+ Reglar og reglunarrásir  ................................ ................................ ................................ ...................  50 
+ Skilyrtar breytur, alltaf til birtingar í kerfiráðum ................................ ................................ ............  51 
+ Almennt  ................................ ................................ ................................ ................................ ..........  51 
+ Fráveita  ................................ ................................ ................................ ................................ ...........  52 
+ Töluleg g ögn í kerfiráð ................................ ................................ ................................ ....................  52 
+24.3.1  Gangtími  ................................ ................................ ................................ ................................ . 52 
+24.3.2  Fjöldi ræsinga  ................................ ................................ ................................ .........................  52 
+24.3.3  Gangtímajöfnun  ................................ ................................ ................................ .....................  52 
+24.3.4  Orkunotkun (púlsar frá raforkumælum)  ................................ ................................ ................  52 
+24.3.5  Afltoppar  ................................ ................................ ................................ ................................  53 
+ ABB – Gagnagrunnar og framsetning  ................................ ................................ .............................  54 
+ Almennar upplýsingar  ................................ ................................ ................................ ....................  54 
+ Control Structure  ................................ ................................ ................................ ............................  54 
+ Objects ................................ ................................ ................................ ................................ ............  56 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   5 af 83 
+ 
+ 
+25.3.1  Object Types  ................................ ................................ ................................ ...........................  56 
+25.3.2  Object Names  ................................ ................................ ................................ .........................  56 
+ Functional Structure  ................................ ................................ ................................ .......................  57 
+ Kerfiráðar  ................................ ................................ ................................ ................................ .......  57 
+ ABBHMI800xA Kerfiráðar  ................................ ................................ ................................ ...............  57 
+ Aðgerðaskjáir – HMI  ................................ ................................ ................................ .......................  58 
+ Staðbundnir kerfiráðar  ................................ ................................ ................................ ...................  58 
+ Sniðmát skjámynda  ................................ ................................ ................................ ........................  59 
+26.4.1  Stærð  ................................ ................................ ................................ ................................ ...... 59 
+26.4.2  Bakgrunslitur  ................................ ................................ ................................ ..........................  59 
+26.4.3  Heiti skjámynda  ................................ ................................ ................................ ......................  59 
+26.4.4  Valstika  ................................ ................................ ................................ ................................ ... 59 
+ Húskerfi  ................................ ................................ ................................ ................................ ..........  60 
+ Virk viðföng  ................................ ................................ ................................ ................................ .... 60 
+ Frams etning hliðrænna gilda  ................................ ................................ ................................ .........  61 
+ Vöktun á samskiptum  ................................ ................................ ................................ .....................  62 
+ Geymar  ................................ ................................ ................................ ................................ ...........  63 
+ Tengingar  ................................ ................................ ................................ ................................  64 
+ Rennsli vinnslurásar  ................................ ................................ ................................ ...............  64 
+ Sýna/fela nöfn  ................................ ................................ ................................ ........................  64 
+ Heiti stöðvar/byggingahluta  ................................ ................................ ................................ ... 64 
+ Skýringartexti  ................................ ................................ ................................ .........................  65 
+ Atburða - og viðvaranalisti  ................................ ................................ ................................ ...... 65 
+ Kerfislýsing  ................................ ................................ ................................ .............................  68 
+ Gangtímar og ræsingar ................................ ................................ ................................ ...........  69 
+ Upphafsmynd  ................................ ................................ ................................ .........................  70 
+ OPC – Uppsetning og Topic/Alias  ................................ ................................ ................................ ... 74 
+ OPC server er Schneider OFS OPC  ................................ ................................ ................................ .. 74 
+ OPC server er RSLinx  ................................ ................................ ................................ ......................  76 
+ Aðrir OPC serverar ................................ ................................ ................................ ..........................  76 
+ Skil á stjórnkerfum til rekstrar  ................................ ................................ ................................ ........  76 
+Viðauki 1 Prófanir á staðkerfiráð  ................................ ................................ ................................ ...........  78 
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   6 af 83 
+ 
+ 
+ Skammstafanir  
+➢ CSA – Control System Architecture  
+➢ DMZ – Demilitarized zone  
+➢ FAT – Factory Acceptance Test (Úttekt á stöðu og virkni stjórnkerfa á 
+verkstæði/skrifstofu, miðað við hönnunarforsendur, hönnunargögn, teikningar)  
+➢ FMEA – Failure Mode and Effects Analysis  
+➢ FVI – Fjernvarme og Infrasturktur  
+➢ HDPE – High Density Polyethylene  
+➢ HMI – Human Machine Interface – Aðgerðaskjár  
+➢ IO listi – Listi yfir inn - og útganga stýrivéla, hér eru einnig nettengd tæki tekin fram, 
+skalar skynjara og fl.  
+➢ OT – Operational Technology  
+➢ P&ID – Piping & Instrumentation Diagram (kerfismynd vinnslurása með tækjum og TAG 
+heitum)  
+➢ PLC – Programmable logic controller – Stýrivél  
+➢ RIO – Remote IO  
+➢ SAT – Site Acceptance Test (Úttekt á stöðu og virkni stjórnkerfa á verkstað)  
+➢ SCADA – Supervisory Control And Dat a Acqusition  
+➢ SCD – System Control Diagram (Myndræn framsetning á stjórnun stöðvar/búnaðar)  
+➢ UT – Upplýs ingatækni hjá Orkuveitu Reykjavíkur  
+ 
+ 
+ Vinnureglur við stjórnbúnað og stjórnkerfi í rekstri  
+Vinnureglum og umgengni um stjórnkerfi vatnsmiðla Veitna skal f ylgt og þær er að finna í 
+verklagsreglu VRV-002. 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   7 af 83 
+ 
+ 
+ Ný stöð og nýr búnaður í vöktun og stýringu  í vatnsmiðlum Veitna  
+Nú stendur til að bæta við stöð í vatnsmiðli hjá Veitum, hvað þarf ég  sem bakhjarl, 
+verkefnastjóri, hönnuður, ráðgjafi, verktaki, birgi að hafa í huga ef það á að vakta og stýra 
+stöðinni og búnaði hennar um Stjórnstöð V atns og Virkjana á Bæjarhálsi?  
+ 
+Veitan sem fer fram á vöktun og stýringu stöðvar eða búnaðar þarf að vera með skýrar 
+upplýsingar um það að hvaða marki á að vera hægt að vakta stöðina og að hvaða marki á að 
+vera hægt að stýra viðkomandi stöð og þeim búnaði sem í henni er  
+1. Stjórnkerfi Vatnsmiðla Veitna tengjast eingöngu stýrivélum frá þekktum framleið endum 
+og því  þarf slíkan búnað ef vakta á og stýra stöð  og búnaði hennar  
+a. Dæmi um þekkta framleiðendur má finna neðar í skjalinu  
+2. Tengingar á milli stjórnkerfa á Bæjarhálsi og stýrivéla til vöktunar og stýringa fara 
+eingöngu fram um OPC þjóna og uppfærsluhraði uppkalla og gagna er á bilinu 1 -5 
+sekúndur  
+3. Veitur tengja ekki hraðabreyta, mjúkræsa, lýsingatæki eða nokkuð annað  tæki beint  inn 
+á OPC þjóna , jafnvel þó svo þau séu með ethernet port og proto col, alltaf er stýrivél á 
+milli stjórnkerfa Vatnsmiðla Veitna og þessara t ækja. Það er aðferðafræðin . 
+4. Stjórnkerfi Veitna eru ekki tengd öðrum búnaði og því er stöð hvorki vöktuð né stýrð ef 
+þessi ofangreind skilyrði eru ekki uppfyllt , þannig er t.d. búnaður sem sendir frá sér 
+SMS ekki vaktaður í Stjórnstöð Vatns og Virkjana á Bæ jarhálsi , né heldur búnaður í 
+skýjalausnum og vefsíðuviðmótum.  
+Nú eru þessi skilyrði að ofan uppfyllt. Hvað geri ég næst?  
+Ef bjóða á fram stýrivél sem ekki er þegar í rekstrarsafni Vatnsmiðla Veitna þá skal hún í fyrsta 
+lagi uppfylla allar þær kröfur sem g erðar eru til vé l- og hugbúnaðar neðar í skjalinu og að auki 
+eftirfarandi.  
+1. Útvega skal með nýrri vél forritunarumhverfi fyrir sérfræðinga stjórnkerfa Veitna þannig 
+að Veitur hafa fulla stjórn á vélbúnaði og hugbúnaði og forriti þeirra stýrivéla sem til 
+stendur að bjóða  
+2. Koma forrit unarhugbúnaði upp á rétt svæði hjá Veitum á PC vél innan kerfanna  
+3. Leyfi til að reka hugbúnaðinn og brey ta, reka og rýna forrit skal fylgja með  
+4. Koma vélbúnaðinum  í samband við forritunarumhverfið og tryggja að 
+vélbúnaður/stýrivél sé  alltaf aðgengilegur úr forritunarumhverfum til breytinga og 
+rekstrar  
+5. Forrita allar FVI blokkir, koma þeim fyrir á hugbúnaðarsvæði sem og í forrit þess 
+búnaðar sem boðinn er og lausnin forrituð  
+6. Fylgja hönnunarleiðbeiningum sem á eftir fara, þar á meðal fre kari kröfum til stýrivéla  
+ Stjórnstöð Vatns og Virkjana á Bæjarhálsi  
+Vöktun og stýring stöðva , kerfa og búnaðar vatnsmiðla Veitna fer fram frá Stjórnstöð Vatns og 
+Virkjana á Bæjarhálsi . Stjórnstöðin hefur víðtækara hlutverk, en hér er eingöng horft til þess  
+sem snýr að vatnsmiðlum Veitna . 
+ 
+Þú lesandi góður er hér vegna þess að þú vinnur í verki fyrir vatnsmiðil hjá Veitum , annað hvort 
+sem bakhjarl, verkefnastjóri, sérfræðingur, umboðsmaður búnaðar, sölumaður, hönnuður, 
+ráðgjafi eða verktaki . Forsvarsfólk miðilsins hefur tekið þá ákvörðun að vakta og stýra þeirri 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   8 af 83 
+ 
+ 
+stöð, kerfum eða búnaði sem þú vinnur við. Þá gilda í einu og öllu þær leiðbeiningar sem koma 
+fram í skjalinu í heild sinni . 
+ 
+Vöktun og stýring stöðva vatnsmiðla Veitna fer fram allan sólahringinn a llt árið um kring í 
+Stjórnstöð Vatns og Virkjana á Bæjarhálsi. A llra þær stöðvar vatnsmiðla sem tengjast 
+stjórnkerfum vatnsmiðla til vöktunar, eða til vöktunar og stýringar eru í stöðugu sambandi við 
+stjórnkerfi Vatnsmiðla Veitna. Eingöngu stýrivélar þekktra framleiðenda , með þekkta 
+samskiptastaðla (protocol) fá heimild til tenginga við kerfin , þær eru tengdar stjórnkerfum um 
+OPC þjóna og uppfærslu tími fyrirspurna gagnvart stýrivélum á bilinu 1 -5 sekúndur .  
+Allar þær stöðvar sem í vöktun er u, tengjast einu sameiginlegu viðmóti Stjórnstöðvar og þannig 
+vaktar starfsfólk í Stjórnstöð Vatns og Virkjana eingöngu þær stöðvar , kerfi og þann búnað 
+sem í stöð vum er  í því sameiginlega viðmóti fyrir alla vatnsmiðla Veitna.  
+Stjórnstöð Vatns og Virkjana vaktar ekki annan búnað um önnur viðmót, svo sem um vefsíður, 
+þá er búnaður sem t.d. sendir frá sér SMS eða framkallar upphringingar ekki vaktaður hjá 
+Stjórnstöð Vatns og Virkjana . 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   9 af 83 
+ 
+ 
+ Hönnun  
+Við hönnun allra stjórnkerfa vatnsmiðla Veitna þá skal fyrirmælum um hönnun fylgt, hvort sem 
+um er að ræða ný kerfi, endurnýjanir, viðbætur eða breytingar.  
+Ferill LBV-800 lýsir ferli stjórnkerfahönnunar.  
+ Hönnunargögn til skila  
+Við hönnun og frágang stjórnbúnaðar og stjórnkerfa þá eru eftirfarandi gögn lágmark til skila til 
+Veitna og verða að vera hluti af hönnunargögnum frá ráðgjafa. Í sumum tilvikum er ekki um 
+heildarhönnun/endurnýjun að ræða, en þá er mikilvægt að núverandi gögn séu fundin til og 
+þau höfð til hliðsjónar. Gögnin verða að berast í þeirri röð sem þau birtast hér:  
+ 
+Sama gildir um önnur kerfi, s.s. stýring varaaflsvéla og loftræstikerfi . 
+ 
+1. Kerfismynd stöðvar – (P&ID)  
+a. Öll tæki hafa rétt TAG heiti á öllum vélbúnaði vinnslurása og húsrása  
+b. TAG heiti ráðast af nafnakerfi / kóða Veitna  
+2. Kerfisferlar stöðvar – (SCD / FBD)  
+3. Tækjalisti þeirra tækja sem tengjast stjórnkerfum, TAG heiti  
+4. Stöðvarlýsing stöðvar  
+5. Einlínumynd kraftrása  
+6. IO listi stýrivéla  
+a. Getur verið hluti af tækjalista  
+7. Stýrirásateikningar  
+8. Kerfismynd samskipta – Netteikning/samskiptateikning  
+a. Teikning sem sýnir nettengingu nettengdra tækja innan stöðvar, eða stöðva þar 
+sem þær hafa samskipti sín á milli  
+9. Forritunarlýsing, getur verið hluti af Stöðvarlýsingu  
+10. Forrit stýrivéla  
+11. Forrit aðgerðaskjáa  
+12. Forrit kerfiráða  
+13. Stilliskrár annars búnaðar, s.s. hraðabreyta og samskiptabreyta  
+14. Prófanaskýrslur frá prófunum á ABB800xA og PLC  
+ 
+Að auki ber verktaka að viðhalda eftirfarandi gögnum á meðan framkvæmd stendur  
+1. Tímaáætlun þar sem verkþættir stjórnkerfahönnunar  eru sundurliðaðir  
+2. Verktaki skal halda úti leifalista og deila honum með verkeftirliti  
+a. Verkeftirlit – hér er átt við verkefnastjóra Veitna, starfsmenn kerfisþróunar og 
+stýringar eða ráðgjafa sem fer með verkeftirlit að beiðni Veitna  
+ 
+Öllum hönnunargögnum s kal skilað á pappírsformi,  í möppu og hún skilin eftir í viðkomandi 
+stöð.  
+ 
+Um allar teikningar gildir að öllum skrám er skilað, dwg . eða sambærilegum gagnagrunni, 
+ásamt því að hverju teikningasetti er skilað á .pdf formi, sem ein heild. Allir gagnagrunnar frá 
+ráðgjöfum sem skilað er skulu vera aðgengilegir og breytanlegir hjá Veitum. Jafnframt er afriti 
+af öllum forritunarskrám skilað, bæði "„runtime“ sem og þróunarskránni þar sem við á („.apa“ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   10 af 83 
+ 
+ 
+og „.mer“ er hér nefnt sem dæmi). Engum forritum, hlutum forrit a eða forritablokkum skal vera  
+læst, þau skulu vera aðgengileg Veitum að fullu.  
+ 
+Verktakar skila hugbúnaða rskrám (afriti af forritum) beint á réttan stað inn á hugbúnaðarsvæði 
+stjórnkerfa Veitna . 
+ 
+Einlínumynd kraftrása og Stýrirásateikningum skal skilað in n á rafrænu formi á netfangið 
+teikningar@or.is  
+ 
+ Nánar um Hönnunargög n 
+7.2.1 Kerfismynd – P&ID  
+Kerfismynd er í raun hluti af vélbúnaðarhönnun stöðvar, en er skilyrði fyrir því að stjórnkerfi 
+verði hannað, enda má líta á ker fismynd sem grunnskilgreiningu stöðvar.  
+Kerfismynd er að jafnaði teiknuð með flæðiátt frá vinstri til hægri, ofan og niður og skal 
+innihalda að lágmarki  
+• Kóðaskilgreining – Kóðunarkerfi  
+• Tækjaskilgreiningu – þ.e. listi yfir tákn, hlutverk þeirra og útlit  
+• Línuskilgreiningar – þ.e. listi yfir miðla (virkjanavatn, bakvatn, háhitavatn)  
+• Lagnaverk stöðvar  
+• Flæðiáttir í lagnaverki  
+• Niðurhleypingu þar sem við á  
+• Stærðir á lögnum og lokum(DIN)  
+• Áætlað magn/flæði í lögnum eftir því sem við á (m3/hr)(l/s)  
+• Allar dælur og mótorar ásamt stærðum þeirra  
+• Alla loka, svo sem einstefnu -, hand -, öryggis - og mótorstýrða loka ásamt stærðum 
+þeirra  
+• Alla skynjara, svo sem rennslis -, hita -, hæðar - og þrýstiskynjara  
+• Alla liða, svo sem þrýsti -, hæðar - og hitaliða  
+• Öll önnur tæki sem við á, svo sem þana, þensluker, hæðarker, skiljur osfrv. og 
+upplýsingar um þau  
+• TAG heiti við hvert tæki (öll tæki)  
+Dæmi um framsetningu Kerfismyndar (P&ID)  
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   11 af 83 
+ 
+ 
+ 
+7.2.2 Kerfisferlar stöðvar – SCD – System Control Diagram  
+Kerfisferlar stöðvar er skilyrði, en er í grunnin n til P&ID og með dregnum brotalínum sem lýsa 
+því hvernig hver skynjari hefur áhrif á tæki stöðvarinnar, svo sem hvernig reglun dæla og 
+mótorstýrða loka er háttað. Þannig má á einfaldan hátt fá yfirlit yfir ræsiskilyrði, 
+stöðvunarskilyrði og hindranir á t.d . ræsingum. Algengt er að teikna að lágmarki regla ásamt 
+því sem brotalínur eru dregnar fyrir PV og CV að og frá regli.  Þar sem SCD er ekki skilað 
+sérstaklega þá skal koma fram á P&ID stöðvar hvernig stjórnun búnaðar fer fram, sjá dæmi 
+hér að ofan.  
+  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   12 af 83 
+ 
+ 
+7.2.3 Tækja listi 
+Tækjalisti stöðvar er settur saman til þess að auðvelda yfirsýn við t.d. hönnun og rýni, en hann 
+inniheldur m.a. TAG heiti þeirra tækja sem tengjast stjórnkerfum  
+➢ Númer stýrivélar  
+➢ Númer stýrivélaeiningar  
+➢ Númer inn -/útgangs á stýrivélaeiningu  
+➢ Gerð stýr ivélaeiningar  
+➢ TAG heiti tækis  
+➢ FVI gerð þeirrar breytu sem tengist tæki  
+➢ Tegund merkis  
+➢ Tilgangur merkis  
+➢ Útgangur nema  
+➢ Mælisvið nema  
+➢ Notkunarsvið nema  
+➢ Viðvaranamörk nema  
+➢ Stig viðvarana  
+➢ Tafir á viðvaranir  
+➢ Fjölda aukastafa til birtingar á skjámyndum og línuritu m 
+➢ Skýring – þessi skýring mun birtast alstaðar , í teikningum, í stýrivél, í aðgerðaskjám 
+sem og í kerfiráðum  
+7.2.4 Stöðvarlýsing  
+Veitur eiga grunn að Stöðvarlýsingu  sem nota má í hverju verki til að tryggja einsleitni og 
+einfaldleika, þar sem m.a. er lýst  
+➢ Inngan gur þar sem fram koma m.a. h eiti stöðvar, staðsetning og tilgangur hennar  
+ásamt yfirliti yfir búnað hennar  
+➢ Útgáfunúmer og breytingasaga  
+➢ Stjórnkerfum og viðmóti dælustöðvar er lýst  
+➢ Mynd af framsetningu stöðvar í kerfiráð  
+➢ Virknilýsing , svo sem  
+o Fjöldi dæla í stöð, hvernig þeim er stýrt, hvernig skipt er á milli þeirra, hvernig 
+hraði þeirra er reglaður og hvaða tæki það eru sem hafa áhrif á dælurnar og 
+hvernig.  
+o Einnig skal því lýst hvernig öðrum tækum er stýrt, ef við á, svo sem stýrðir lokar, 
+lýsingatæki, hrær ur og síur  
+o Reglunarrásum er lýst og hvaða nemar það eru sem mynda raungildi regla  og 
+hafa áhrif á rekstur búnaðar  
+➢ Hliðrænar mælingar ásamt viðvarana gildum , tímatöfum, deadband og viðbrögðum  
+kerfis við hverju viðvarana gildi auk viðbrögðum við vírsliti/bilu n í skynjara.  
+➢ Húskerfi  
+➢ Rafdreifing dælustöðvar  
+➢ Viðaukar  
+o Viðauki A – Vinnslurásarmyndir  
+o Viðauki B – Kerfisteikningar  
+o Viðauki C – Tækjalisti  
+o Viðauki D – Viðvörunarmörk hliðrænna gilda  
+o Viðauki E – Tímaliðar og markgildi  (þar sem við á)  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   13 af 83 
+ 
+ 
+o Viðauki F – Póstkassar (þar sem við á)  
+o Viðauki G – I/O listar  
+o Viðauki H – Forritunarlýsing  
+Texti í stöðvarlýsingu  skal vera lýsandi og einfaldur, hér er t.d. átt við að breytuheiti úr 
+stýrivélum eiga að jafnaði ekki heima í stöðvarlýsingu , enda er stöðvarlýsing  fyrst og fremst 
+fyrir almenna notendur kerfa, svo sem rekstrarmenn (operators) sem að jafnaði hafa engan 
+aðgang að t.d. breytuheitum stýrivéla eða annara gagnagrunna.  
+7.2.5 Einlínumynd kraftrása  
+Einlínumynd kraftrása er í raun hluti af rafbúnaðarhönnun stöðvar, en er skilyrði fy rir því að 
+stjórnkerfi verði hönnuð/spennusett, því er þessarar teikningar getið hér.  
+Einlínumynd kraftrása er teiknuð í EPLAN.  
+ 
+7.2.6 IO listi stýrivéla  
+ – Getur verið hluti af tækjalista  
+ 
+7.2.7 Stýrirásateikningar  
+Teikningar af stýrirásum innihalda öll þau tæki sem tengjast stýrivél á einn að annan hátt, svo 
+sem hraðabreytar, lokar, liðar, skynjarar. Netteikning skal einnig vera innifalin, en hún sýnir 
+hvaða nettengdu tæki eru í stöðinni og hvernig þau tengjast innbyrðis.  
+Klemmulistar sem hannaðir og teiknaðir eru og  eiga við IO merki, skulu hannaðir þannig að 
+hver klemmulisti fylgir stakri IO einingu stýrivélar/RIO. Raðað skal inn á listann í sömu röð og 
+af sama fjölda og IO fjöldi stýrivélaeiningar gefur tilefni til. Klemmulistar skulu hannaðir með 3 -
+hæða tengjum, g erðir fyrir +, - og merki.  
+Teikniforritið E PLAN  er notað . Teikningasett fyrir stýrirásir skal innihalda eftirfarandi og í þeirri 
+röð sem hér er lýst:  
+ 
+➢ Forsíða  
+➢ Teikningaskrá/Efnisyfirlit  
+➢ Skýringar  
+o staðlar  
+o lita kóði víra  
+o sverleiki  
+o tegund búnaðar lýst  
+o tengili star útskýrðir  
+o teikningahaus lýst  
+➢ Iðnstýringar  – liðastýringar  
+➢ Útlit og uppröðun  búnaðar í skápa  
+o Tillaga ráðgjafa til rafverktaka af útliti og uppröðun tæka í skáp  
+➢ Afldreifing  
+➢ Liðastýringar  
+➢ Netteikning  – Network architecture  
+o Fjarskiptabúnaður út úr stöð  
+o Samskiptabúnaður innan stöðvar  
+o Level 2 net  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   14 af 83 
+ 
+ 
+o Level 0 net  
+➢ Stýrivélar  
+o Útlit stýrivélar  
+o Uppröðun stýrivélar með einingum  
+➢ IO einingar  
+o IO einingar sýndar með tengdum merkjum  
+➢ Stýrirásir  
+o Teikningar með öllum þeim íhlutum sem tengjast stýrivélaeiningum ásamt 
+klemmul istum, strengnúmerum, tækjaheitum, tag heitum, tegundum IO eininga, 
+víranúmerum ogsfrv.  
+➢ Strenglistar  
+➢ Klemmulistar  
+Stýrirásateikningum skal skilað á rafrænu formi á netfangið teikningar@or.is  (.pdf heidlarsett). 
+Gagnagrunni teikninga (backup file) aðgengilegur að fullu til síðari breytinga skal einnig sendur 
+til Veitna . 
+ 
+Þá skal ráðgjafi/verktaki skila afriti af teikningasetti inn á réttan stað á EPLAN þjón Veitna og 
+ganga þannig frá afritinu a ð allt viðhald á teikningasettinu verði hnökralaust innan EPLAN þjóns 
+Veitna, óháð því hver næsti notandi er sem opnar settið til leiðréttinga, viðbóta og annarra 
+breytinga, stórra og smárra.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   15 af 83 
+ 
+ 
+7.2.8 Kerfismynd samskipta  innan stöðvar/veitu (Topology)  
+Dæmi um fr amsetningu kerfismyndar samskipta  
+ 
+Hér koma fram netteng d tæki, á hvaða samskiptatækni sem tækin eru og hvernig þau tengjast 
+hvert öðru.  
+7.2.9 Forritunarlýsing  
+Öllum ferlum hvers kerfis sem forritaðir eru og komið fyrir í stýrivélum skal lýst, svo sem hvernig 
+skipt er á milli dæla, hvenær og hvers vegna ásamt meginferlum kerfis sem snúa að virkni 
+stöðvar. Við hvaða skilyrði dælur stöðva og ræsa, hvernig reglun er háttað.  
+7.2.10  Forrit stýrivéla  
+Um er að ræða gagnaskrá/skrár sem inniheldur forrit, það skal afhent Veitum og aðgengilegt 
+að fullu. Upplýsingar um kóða, viðföng, blokkir og frágang er lýst aftar í þessu skjali í kafla 21 
+Forritun stýrivéla . 
+7.2.11  Forrit aðgerðaskjáa  
+Um er að ræða gagnaskrá/skrár sem inniheldur forrit, það skal afhent Veitum og aðgengilegt 
+að fullu.  
+7.2.12  Forrit kerfiráða  
+Um er að ræða gagnaskrá/skrár sem inniheldur forrit, það skal afhent Veitum og aðgengilegt 
+að fullu.  
+7.2.13  Stilliskrár annars búnaðar  
+Um er að ræða gagnaskrá/skrár sem inniheldur forrit, það skal afhent Veitum og aðgengilegt 
+að fullu, s.s. stilliskrár fyrir hraðabreyta, mjúkræsa og samskiptabreyta.  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   16 af 83 
+ 
+ 
+ 
+ Um rýni gagna fyrir stjórnkerfi  
+Ráðgjafa ber að setja saman og halda úti skrá yfir skjöl á sérstöku yfirlitsskjali þar sem heiti og 
+gerð skjala kemur fram ásamt útgáfu númeri hvers skjals og stöðu þess. Ráðgjafi ber ábyrgð í 
+hverju verki að fylgja fyrirmælum í Leiðbeini ngum Veitna um Stjórnkerfi  og tryggja að öll gögn 
+séu alltaf til staðar eins og þeim er lýst. Verkefnastjóri Veitna skal staðfesta að öllum 
+hönnunargögnum hafi verið skilað.  
+Öll gögn sem lýst er í kafla að ofan um hönnunargög n/skilagögn skulu rýnd. Við rýn i skal m.a. 
+haft í huga kóðaskilgreini ngar, þ.e. TAG heiti tækja ásamt skýringum og að þau birtist eins í 
+öllum skjölum, en einnig lýsingar hér að framan um lágmarksgögn fyrir hvern lið.  
+ Prófanir stjórnbúnaðar og stjórnkerfa  
+Öllum prófunum skal ráðgjafi/ve rkraki lýsa áður en þær hefjast.  
+Allar prófanir skal skjalfesta um leið og þær eru framkvæmdar.  
+Öll skjöl skulu vera aðgengileg hverjum þeim starfsmanni Veitna sem óskar afrita af þeim.  
+Afrit allar prófanaskala skal vista, um leið og þeim er lokið, á ACC s væði Veitna eða öðrum 
+þeim stað sem Verkefnastjóri Veitna útnefnir í verkinu.  
+ Almennt  
+Öll stjórnkerfi fyrir vatnsmiðla Veitna skulu gangast undir prófanir.  Kraft - og stjórnskápar skulu 
+prófaðir og tæki í þeim stillt á verkstæði rafverktaka eftir því sem hæ gt er.  Skápar skulu 
+spennusettir og prófaðir á verkstæði rafverktaka, þar sem fram skulu fara merkjaprófanir frá 
+klemmulistum inn á stýrivélar, jarðbinding skápa staðfest, almennur frágangur yfirfarinn og 
+staðfest að endar hvers vírs sé tryggilega frágengi nn í klemmulista/tæki/rofa/liða. Einnig að 
+litakóða sé fylgt. Á þessum tímapunkti eru settar IP tölur í stjórnbúnað (stýrivélar, 
+merkjabreytur, mælastöðvar osfrv.).  
+ 
+Forrit stýrivéla, kerfiráða og aðgerðaskjáa skulu yfirfarin og prófuð á skrifstofu ráðgjaf a, áður 
+en þau eru sett upp til notkunar á verkstað. Gögn í Functional Structure og Control Structure 
+ABB kerfis skulu einnig rýnd.  
+ 
+Útlit skjámynda, staðsetning tækja og texta staðfest, aðvaranamörk, textar og fl. staðfest 
+samk væmt  lýsingu um notkun skjákerfa.  
+Forrit stýrivélar er rýnt, m.a. m.t.t. heita og skýringa á breytum, þau eiga t.d. að endurspeglast 
+í tækjalista. Aðvaranir, skipanir og ferlar eru prófaðir að því marki sem hægt er á þessum 
+tímapunkti.  
+Aðgerðaskjáir eru prófað ir og yfir farnir m.t.t. gagnagrunna, fr amsetninga mynda og tengingar 
+í stýrivél.  
+Topic fyrir OPC er rýnt, en frágangi á topic í OPC er einnig lýst hér í þessu skjali.  
+ 
+ FAT prófanir stjórnkerfa  
+Tilgangur FAT prófana er að m.a. að staðfesta rétta virkni forrita stýrivéla og kerfiráða. 
+Verktaki/ráðgjafi boðar fulltrúa frá Veitum til sín eða kemur í húsakynni Veitna með tilbúna 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   17 af 83 
+ 
+ 
+afurð til hermunar. Með hermun er átt við að hægt sé að prófa virkni búnaðar án þess að 
+kerfiráður og stýrivél séu tengd við annan búnað sem settur er upp í stöðinni sem þessi hluti 
+tilheyrir. Stýrivélin skal forrituð þannig að hún sýni raunstöður þegar t.d. dæla er ræst eða 
+stöðvuð, í handvirkum eða skjálfvirkum ham. Loki opnaður eða lokaður, stilligildi reglis breytt 
+o.s.frv. og all t gefi rétta sýn í kerfiráð.  
+ 
+ SAT prófanir  
+Áður en að eiginlegum skilum ráðgjafa á verki til rekstrar, skal fara fram SAT prófun. Í slíkri 
+prófun skal m.a. fara yfir hvernig stöð bregst við spennuleysi og/eða neyðarstöðvun og hvernig 
+stöðin bregst við þega r afl kemst á stöð að nýju og/eða neyðarstöðvun er endursett.  
+Allar dælur og allir lokar eru prófaðir í handvirkum - og sjálfvirkum ham. Stjórnkerfið látið skipta 
+á milli dæla þar sem við á (gangtímajöfnun staðfest) og tryggt að t.d. óþarfa viðvaranir við 
+dæluskipti komi ekki fram. Aðvaranamörkum breytt þannig að aðvaranir birtist og sérstaklega 
+gætt að því að þar sem um er að ræða hindranir, þá eru slík skilyrði prófuð og sýnt framá að 
+þau virki eins og lýst er í stöðvarlýsingu stöðvar.  
+ 
+ Framkvæmd prófana  
+Ráðgjafi/verktaki skal framkvæma prófanir og skila afriti af prófunarskýrslum til verkkaupa. 
+Verkkaupi og verkeftirlit geta gert kröfu um að verkeftirlit eða annar fulltrúi verkkaupa sé 
+viðstaddur prófanir verktaka eða taki beinan þátt í þeim prófunum.  
+Prófunum er skipt upp í 4 flokka:  
+➢ A-prófun: Prófun á búnaði og lögnum  
+➢ B-prófun: Stjórnkerfisprófun  
+➢ C-prófun: Forprófun vinnslueininga  
+➢ D-prófun: Keyrsluprófun og gangsetning vinnslueininga.  
+Gert er ráð fyrir að eftirfarandi prófanir séu útfærðar sem hluti viðko mandi verks. Viðkomandi 
+ráðgjafi skal afhenda verkkaupa útfylltar prófunarskýrslur.  
+9.4.1 A-prófun: Prófun á búnaði og lögnum  
+➢ A1. FAT prófanir, úttektir sem fram fara á verkstæðum viðkomandi verktaka eða framleiðanda.  
+➢ A2. Úttektir verka þ.m.t. úttektir og stilli ngar á einstökum tækjum og búnaði, s.s. tenging stýrilofts 
+við loka, stilling endastöðusnerta, kvörðun skynjara og annað þess háttar sem kemur að virkni 
+stjórnkerfis.  
+➢ A3. Víraprófanir stýrilagna frá búnaði á svæði að stýrivélum.  
+o A3.1. Frá I/O korti í stýrivél að tengingu við tæki.  
+o A3.2. Prófanir á samskiptalögnum nettengdra tækja, s.s. Ethernet IP, Profinet, Modbus 
+TCP, Modbus RTU, Profibus DP tengingar. Lýkur með stikkprufum á tækjum.  
+9.4.2 B-prófun: Stjórnkerfisprófun  
+➢ B1. Forúttekt og hermun á skjámyndum o g forritun í kerfiráði og stýrivél.  
+o B1.1. Rýni skjámynda. Úttekt og villuleit skjámynda fyrir stjórnkerfisprófun.  
+o B1.2. Rýni og hermun á forritun. Staðfesting á að forritunarvinnu verktaka sé lokið.  
+➢ B2. Forprófanir merkja. Öll merki skulu forprófuð frá stý rivélaskáp að skjákerfi eða 
+stýrivél ef merkið á ekki að birtast í skjákerfi.  
+➢ B3. Merkjaprófanir. Prófanir á öllum merkjum til og frá tækjum að skjákerfi. Þennan lið 
+prófana skal vinna eftir fremsta megni samhliða C1.  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   18 af 83 
+ 
+ 
+9.4.3 C-prófun: Virkniprófanir  
+➢ C1. Prófanir á einstökum tækjum. Þennan lið prófana skal vinna eftir fremsta megni 
+samhliða B3. Hér er virkni einstakra merkja staðfest til og frá stýrivél s.s. 
+viðvörunarástand (0/1), öryggisstaða loka staðfest o.s.frv.  
+➢ C2. Prófanir einstakra vinnslurásakerfa, t.d. va rnarbúnaður og útleysiskilyrði.  
+9.4.4 D-prófun: Keyrsluprófun og gangsetning vinnslueininga  / SAT  
+➢ D1. Prófanir vinnslueininga/kerfishluta og keyrsluprófun frá stjórnbúnaði. Virkni 
+forritunar á kerfishlutum gagnvart stjórnbúnaði kerfanna staðfest, t.d. uppkeyrsla  á 
+dælum.  
+➢ D2. Prófanir á viðbrögðum stjórnbúnaðar við hin ýmsu skilyrði og neyðartilvik.  
+Myndræn framsetning á skiptingu prófana  
+Skjámyndakerfi Stýrivél                          I/O tengi Stjórnbúnaður (tæki)/skápar
+B.1
+B.2
+B.3A.1 A.1
+A.2
+A.3.1
+A.3.2
+C.1
+C.2
+D.1
+D.2Stýrivélaskápur
+ 
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   19 af 83 
+ 
+ 
+ Upplýsingar um heiti vélbúnaðar og forrita  
+Stýrivélar, sem og önnur tæki, bera nafn (TAG heiti)  í samræmi við eignatré  Veitna auk 
+viðskeyta  í DMM . 
+Forskeyti á heiti forrita og heiti örgjörva er þó einfaldara og sést hér  
+• F – Fráveita  
+• H – Hitaveita  
+• K – Vatnsveita  
+• S – Sjóveita  
+Heiti forrita (forrita  skrá) skal bera sama nafn og stýrivélin auk viðskeyt tum upplýsingum um 
+gerð örgjörva og Firmware/Version númeri örgjörva/forritunarumhverfis sem hann er forritaður 
+í. Ef forritunarumhverfi hafa einnig t.d. service pack númer, þá skal því einnig skeytt við.  
+Heiti  stýrivéla  
+Fyrsta stýrivél í hverri stöð heiti r SV719  – og ber að auki forskeyti miðils og s töðvar.  
+Næsta vél hleypur upp á tug, næsta stýrivél  er því SV729.  
+Fyrsta RIO í hverri stöð heitir RIO01  – og ber að auki forskeyti miðils og stöðvar.  
+Næsta RIO hleypur upp á einingu , næsta RIO er því RIO02 . 
+Heiti rekka og eininga í rekka  
+Fyrsta eining í rekka, hvort sem sá rekki er stýrivélin sjálf, eða „remote “ rekki (RIO)  
+➢ S00 
+➢ S01 
+➢ S02 
+➢ S03 
+➢ S"NN“  
+Hver einasta eining sem hægt er að skilgreina í forriti, í hvaða rekka sem er fær viðskeytið 
+SNN, þar sem NN er tala á  bilinu „0 0“ til „NN“, óræð tala, en alltaf talið í réttri röð og upp um 
+einn, N+1 . 
+„S“ stendur fyrir „sæti“ í rekka eða „slot“  í „rack“ og er fyrirkomulag  sem er víða notað.  
+Óræðar einingar í rekka – hvað geri ég?  
+Nú er sett eining í rekka sem er ekki skilgreind í forriti , ekki hægt að skilgreina í forriti, eða á 
+ekki erindi í forrit þeirrar stýrivélar sem les og stýrir rekka. Dæmi um slíkar einingar eru 
+spennueiningar  og þær eru af nokkrum gerðum . Spennueiningar á borð við „Power“ einingu til 
+að knýja „backplane “ rekka og spennueiningar notaðar með IO einingum og geta komið í stað 
+fyrir 0VDC og +24VDC raðklemmulista, s vo dæ mi séu tekin . 
+Þessar einingar taka sama „SNN“ númer og IO einingin sem þær tilheyra, en hafa annað 
+viðskeyti.  Sjá dæmi hér sem fylgi r. 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   20 af 83 
+ 
+ 
+ 
+Dæmið sýnir tvo rekka , sá fyrri i nniheldur eina gerð af AI, eina AO, eina DI, eina DO , sá seinni 
+4DI og 4DO . 
+➢ RIO01_S00_AENTR  
+➢ RIO01_S0 1_EP24  
+➢ RIO01_S01_VTM  
+➢ RIO01_S01_ AI 
+➢ RIO01_S01_CTM  
+➢ RIO01_S0 2_VTM  
+➢ RIO01_S0 2_AO 
+➢ RIO01_S0 2_CTM  
+➢ RIO01_S0 3_VTM  
+➢ RIO01_S0 3_DI 
+➢ RIO01_S0 4_DO 
+➢ RIO01_S05_EP24  
+➢ RIO01_S05_xyz  
+ 
+➢ RIO02_S00_AENTR  
+➢ RIO0 2_S01 _DI 
+➢ RIO0 2_S02_DI 
+➢ RIO0 2_S03_DI 
+➢ RIO0 2_S04_DO 
+➢ RIO0 2_S05_DO 
+➢ RIO02_S0 6_DO 
+➢ RIO0 2_S07_DI 
+➢ RIO0 2_S08_DO 
+➢ RIO02_S0 9_EP24  
+➢ RIO02_S0 9_xyz 
+ 
+Þannig hefur hver eining „ TAG“  sem er „ einstakt “ og veldur ekki  „árekstri “ á milli eining a, rekka 
+eða annara tækja í hverri stöð. Þannig er einnig hægt t.d. að teikna og forrita í hvaða forrit um 
+sem er þessi nöfn án misskilnings og án þess að þær stangist á.  
+Athugið að „VTM“ og „CTM“ í þessu dæmi er tekið frá einingaheiti „1734 -VTM“ og „1734 -CTM“. 
+Þar sem annarskonar efni er notað, þá má nota allt að 5 stafi til að auðkenna einingar, í stað 
+„VTM“ og „CTM“ sem hér er sýnt. Þá er „EP24“ eining sem er 1734 -EP24DC og að lokum þá 
+er fremsta eining neteining af gerði nni „1734 -AENTR“.  DI, DO, AI og AO eru ekki auðkenndar 
+nánar . 
+Í þessu samhengi er rétt að geta að víða eru RIO rekkar í t.d. borholuhúsum, en eingöngu ein 
+stýrivél sem les marga RIO rekka. Hver þeirra ber forskeyti þess húsnæðis sem þeir eru í, 
+dæmi  
+➢ RG17_R IO01 – Fyrsti RIO rekki í borholu RG17  
+➢ RG38_RIO01 – Fyrsti RIO rekki í borholu RG38  
+➢ BO_SV729 – Stýrivél nr. 2 í Bolholti les og stýrir mörgum RIO rekkum á 
+Laugarnessvæði . Rekkar bera forskeyti í forriti stýrivélar og þannig auðkenndir og 
+aðskildir eins og leiðbeiningar segja til um.  
+ 
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   21 af 83 
+ 
+ 
+Heiti forrita  
+Heiti forrits fyrir stýrivél 3 í varmaskiptastöð í Stykkishólmi sem forrituð er í TIA Portal umhverfi, 
+version 1 8 SP1 fær eftirfarandi nafn:  
+H_STY_STH_SV739_1212C_V1 8_SP1  
+➢ H 
+o Hitaveita  
+➢ STY 
+o Hitaveita Stykkishólms  
+➢ STH 
+o Varmaskiptastöð Stykkishólmi  
+➢ SV739  
+o Stýrivél nr. 3 í stöðinni  
+➢ 1212C  
+o Stýrivélin er Simatic S7 -1200 DC/DC/RLY (1212C)  
+➢ V18_SP1  
+o Firmware revision 1 8, servicepack 1  
+ 
+Heiti örgjörva/stýrivélar, innan forrits skal bera sambærilegt nafn, að örgjörva, version og  SP 
+númeri undanskildu, í öllum hug búnaðarumhverfum.  
+Heiti stýrivélar í þessu tilviki er því:  
+ 
+H_STY_STH_SV739  
+ 
+Sama gildir um nafnagiftir aðgerðaskjáa og forrita þeirra, sem og afrita af forritunarskrám 
+staðbundinna kerfiráða. Aðgerðaskjáir og kerfiráðar bera tækjaheitið “VI” þar sem stýrivél hefur 
+tækjaheitið “SV”.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   22 af 83 
+ 
+ 
+ Fjarskipti stjórnkerfa  
+ Fjarskipti, netkerfi, samskipti  
+Fjarskipti Veitna frá Bæjarhálsi við útstöðvar og á milli útstöðva fara fram með ýmsum hætti. 
+Hér má nefna gagnaflutning um koparlínur, ljósleiðara, 3G, 4G , 5G og örbylgjusambönd. Veitur 
+leggja áherslu á varin sambönd og því eru oft á tíðum fleiri en ein flutningsleið notuð hverju 
+sinni.  
+ 
+Veitur skilgreina og koma á fjarskiptum við sínar stöðvar með aðstoð upplýsingatækni  OR. 
+Endabúnaður (routers) uppfyllir að jafnaði iðnaðarstaðal og frá viðurkenndum aðila í OT 
+umhverfi. Hér gildir  einu um hvaða miðil (media) er stuðst við hverju sinni.  
+ 
+Allur fjarskiptabúnaður sem nefndur er að neðan skal rata í teikningasett hverrar stö ðvar fyrir 
+sig eins og um hvern annan stjórnbúnað/rafbúnað sé að ræða.  
+ 
+11.1.1  Koparlínur og endabúnaður  
+Koparlínur eru víða nýttar til fjarskipta hjá Veitum. Þar sem nýta á koparlínu til fjarskipta á milli 
+IP tækja þá skal að jafnaði nota SHDSL Ethernet Extender . Tækið skal vera hannað til að sitja 
+á DIN skinnu, fætt 24VDC, draga allt að 15km, og prófað með tilliti til staðlana EN 61000 -4-2, 
+EN 61000 -4-3, EN 61000 -4-4, EN 61000 -4-5 og EN 61000 -4-5, auk IEC 60068 -2-6. Stillingar 
+tækisins skulu jafnframt vera takma rkaðar við rofastillingar (DIP switches), þ.e. óháð 
+hugbúnaði.  
+ 
+Ethernet Extenders SHDSL hafa víða verið teknir í notkun hjá Veitum með góðum árangri til 
+að koma á IP sambandi á milli enda eldri koparlína. Búnaður sem almennt telst til 
+skrifstofubúnaðar ti l samskipta á slíkum línum er ekki samþykktur.  
+11.1.2  Ljósleiðari, lagnir og ljósbreytur  
+Ljósleiðari er víða nýttur til fjarskipta við dælustöðvar Veitna og er þá ýmist í eigu Veitna eða 
+aðgangur að ljósleið ara er leigður hjá fjarskiptafélögum. Þegar skurðir eru grafnir fyrir t.d. nýjar 
+pípur Veitna, þá er alltaf gert ráð fyrir ídráttarröri fyrir ljósleiðara um leið.  
+Þar sem Veitur leggja eigin ljósleiðara á milli dælustöðva, skal ávallt ráðfæra sig við 
+ábyrgðaaðila fjarskipta hjá Veitum/OR áður en hönnun á sér st að. 
+ 
+Þar sem Veitur leggja eigin ljósleiðara til notkunar með stjórnkerfum gildir eftirfarandi til 
+viðmiðunar:  
+➢ Ídráttarrör eru 20/14mm HDPE orange að lit  
+➢ Ídráttarrör er lagt heilt/óslitið á milli endapunkta  
+o Endapunktar eru staðsteypt húsnæði, svo sem dælus töðvar  
+➢ Brunnar eru settir á ca. 1km fresti og ídráttarrörin heil/óslitin þar í gegn  
+➢ Brunnar eru settir ef líkleg tenging er við aðra dælustöð á milli enda þeirrar lagnar sem 
+unnin er hverju sinni  
+➢ Ljósleiðarinn er af Single mode gerð  
+➢ Ljósleiðarinn er að lág marki 12 þræðir  
+➢ Gengið skal frá endum ljósleiðara í þar  til gerðum inntakskassa í hvorum enda fyrir sig  
+➢ Á endaþræði ljósleiðarans eru sett LC tengi, blá að lit  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   23 af 83 
+ 
+ 
+➢ Verktaki þarf að skila inn afl mælingum á öllum þráðum og má deyfing ekki vera meiri 
+en 3dB  
+➢ Endabúnaði skal komið fyrir í fjarskiptaskáp  
+➢ LC tengi ljósleiðara er komið fyrir í endabúnaði og samskipti staðfest  
+11.1.3  3G, 4G og 5G  
+Veitur nýta þessa fjarskiptatækni víða með góðum árangri, endabúnaður er frá Cisco eða 
+sambærilegum framleiðanda. Þar sem nýta á þessa fjarskiptaleið fyrir stjórnkerfi Veitna, þá er 
+hún skipulögð og sett upp af starfsfólki Veitna og OR.  
+11.1.4  Örbylgjusambönd  
+Örbylgjusambönd eru nýtt í undantekningar tilvikum, skipulögð innan Veitna eins og  aðrir 
+fjarskiptakostir.  
+11.1.5  Netstrengir  
+CAT5 streng ir sem notaðir eru innan skáp skulu hafa steypta enda (RJ45 tenglar) (tilbúnir 
+kaplar) og lengd þeirra skal vera þannig að hægt sé að ganga frá þeim í  vírarennur, án þess 
+að auka lengd hangi í skápum eða rennum . 
+11.1.6  Fjarskiptaskápar  
+Gera skal ráð fyrir 230VAC og 24VDC fæðingu að fjarskiptaskápum. Fjarskiptabúnaður er 
+fæddur 24VDC á varaafli, uppitíma er lýst í kafla 17.1 Aflfæðing og varaafl . 
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   24 af 83 
+ 
+ 
+ IP tölur, MASK og GW  
+Veitur úthluta IP tölum á stöðvar og upplýsa um leyfilegar IP tölur, MASK og GW í hverju verki 
+fyrir sig, því skal fylgt.  
+Þetta gildir bæði um WAN og LAN stöðvar, en þannig er t.d. sérstöku IP -neti úthlutað fyrir 
+tækjanet stöðvar.  
+ Uppbygging netkerfa fyrir stjórnkerfi Veitna  
+Með hliðsjón af allri hönnun OT net uppsetninga styðjast Veitur við þekkta fyrirmynd, purdue 
+model, en því er m.a. lýst á v ef Cisco , sjá nánar hér:  
+ 
+https://www.cisco.com/c/en/us/td/docs/solutions/Verticals/EttF/EttFDIG.html  
+ 
+og hér  
+https://www.rockwellautomation.com/global/capabilities/industrial -networks/technical -
+data/overview.page?  
+ 
+Skiptingu „Level“ 0,1,2,3 sem hér er lýst gildir í megin atriðum fyrir stjórnkerfi  Veitna og verður 
+hvorki lýst hér né þýdd.  
+ 
+Eftirfarandi lagskipting stjórnkerfa gildir hjá Veitum  
+ 
+➢ Level 4 – 5 
+o Skrifstofunet og VPN  
+➢ DMZ er staðsett á milli Level 3 og 4  
+➢ Level 3  
+o Kerfiráður á Bæjarhálsi  
+➢ Level 1 – 2 
+o Basic Control – stýrivélar  
+o Area Supervisor y Control, HMI/SCADA staðbundi n tæki 
+➢ Level 0  
+o Process, svo sem remote IO, hraðabreytar og lýsingatæki  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   25 af 83 
+ 
+ 
+Dæmi um frágang netbúnaðar og fjarskipta  
+ 
+  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   26 af 83 
+ 
+ 
+ Samskiptagáttir, Reklar, IO servers, OPC  
+Samskipti stýrivéla við kerfiráða og aðgerðaskjái (staðbundna, miðl æga og Bæjarháls) fara 
+fram um Ethernet, leyfilegir staðlar (protocol) eru Ethernet/IP, Profinet og Modbus TCP.  
+ Samskiptagáttir og IO servers (reklar) – OPC  
+Veitur reka eftirfarandi OPC IO þjóna á Bæjarhálsi, þeir eru:  
+➢ KepserverEX  
+➢ Matrikon  
+➢ RSLinx  
+➢ OFS OPC Factory Server  
+Sömu OPC þjóna er að finna á útstöðvum, þ.e. staðbundnum kerfiráðum, þó að jafnaði sé 
+leitast við að nýta einungis einn í hverri veitu sinni til hagræðingar og einföldunar.  
+ Um Topic, Allias, Channel og Device Name nafnagiftir í OPC serverum  
+Topic og Allias skulu bera nafn í samræmi við eftirfarandi  
+ 
+Miðill – Bæjarfélag/Veita – Stöð – (Stýrivél)  
+ 
+Miðill (óháð landshluta)  
+➢ F – Fráveita  
+➢ H – Hitaveita  
+➢ K – Vatnsveita  
+➢ S – Sjóveita  
+Bæjarfélag/Veita  
+Hér er ýmist vitnað í bæjarfélag eða Veitu, dæmi  
+➢ RVK (Reykjavík)  
+➢ AKR (Akranes)  
+➢ BOR (Borgarnes)  
+➢ KJA (Kjalarnes)  
+➢ RAN (Rangárveitur)  
+➢ HAB (Hitaveita Akranes og Borgarnes)  
+Stöð – Stýrivél  
+Hér er vitnað í stöð, ef fleiri en ein stýrivél er í stöð, þá er einnig vitnað í stýrivélanúmer  
+➢ LAU (Laugaland – hér er bara ein stýrivél og ekki vitnað í hana)  
+➢ KLE-SV719  (Klettagarðar, fyrsta stýrivél)  
+ 
+OPC Topic/Allias lítur því svona út  
+➢ H-RAN -LAU 
+o (Hitaveita – Rangárveitur – Laugaland)  
+➢ F-RVK-KLE-SV719  
+o (Fráveita – Reykjavík – Klettagarðar – Stýrivél 1)  
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   27 af 83 
+ 
+ 
+Þar sem gagnaskrá (Symbo l table file) þarf að fylgja með til samskipta með OPC þá skal hún 
+bera sama nafn og lýst er að ofan fyrir OPC Topic/Allias  
+➢ Miðill – Bæjarfélag/Veita – Stöð – (Stýrivél).  
+ 
+OPC reklar eru notaðir með stýrivélum samkvæmt eftirfarandi  
+➢ KepserverEX  
+o CTI 
+➢ Matrikon  
+o Siemens  
+o GE 
+➢ RSLinx  
+o Allen Bradley  
+➢ OFS OPC Factory Server  
+o Schneider  
+ 
+Ef til þess þarf að koma að áður óþekkt stýrivélategund tengist gáttum/reklum Veitna, þá skal 
+gera ráð fyrir að hún geti nýtt eina þessara fjögurra samskiptagátta sem áður eru nefndar og 
+vélin skal hafa ethernet port ásamt því að upplýsa um protocol vélar. Verktaki/umboð sem 
+býður fram slíka stýrivélategund, skal sjá til þess að upplýsa Veitur um það hvernig gögnum 
+frá slíkri vél verði komið rétt í gegnum áðurnefnda IO servera og koma þeim  upplýsingum til 
+Veitna, ásamt tilvísun í önnur verk sem staðfesta slíka virkni.  
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   28 af 83 
+ 
+ 
+ Aðaldreifing, kraftrásir , stjórnskápar  og rafbúnaður  
+ Almennt  
+Víralitir eru eftirfarand i.  
+    
+      
+400 VAC Kraftrás  L1 Svartur  
+L2 Svartur  
+L3 Svartur  
+Jörð Gulur/Grænn  
+      
+<=230 VAC Kraftrás  L1 Brúnn  
+L2 Brúnn  
+L3 Brúnn  
+Jörð Gulur/Grænn  
+      
+Núll Núll Ljós Blár  
+      
+Stýrirás AC  L1 Brúnn  
+N Ljós Blár  
+Jörð Gulur/Grænn  
+      
+Stýrirás DC  + Rauður  
+- Hvítur  
+Jörð Gulur/Grænn  
+      
+Analog  +/- Fjólublár  
+Jörð Gulur/Grænn  
+      
+Spennulausar  
+snertur og rásir sem ekki 
+fara út við höfuðrofa  + (L1)  Grár 
+    
+    
+      
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   29 af 83 
+ 
+ 
+ Aðaldreifing  og aflskápar  
+Umfang aðaldreifingar stöðva er mismunandi og verður að meta hönnun og frágang sjálfstætt 
+í hverri  stöð. Aðaldreifing skal þó að jafnaði hönnuð og sett upp í Form 3 skápa, hólfaskiptir 
+skápar sem eru þegar algengir í dælustöðvum Veitna. Ráðgjafar/hönnuðir eru áb yrgir fyrir 
+efnisvali, svo sem skinnukerfi, stærð og staðsetningu rofa, innkomandi og kvísla . Allir rofar 
+skulu vera læsanlegir 3 -stöðu rofar, „ON“ „OFF“ „TRIP“. Stöðusnertur þessara rofa skal víra 
+inn í stjórnkerfi svo fylgjast megi með stöðu allra aflrofa í hverri stöð.  
+Ethernet tengdar mælastöðvar skulu settar í alla aflskápa svo meta megi hei ldar aflnotkun 
+stöðva og rafgæði. Samskiptastaðall mælastöðvar skal velja í samræmi við stýrivél viðkomandi 
+stöðvar, þannig að ekki þurfi sérstakan búnað / breytu á milli þessara tækja.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   30 af 83 
+ 
+ 
+ Annar búnaður  
+ Varaaflsvélar  
+Staða varaaflsvéla er vöktuð og nýrri st ýringar bjóða upp á nettengingar og mikið af gögnum. 
+Mat er lagt á hverju sinni hvaða merki skal tengja stjórnkerfum, en þó að lágmarki eftirfarandi.  
+➢ Varavél í gangi  
+➢ Varavél bilun  
+➢ Staða rafalarofa  
+➢ Staða aðalrofa  
+ Hraðabreytar  
+Hraðabreyta skal að jafnaði tengja með Ethernet based bus og skal samskiptastaðall taka mið af stýrivél.  
+Gögn að og frá hraðabreytum eru  
+➢ Status word  
+➢ Command word  
+➢ Control word  
+➢ Feedback  
+o Hz 
+o A 
+o kW 
+➢ Harðvíringar – alltaf  
+o Harðvíra skal „Run Enable“ að hraðabreyti  
+▪ Þessa tengingu má nota í ney ð ef samband um nettengingu fellur út, þá skal 
+vera hægt að rjúfa gangheimild að hraðabreyti  
+o Harðvíra skal “reset” skipun  
+➢ Í sumum tilvikum, þá er  aflrás hönnuð þannig að hægt er að rjúfa hana frá kerfiráð svo 
+endursetja megi aflrás hraðabreyta . Þetta skal metið hverju sinni, en gæti sérstaklega gilt í 
+stöðvum og veitum sem eru staðsettar þar sem langt er í næstu starfsstöð, dæmi Kaldárholt í 
+Rangárveitum.  
+➢ Ef hraðabreytir er rekinn sjálfstætt, þ.e.a.s. notað er innbyggður reglir í hraðab reyti, þá skal vera 
+hægt að skrifa og lesa  eftirfarandi umfram það sem áður er getið  
+o SP – Óskgildi reglis  
+o PV – Raungildi reglis  
+o K – Mögnunar stuðul reglis  
+o I – Tími reglis reglis  
+o D – Ef hann er til staðar og notaður  
+➢ Samband stýrivélar við hraðabreyti um nettengingu rofnar  
+o Metið  hverju sinni hversu langur tími má líða frá því samband rofnar og þar til gert er 
+grein fyrir því í viðmótum.  
+o Sambandsrof er ekki tengt inn á mótorblokkir í stýrivélum, en það er tengt inn á 
+MOTCON_FVI blokk í viðmótum og þannig gefin upplýsing/viðvörunu um að samband 
+við hraðabreyti hafi rofnað.  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   31 af 83 
+ 
+ 
+▪ TB211_ ETH_ COM._Status er tengt inn á …DÆ211.AL6 í viðmóti, ekki inn á 
+._AL6 í PLC.  
+ 
+Vísun upp í kerfiráða á álagi og hraða skal vera Hz (tíðni), A (straumtaka) og kW (Afltaka).  
+ 
+Þegar hraðabreytar eru nettengdir, þá skal ráðgjafi fylgja fyrirmælum framleiðanda um frágang 
+á uppsetningu hraðabreytis og frágang á forritunarblokk sem framleiðandi kann að bjóða uppá. 
+Dæmi um slíkan frágang er AOI blokk frá Danfoss sem nota má í Rockwell forritunarumhverfi. 
+Þá skal uppse tningu fylgt eins og framleiðandi (Danfoss) lýsir því. Skjöl þess efnis má finn á 
+veraldarvefnum.  
+ 
+http://files.danfoss.com/download/Drives/MG92M102.pdf  
+ Mjúkræsar  
+Meta skal hverju sinni hvort mjúkræsar skuli tengja með etherneti eða ekki. Að jafnaði eru 
+mjúkræsar ekki tengdir samskiptaneti, en mikilvægt að meta það, m.a. með tilliti til upplýsinga 
+sem slík tæki gætu gefið, t.d. straum - og afltöku.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   32 af 83 
+ 
+ 
+ Mótor drifnir loka r 
+16.4.1  Stjórnlokar (XR)  
+Stjórnlokar skulu að lágmarki hafa eftirfarandi merki til stjórnkerfa, drif lokana má ýmist harðvíra 
+eða tengja á ethernet bus. Þar sem um harðvíraða loka er að ræða þá skal vera til staðar 4-
+20mA merk i fyrir stöðuskipun og stöðuvísun.  
+➢ Stöðuvísun (0 -100%)  
+➢ Stöðuvísun “Local/Remote”  
+➢ Stöðu vísun  “Full lokaður”  
+➢ Stöðu vísun  “Full opinn”  
+➢ Stöðuvísun “Bilun”  
+o Innifalið í þessu merki skulu vera almennar villur frá loka sem og upplýsingar um 
+yfirálag , yfirhita og of mikið snúningsvægi  
+➢ Stöðuskipun (0 -100%)  
+➢ Skipun að loka  um “Reset”  
+ 
+Drif l oka skulu þannig búin, frágengin og prófuð að ef að merki um stöðuskipun frá stýrivél 
+rofnar, eða fer út fyrir eðlilegt svið, þá heldur lokinn stöðu sinni, nema annað sé tekið 
+sérstaklega fram hjá hönnuði kerfisins sem lokinn er notaður í. Bili stýrivél, skal rás 
+útgangseiningar stýrivélar stillt þannig að hún viðhaldi síðasta útgangsmerki sem stýrivélin 
+skrifaði, nema hönnuður taki annað sérstaklega fram.  
+ 
+16.4.2  Fjarstýrðir lokar (XF)  
+Fjarstýrðir lokar hafa sömu skilyrði um stöðuvísarnir og st jórnlokar, en stöðuskipanir eru 
+stafrænar, þ.e.a.s.  
+➢ Stöðuskipun frá stýrivél – Skipun um að loka – Digital inngangur á loka  
+➢ Stöðuskipun frá stýrivél – Skipun um að opna – Digital inngangur á loka  
+Skipun í hvora átt fyrir sig, að opna og að loka skal haldið  hárri „logic high“ svo hún gildi 
+gagnvart lokanum, það þýðir að ef stýrivél dregur útgang „logic high“, þá fer loki af stað, en ef 
+stýrivél sleppir  sama  útgangi og hann er settur „logic low“ þá stöðvar loki í þeirri stöðu sem 
+hann er. Ekki er gert ráð fyr ir sérstakri stöðvunarskipun að lokum til að stöðva færsluna, 
+eingöngu að útgangur stýrivélar sé settur „logic low“, þá stöð var drif lokans þar sem það er 
+statt í færslunni.  Stöðvun færslu er hægt að gera úr viðmótum með skipun um að „stöðva“ en 
+þá rýfur s týrivélin skipanir að lokanum.  
+ 
+16.4.3  Aðrir fjarstýrðir lokar (XF)  
+Dæmi um aðra fjarstýrða loka eru spólulokar „solenoid valves“. Þeir taka sama forskeyti (XF). 
+Þeir eru til í mörgum gerðum, en mikið er um einfalda úgáfu af slíkum lokum  þar sem ein skipun 
+er að þeim, sem er þá ýmist til að opna lokana, eða loka þeim  og engin stöðuvísun  er til staðar . 
+Skipunin verður að vera „logic high“ á meðan loki á að vera í þeirri stöðu sem óskað er.  
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   33 af 83 
+ 
+ 
+ Handlokar  (XH)  
+Allir handlokar eiga að hafa TAG samkvæmt lýsingu um kerfismyndir og sk ulu hafa TAG/breytu  
+í stýrivél svo hægt sé að áætla stöðu þeirra hverju sinni . Það er gert til að tryggja að h vert 
+viðmót sem tengist sömu stýrivél sýni sömu upplýsingar um stöðu loka. Staða þeirra markast 
+þá af skipun frá Kerfiráð um það  hvort loki er opinn eða lokaður, þó svo að lokarnir séu í raun 
+hvorki stýranlegir, né heldur með raunverulegar stöðuvísanir. Þá skal þannig gengið frá 
+gangagrunni stýrivéla, það staða þeirra glatist ekki, þó svo að gerðar sé minniháttar eða 
+meiriháttar br eytingar á kóða eða firmware stýrivéla.  
+Til eru handlokar í kerfum Veitna sem hafa harðvíraðar snertur til að sýna stöðu þeirra, þá er 
+ekki hægt að gefa skipun úr Kerfiráð um stöðu loka, heldur er vísun háð því að önnur hvor 
+snerta/staða er virk.  
+ Aðrir lok ar 
+Einstefnulokar  (XE), öryggislokar  (XÖ) , niðurhleypingalokar , hitastýrðir lokar  (XT), mag n- og 
+þrýstistýrðir lokar  ásamt  hemlum eru að jafnaði ekki tengdir Tagi í stýrivélum og staða þeirra 
+því óráðin hverju sinni, nema í sérstökum tilvikum.  
+ Varnarbúnaðu r 
+Ráðgjafi skal við hönnun taka mið af nauðsynlegum varnarbúnaði hverju sinni, svo sem 
+yfirspennuvarnir / eldingavarnir og yfirstraumsvarnir, til að tryggja að mælabúnaður, stýrivélar 
+og inngangseiningar þeirra skemmist ekki.  
+ Merkjastrengir  
+Merkjastrengir skulu vera skermaðir parsnúnir strengir, 0,5q. Skerming skal bundin í 
+stjórnskáp. Þeir skulu notaðir við alla skynjara og á móti öllum tækjum, svo sem hraðabreytum 
+og stjórnlokum, til stýringa og stöðuvísana h liðrænna merkja.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   34 af 83 
+ 
+ 
+ Lýsingatæki  
+Lýsingatækjum (U V) fjölgar stöðugt í rekstri og eru gríðarlega mikilvægur hluti af rekstri, 
+sérstaklega til að tryggja gæði neysluvatns. Þau eru þó notað víðar. Tækin voru áður nefnd 
+geislatæki í rekstri Veitna . 
+Samskipti við tækin gangvart stjórnkerfum er ýmis um stýristrengi/harðvíringu, eða um protocol 
+á borð við RS485.  Þá eru tækin misstór og mismikið af upplýsingum hægt að nálgast frá þeim.  
+Gögn sem lesin eru frá tækjum eru að lágmarki:  
+Stafræn gildi lesin  
+• Í gangi  
+• Bilun  
+• Viðvörun  
+• Lág lýsing (lág geyslun)  
+Stafræn ar skipanir  
+• Ræsa  
+• Stöðva  
+• Endursetja  
+ 
+Þá eru hliðrænar breytur lesnar , ef útangar tækis bjóða bara tvo möguleika, þá á að nota fyrstu 
+tvær, annars þá fleiri eins og listinn sýnir  
+• Lýsingarmagn – [mJ/cm2]  einnig [J/m2]  
+o E: Dose  
+o Hefur breytu viðskeytið „ –UVD“  
+• Ljósstyrkur – [W/m2]  
+o E: Intensity  
+o Hefur breytu viðskeytið „ –UVI“ 
+• Afl tækis – [%] 
+o E: Power  
+o Hefur breytu viðskeytið „ – kW“ 
+• Hitastig [°C]  
+o Hitastig vatns sem fer um tækið  
+Fjöldi annara breyta er hægt að lesa úr tækjum sem bjóða protocol og verður þeim ekki lýs t 
+hér, enda að hluta háður framleiðendum og gerðum tækja.  
+ 
+Að auki, þá skal búa þannig um hönnun í kringum tækin að til sé breyta „Úr rekstri“  sem einnig 
+er lesin og sýnd.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   35 af 83 
+ 
+ 
+ Upplýsingar um vélbúnað st ýrivéla  
+Eftirfarandi lýsing gildir fyrir öll stjórnkerfi  Veitna í Vatnsmiðlum og stoðkerfi þeirra,  aðalferlar, 
+vinnslurásir, húskerfi, loftræstikerfi  og hvert annað kerfi sem  stýrivélar eru notaðar í.  
+ Aflfæðing og varaafl  
+Stýrivélar og aðgerðaskjáir skulu fæddir með 24VDC.  
+Varaafl skal alltaf vera fyrir hendi, uppitími að lágmarki 2klst, ráðgjafi reiknar stærð varaaflgjafa 
+hverju sinni. Þar sem hæðarmæling í geymum fer fram  verður uppitími varaafls að vera 24klst.  
+Miða skal við að varaafl fæði að lágmarki fjarskiptabúnað, stýrivél og aðgerðaskjá, en 
+mikilvægar m ælingar hverrar stöðvar verða jafnframt að vera fæddar, s.s. hæðarmælingar í 
+tönkum svo dæmi sé tekið.  
+ Stýrivélar  
+Stýrivélar geta verið bæði af Compact og Modular gerð.  
+Allar stýrivélar í nýjar stærri stöðvar Veitna sem og þar sem endurnýjun í stærri stöðvum á 
+stjórnbúnaði fer fram skulu hafa 2 netport með IP protocol. Netportin skal vera hægt að 
+skilgreina á tveimur aðskildum netum, þ.e. á level 0 og level 2, net sem ekk i geta átt samskipti 
+sín á milli  án utanaðkomandi stýranlegs netskiptis . Portun skulu geta átt samskipti á tveimur 
+aðskildum protocols á hvoru neti fyrir sig . 
+Aðrar kröfur til hugbúnaðar og forrita stýrivéla eru m.a. eftirfarandi  
+➢ Forrit og gagnaskrá forrit s/örgjörva skal vera ein og sama skráin . Þannig að þegar forrit 
+er vistað, hvort sem gerðar voru breytingar á kóða eða gildum á breytum , þá skal ein 
+og sama skráin vista gögn/data úr stýrivélinni á sama tíma í sömu skrá.  
+➢ Þegar forritunarskrá er opnuð „offline“ þá skulu öll gildi/data forrits sjást  og vera til 
+staðar til að einfalda alla yfirsýn og bilanaleit  
+➢ Forrtiunarumhverfi og stýrivélar sem þurfa sérstaka aðgerð og sérstaka skrá til að vista 
+og hlaða niður gögnum, eru ekki sett upp hjá Veitum.  
+ Stýrivélategundur í rekstri  
+Margar gerðir stýrivéla eru í rekstri hjá Veitum, en helstar má nefna stýrivélar frá eftirfarandi 
+framleiðendum:  
+➢ Allen Bradley / Rockwell Automation  
+➢ Schneider Electric  
+➢ Siemens  
+Frá 1. 1.2023 gildir eftirfarandi um nýjar stýrivélar/örg jörva:  
+Alltaf skal nota nýjasta firmware í allar gerðir stýrivéla.  
+ 
+➢ Allen Bradley stýrivélar eru forritaðar í Studio5000, Version 3 5.0 eða nýrri  
+➢ Schneider stýrivélar eru forritaðar í  EcoStruxure Control Expert Version  15.3 eða nýrri  
+o M340 vélar skulu hafa F irmware 3. 6 að lágmarki  
+o M580 vélar skulu hafa Firmware 4.2 að lágmarki  
+➢ Siemens stýrivélar eru forritaðar í TiaPortal Version 1 8 eða nýrri  
+Ef það er vafi um nýjustu útgáfu heyra í sérfræðingum stjórnkerfa vatnsmiðla Veitna.  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   36 af 83 
+ 
+ 
+ Stýrivélaeiningar  
+17.4.1  Stafrænar inngangseiningar  
+➢ Skulu að jafnaði vera 16 rása, 24VDC sink  
+➢ Eining inniheldur d íóðu og skal hún lýsa fyrir hvern inngang sem er virk ur – merki frá 
+nema inn á eininguna er á  
+ Stafrænar útgangseiningar  
+➢ Skulu að jafnaði vera 16 rása, 24VDC  
+➢ Einingar geta ýmist v erið smára eða rafliða gerðar, háð verkefni  
+➢ Eining inniheldur d íóðu og skal hún lýsa  fyrir hvern útgang sem er virkur  – skipun frá 
+stýrivél er á  
+➢ Útgangar skulu vera sjálfstætt stillanlegir, þannig að ef t.d. bilun kemur upp í stýrivél, 
+eða stöðva þarf stýr ivél, þá skal vera hægt að forrita útganga sjálfstætt þannig að þeir 
+ýmist haldi stöðu sinni við bilun/stöðvun stýrivélar, eða verði „Logic High“ eða „Logic 
+Low“ eftir atvikum.  
+ Hliðrænar inngangseiningar  
+Skulu vera 8 rása, hver rás skal vera sjálfstætt sti llanleg í forritunarhugbúnaði með amk. 
+eftirfarandi möguleikum  
+➢ 0-20mA  
+➢ 4-20mA  
+➢ 0-10VDC  
+➢ -10 – 10VDC  
+➢ Mat á vírsliti og það notað í kóða til vísunar  
+➢ Díóða skal vera á  einingu og skal lýsa eða blikka fyrir hvern inngang ef um vírslit er að 
+ræða  
+ Hliðrænar útgangs einingar  
+Skulu vera 4 eða 8 rása, hver rás skal vera sjálfstætt stillanleg í forritunarhugbúnaði með amk. 
+eftirfarandi möguleikum  
+➢ 0-20mA  
+➢ 4-10mA  
+➢ 0-10VDC  
+➢ -10 – 10VDC  
+Tengi fyrir stafrænar einingar  
+Tengi skulu að jafnaði vera stungin (Spring)  
+Tengi fyrir hliðrænar einingar  
+Tengin skulu að jafnaði vera stungin (Spring)  
+Aðrar einingar  
+Til annara eininga teljast m.a. samskiptakort fyrir Ethernet, Modbus RTU, Profibus og eru 
+notaðar og skilgreindar í hverju verki fyrir sig.  
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   37 af 83 
+ 
+ 
+ Aðgerðaskjáir – HMI  
+Aðgerðaskjáir s kulu fæddir með 24VDC  
+Skulu vera 4 eða 8 rása, hver rás skal vera sjálfstætt stillanleg í forritunarhugbúnaði með amk. 
+eftirfarandi möguleikum  
+➢ 0-20mA  
+➢ 4-10mA  
+➢ 0-10VDC  
+➢ -10 – 10VDC  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   38 af 83 
+ 
+ 
+ Samskiptastaðlar stýrivéla  
+ Ethernet  
+Stýrivélar skulu, án undantekninga, hafa innbyggt samskiptakort á örgjörvaeiningu og 
+samskipti skulu fara fram á Etherneti. Leyfileg samskiptareglur (protcols) eru Ethernet/IP, 
+Profinet og Modbus TCP/IP.  
+ Samskiptastaðlar annara tækja  
+18.2.1  Ethernet  samskipti  
+Framleiðendur margra tækja bjóða upp á ethernet tengingu við sín tæki, hér er t.d. hægt að 
+nefna hraðabreyta og mjúkræsa . 
+Þegar slík tæki eru tengd stýrivélum Veitna, þá skal verktaki nota tilbúnar forritunarblokkir frá 
+framleiðendum til samskipta við tækin. Sérlausnir frá ráðgjöfum er ekki leyfð , nema eingöngu 
+þar sem bokkir framleiðenda eru ekki til staðar . Ethernet er alltaf fyrsti valkostur og skal notað 
+þegar það er í boði.  
+Athuga skal hverrar gerðar stýrivél stöðvar er, samskiptastaðall hennar, áður en netkort er 
+valið í það tæki sem þe irri vél á að tengjast og velja protocol í samræmi við þá stýrivél.  
+18.2.2  Serial  samskipti  
+Stýrivélar skulu geta átt samskipti við tæki sem ekki hafa á að skipa Ethernet samskiptum. 
+Valkostir serial samskipta við slík tæki eru Modbus RTU , Modbus ASCII og Profibu s DP. Veitur 
+hafa einnig tekið upp notkun samskiptakorta (protocol converters) með góðum árangri, þar 
+sem t.d. Modbus RTU er flutt yfir á Ethernet/IP. Slík kort skulu ávallt höfð í huga áður en keypt 
+eru sértæk kort í stýrivélarnar sjálfar.  
+ 
+ Litir samskipt astrengja  
+ 
+Samskipti  Media  Protocol   Litur 
+     
+ Ljósleiðari  Ethernet * Fjarskipti  Appelsínugulur  
+ Kopar  Ethernet * Stöðvarnet  Blár 
+ Kopar  Ethernet*  Tækjanet  Grænn  
+  RS232/RS485  Tækjanet  Grár 
+  Profibus  Tækjanet  Fjólublár  
+  CanOpen  Tækjanet  Grár 
+  CANBus  Tækjanet  Grár 
+  DeviceNet  Tækjanet  Gulur  
+  ControlNet  Tækjanet  Svartur  
+*) Ethernet/IP, Modbus TCP, Profinet , almenn net umferð  
+ 
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   39 af 83 
+ 
+ 
+ Upplýsingar um hugbúnað  
+ Stýrivélar  
+Veitur eiga og reka hugbúnað á PC vélum fyrir helstu stýrivélar í rekstri. PC vélar eru reknar 
+innan hugbúnaðarumhverfis Veitna og þaðan er hægt að eiga við forrit stýrivéla eftir atvikum, 
+en vinnureglur sem getið er að framan skal fylgt.  
+ Kerfiráðar – SCADA  
+Kerfiráður Veitna á Bæjarhálsi er af gerðinni ABB800xA og þeir kerfiráðar sem settir eru upp í 
+útstöðvum frá árinu 2016 eru að jafnaði sömu tegundar, þ.e. ABBHMI800xA. Í báðum tilvikum 
+er útgáfunúmer 5.1. Þó frá 2022 er útgáfunúmer 6.1.  Þessi kerfi eru sam bærileg og hægt að 
+flytja gögn á milli þeirra til að ná fram hagræðingu, einsleitni í kerfum sem og að takmarka 
+vinnu við kerfin og áreiti í stjórnstöð fyrir vakthafandi starfsmenn, hér er sérstaklega átt við 
+merkja - og kerfiráðsprófanir.  
+ HMI og önnur viðm ót 
+Fjöldi HMI skjáa eru í rekstri hjá Veitum, m.a. frá Allen Bradey, Schneider, Siemens, RedLion 
+og fleirum. Nýir skjáir skulu forritaðir með FVI viðmóti. Mismunandi kröfur eru gerðar um 
+framsetningu í hverjum skjá fyrir sig, þannig er t.d. ekki hægt að ta ka fulla stjórn á stöð í öllum 
+skjáum og þeir einungis notaðir til upplýsingagjafar, t.d. um flæði, hæð og þrýsting, en ekki 
+hægt að ræsa og stöðva dælur. Krafa í hverju verki fyrir sig er tekin fram, eftir atvikum hverju 
+sinni, háð stærð, umfangi og mikil vægi stöðva.  
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   40 af 83 
+ 
+ 
+ Leiðbeiningar vegna forritunar  stjórnkerfa fyrir vatnsmiðla Veitna  
+Veitur styðjast við viðfangasafn fyrir ABB800xA sem ABB í Danmörku hefur sett saman fyrir 
+veitufyrirtæki þar í landi og víðar. Viðfangasafnið ber skammstöfunina FVI og verður þannig 
+vitnað í það hér eftir í þessu skjali. FVI stendur fyrir Fjern varme og Inf rastruktur.  
+FVI viðfangasafni verður ekki lýst sérstaklega hér, en vísað í skjöl, útgefin af ABB í Danmörku 
+þar sem hverju viðfangi fyrir sig er lýst. Viðfangasafnið í notkun hjá veitum er útgáfa 502 
+(FVILIB 502). Þess má jafnframt geta að viðfangalýsinga r eru innbyggðar í allar útstöðvar 
+Veitna þar sem ABB800xA kerfi er uppsett.  
+Í ABB800xA kerfum hafa viðföngin viðskeytið „FVI“ en í viðföngum stýrivéla hafa viðföngin 
+forskeytið FVI. Ráðgjafar eru hvattir til að kynna sér innihaldslýsingar þessara viðfanga . 
+ 
+Fyrst ber að geta skjals sem lýsir viðfangasafninu almennt, það er:  
+ 
+  
+Heiti viðfangs  Lýsing  
+FVI Objekter 
+Generelt  Almenn lýsing viðfanga  
+ 
+Veitur hafa ekki séð ástæðu til að taka öll viðföngin í notkun, en tæmandi listi er hér  
+  
+Heiti viðfangs  Lýsing  
+Alarm_FVI  Viðvörun, stafræn  
+Ana_FVI  Hliðræn mæling, án viðvarana  
+AnaAlm_FVI  Hliðræn mæling með 5 viðvörunum og breytanlegum 
+viðvaranamörkum í stýrivél  
+AnaLim_FVI  Hliðræn mæling með 5 viðvörunum og stilligildum innan ABB  
+AnaSet_FVI  Hliðrænt gildi, nýtt sem óskgildi  
+Bin_FVI  Stafrænt gildi til vísunar  
+Bin2Set_FVI  Stafrænt gildi, breytanlegt með tvöfaldri skipun  
+BinSet_FVI  Stafrænt gildi, breytanlegt  
+Count_FVI  Teljari  
+Group_FVI  Hópstýring  
+Mot_FVI  Beinræstur mótor  
+Motcon_FVI  Mótor með hraðabreyti og innbyggðum regli  
+PICON_FVI  PI Reglir  
+State_FVI  Staða stýrivélar, sambandsleysi  
+Valv_FVI  Almennur lok  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   41 af 83 
+ 
+ 
+Valvcon_FVI  Mótorstýrður loki með innbyggðum regli  
+Valvg_FVI   
+Valvm_FVI  Handstýrður loki  
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   42 af 83 
+ 
+ 
+Viðföngin eru til fyrir eftirfarandi viðmót:  
+     
+Heiti viðfangs  ABB HMI 
+800xA 
+V6.1 RedLion Grimson  PanelView  Schneider  
+Alarm_FVI  ∙ ∙ ∙ ∙ 
+Ana_FVI  ∙    
+AnaAlm_FVI  ∙ ∙ ∙ ∙ 
+AnaLim_FVI  ∙    
+AnaSet_FVI  ∙    
+Bin_FVI  ∙    
+Bin2Set_FVI  ∙    
+BinSet_FVI  ∙    
+Count_FVI  ∙    
+Group_FVI  ∙    
+Mot_FVI  ∙ ∙ ∙ ∙ 
+Motcon_FVI  ∙ ∙ ∙ ∙ 
+PICON_FVI  ∙ ∙ ∙ ∙ 
+State_FVI  ∙    
+Valv_FVI  ∙ ∙ ∙ ∙ 
+Valvcon_FVI  ∙    
+Valvg_FVI  ∙    
+Valvm_FVI  ∙    
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   43 af 83 
+ 
+ 
+Viðföngin eru til fyrir eftirfarandi stýrivélahugbúnað:  
+     
+Heiti viðfangs  Allen Bradley  
+RSLogix5000  Allen Bradley  
+RSStudio5000  Schneider  
+EcoStruxure  Siemens  
+TIA Portal  
+Alarm_FVI  ∙ ∙ ∙ ∙ 
+Ana_FVI      
+AnaAlm_FVI   ∙   
+AnaLim_FVI      
+AnaSet_FVI      
+Bin_FVI  ∙ ∙ ∙ ∙ 
+Bin2Set_FVI   ∙   
+BinSet_FVI   ∙   
+Count_FVI      
+Group_FVI      
+Mot_FVI  ∙ ∙ ∙ ∙ 
+Motcon_FVI  ∙ ∙ ∙ ∙ 
+PICON_FVI  ∙ ∙ ∙ ∙ 
+State_FVI      
+Valv_FVI  ∙ ∙ ∙ ∙ 
+Valvcon_FVI   ∙   
+Valvg_FVI      
+Valvm_FVI      
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   44 af 83 
+ 
+ 
+ Forritun stýrivéla  
+Allar stýrivélar sem ráðgjafar/verktakar skila til rekstrar hjá Veitum skulu nota FVI 
+viðfangasafnið, undantekningalaust. Ef verktaki/ráðgjafi býður fram stýrivélategund af annar ri 
+gerð en þeim sem getið er að ofan, þá ber hann sjálfur ábyrgð á því að forrita FVI blokkir í 
+forritunarumhverfi sem sú vél er forrituð í. FVI blokkum fyrir slíkar vélar skal skilað til Veitna 
+opnum og  ólæstum til síðari breytinga hjá Veitum.  
+Í forritunarskrá hverrar stýrivélar er FVI viðfangasafni komið fyrir og skal verktaki nota það fyrir 
+allar breytur sem geta fallið undir skilgreiningar að ofan, aðrar breytur, svo sem millibreytur og 
+tímaliða sem e kki falla undir FVI viðfangasafnið.  
+ Breytuheiti  
+Breytuheiti í stýrivélum skal ávallt taka heiti þess tækis sem það tilheyrir, hvert tæki hefur TAG 
+heiti eftir nafnakerfi Veitna, því skal fylgt. TAG heiti breytu skal vera það sama og það sem 
+kemur fram í P& ID, tækjalista og kerfislýsingu, auk þess sem skýring sem þar kemur fram skal 
+koma fram með viðkomandi breytu í stýrivél.  
+Allar breytur skal skrifa lýsingu við, þannig að ekki sé vafi um það hver tilgangur breytu er.  
+Í stýrivél hverrar stöðvar skulu breytu r hvorki bera forskeyti miðils, veitu eða stöðvar. Sem 
+dæmi þá skal breyta fyrir rennslisnema RS211 á Laugalandi einungis bera heitið „RS211“ en 
+ekki „H_RAN_LAU_RS211“. Undantekning á þessari reglu er þegar breytur berast inn á 
+stýrivél sem eiga uppruna si nn utan þess húss/stýriskáps sem breytan er lesin í. Dæmi um 
+slíkt er ef t.d. þrýstiskynjari ÞS211 á Hellu er lesinn með samskiptum (CIP) inn á stýrivél í 
+Laugalandi, þá skal breytan bera forskeytin HEL_ÞS211, enda gæti sama breyta (þ.e. ÞS211) 
+verið til í  Laugalandi.  
+ Forritaheiti (Program/Functions)  
+Heiti hvers forrits (Program/Funciton) skal vera lýsandi og þar sem því er viðkomið, þá er stutt 
+lýsing á forritinu einnig höfð með.  
+Við hvert „rung/network/row“ skal skrifa athugasemdir (comments) til að auðve lda megi t.d. 
+rýni, yfirlestur, yfirsýn og bilanagreiningu.  
+ 
+Eftirfarandi „Programs“ eru í hverjum örgjörva  
+➢ System  
+➢ Samskipti  
+➢ Inngangar  
+➢ Ferli 
+➢ Utgangar  
+ 
+Eftirfarandi gildir einnig  
+➢ System  
+o Hér eru grunngög n, svo sem ástand forrits og örgjörva, tími og dagsetni ngar 
+➢ Samskipti_Inn  
+o Hér er gert grein fyrir öllum samskiptum að örgjörva, öðrum en þeim sem eru 
+lesin beint frá viðmóti, svo sem samskipti/message sem berast að þessum 
+örgjörva frá öðrum örgjörva.  
+➢ Inngangar  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   45 af 83 
+ 
+ 
+o Hér fer möppun innganga fram, úr öllum inngangseiningum sem örgjörvinn les, 
+hvort sem það eru áfastar inngangseiningar eða úr RIO einingum. Inngöngum 
+er mappað yfir í viðeigandi object.  
+➢ Ferli 
+o Hér eru ferlin forrituð, hvernig búnaður ræsir og stöðvar, reglar ogsfrv.  
+➢ Samskipti_Ut  
+o Hér er gert grei n fyrir öllum samskiptum frá örgjörva, öðrum en þeim sem eru 
+lesin beint upp í viðmót, svo sem samskipti sem þessi örgjörvi sendir yfir á 
+annan ö rgjörva . Sérstök talning sem birt er í kerfiráðum (sambærileg við „Watch 
+dog“)  er einnig vistuð hér.  
+➢ Útgangar  
+o Hér fer möppun útganga fram, að öllum útgangseiningum sem örgjörvinn 
+skrifar, hvort sem það eru áfastar einingar eða að RIO einingum. Hér eru 
+útgangar viðfanga mappað yfir á útgangsbreytur.  
+ 
+ 
+Eftirfarandi er dæmi um heiti á Routines  
+➢ System  
+o MainRoutine  
+o Syste m 
+➢ Samskipti_Inn  
+o MainRoutine  
+o HAB_DEI  
+o HAB_GRJ  
+➢ Inngangar  
+o MainRoutine  
+o LOR01_ S01_ DI 
+o LOR0 1_S02_ AI 
+o RIO0 1_S01_ DI 
+o RIO01_ S02_ DI 
+o RIO01_ S03_AI  
+➢ Ferli 
+o MainRoutine  
+o ANAALM  
+o ALARM  
+o KEYRSLUSTYRING  
+o FORGANGSRODUN  
+o Handlokar  
+o RG211  
+o RG212  
+o DAE211  
+o DAE221  
+o DAE231  
+o TB211  
+o TB221  
+o TB231  
+o Utreikningar  
+➢ Samskipti_Ut  
+o MainRoutine  
+o HAB_BRN  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   46 af 83 
+ 
+ 
+➢ Útgangar  
+o MainRoutine  
+o LOR0 1_S03_ DO 
+o LOR0 1_S04_ DO 
+o LOR0 1_S05_ AO 
+o LOR0 1_S06_ AO 
+o RIO0 1_S04_ DO 
+o RIO01_ S05_ AO 
+o RIO01 _S06_ AO 
+ 
+ Forritunarstaðlar  
+Vélarnar sem nefndar eru að ofan styðja allar staðalinn IEC 61131 -3 þar sem mögulegra 
+forritunarmála er getið. Aðrar stýrivélar sem hugsanlega er boðið til rekstrar skulu jafnframt 
+styðja staðalinn og amk. þrjú forritunarmál innan hans.  
+Að jafnaði skal nota ladder forritunarmálið.  
+ 
+Dæmi um frágang forrita sem ráðgjafar/verktakar s kulu fylgja má sjá hér að neðan . 
+ 
+Hvert tæki fær sína routine ásamt hverju ferli.  
+ Breytur úr stýrivélum í viðmót  
+Breytur sem tengdar eru frá stýrivélum í kerfiráða (PLC í SCADA/HMI) á ekki að „invert“ (snúa) 
+í viðmótum. Allar breytur frá stýrivél eiga að v era í hlutlausri stöðu gangvart SCADA kerfum. 
+Þetta á sérstaklega við á móti viðvörunum, en ljóst er af fyrri lýsingum í þessu skjali sem og 
+FVI lýsingum, bæði FVI skjölum ABB kerfa, sem og FVI blokkir í stýrivélum, að ef breyta í 
+stýrivél verður „Logic hi gh“ þá þýðir það viðvörun, ekki öfugt.  
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   47 af 83 
+ 
+ 
+ 
+ 
+  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   48 af 83 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   49 af 83 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   50 af 83 
+ 
+ 
+ Ferlar í stýrivélum  
+Ráðgjafi skal ganga þannig frá kerfum og ferlum, að þar sem um eðlilegt ástand er að ræða 
+þá skal kerfið ekki framkalla viðvaranir. Dæmi um þetta er t.d. stýrð ræsing og stýrð stöðvun 
+búnaðar/dæla og þegar skipt er á milli dæla við t.d. gangtímajöfnun. Við þessi skilyrði þá er 
+kerfið að jafnaði í eðlilegum ham og við þessar aðgerðir þá er óeðlilegt að sama kerfi framkalla 
+viðvaranir frá þeim búnaði sem í hlut á. Hér er t.d. átt við að ef dæluskipti valda breytingu á 
+þrýsting eða rennsli í mjög stuttan tíma við eðlileg skipti, þá á ekki að framkalla viðvörun um of 
+háa eða of lága stöðu mældra stærða. Sama gildir um ræsingu, stöðvun sem og eðlilegar 
+hreyfingar í ker fum. 
+ 
+ Reglar og reglunarrásir  
+Reglar eru ýmist nýttir stakir  eða í raðreglun.  Þá eru reglar einnig notaðir saman, tveir eða 
+fleiri, stakir, útgildi þeirra borið saman og ýmist lægsta eða hæsta gildi úr samanburði notað til 
+að stýra búnaði.  
+Verði rof í mæli ngu, bilun eða vírslit, þá skal reglir sem er í sjálfstýringu, færður í handstýringu 
+og skal hann halda útgildi sínu óbreyttu frá því sem var áður en bilunar varð vart. Þannig heldur 
+sá búnaður sem reglir stýrir, stöðu/afköstum sínum óbreyttum , nema hönnuð ur kerfa lýsi 
+áhrifum þessum með öðrum hætti.  Þá er ekki hægt að skipta regli til baka í sjálfstýringu á 
+meðan bilun er í gildi á raungildis stærð reglis.  
+ 
+Sé reglir tekinn í handvirka stöðu, skal hann halda útgildi sínu óbreyttu  frá því sem hann var 
+þegar  skipun er gefin.  
+ 
+Úr kerfiráð á að vera hægt að stilla hámarks og lágmarks útgang reglis ásamt innra óskgildi og 
+föstu óskgildi. Einnig í hvaða ham reglirinn er, þ.e. handstýring, sjálfstýring á innra óskgildi eða 
+ytra óskgildi. Stilligildi fyrir mögnun o g tegurtíma (Kp og TI) skal einnig aðgengilegt.  
+ 
+Eftirfarandi breytur skulu vera aðgengilegar fyrir rekstur í gengum viðmót stjórnkerfa  
+➢ Óskgildi  
+➢ Ytra óskgildi  
+➢ Raungildi  
+➢ Útgangur reglis  
+➢ Staða stýrðrar einingar  
+➢ Hámarks útgangur reglis  
+➢ Lágmarks útgangur reglis  
+➢ K - Stuðull fyrir mögnun reglis  
+➢ I – Stuðull tíma reglis  
+➢ D – Stuðull tíma reglis  
+➢ SPF – Fast óskgildi reglis  
+➢ DB – Deadband reglis  
+ 
+Regli verður að stilla rétt í stýrivélum og skal horft til þess hvert svið mældrar stærðar er. Þá 
+skal vera samræmi á mi lli regla í hverri stöð.   
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   51 af 83 
+ 
+ 
+ Skilyrtar breytur, alltaf til birtingar í kerfiráðum  
+ 
+ Almennt  
+➢ Samskipti rofin við stýrivél  
+➢ Samskipti rofin við RIO og önnur nettengd tæki, svo sem hraðabreyta  
+➢ Bilun í stýrivél  
+➢ Rafhlaða stýrivélar lág staða (þar sem við á)  
+➢ Hitastig  í stöð  
+➢ Rakastig í stöð  
+➢ Gólfvatnsliði  
+➢ Innbrot – Kerfi á vakt  
+➢ Innbrot – Innbrot  
+➢ Innbrot – Bilun  
+➢ Brunakerfi – Bruni  
+➢ Brunakerfi – Bilun  
+➢ Fasviksliði  
+➢ Hleðslutæki - bilun  
+➢ Rafbakhjarl - bilun  
+ 
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   52 af 83 
+ 
+ 
+ Fráveita  
+Í fráveitu er alltaf gert ráð fyrir breytum í stýrivélum og skjákerfi fyrir  
+➢ Yfirfall á/af  
+➢ Tími yfirfalls í ár  
+➢ Tími yfirfalls á síðasta ári  
+➢ Tími regnvatnsdæla í notkun í ár  
+➢ Tími regnvatnsdæla í notkun sl. árs  
+➢ Neyðarlúga opin af/á  
+➢ Tími er neyðarlúga hefur verið opin í ár  
+➢ Tími er neyðarlúga var opin á síðasta ári  
+➢ Skipti á milli hæðarnema í þróm, þ.e. hvor tveggja nema stýrir ferlum stöðvar  
+Tímar yfirfalls og neyðarlúgu eru reiknaðir og birtir í klukkustundum með upplausn í 
+hundraðshlutum, dæfmi 1.75klst janfgilda 1klst og 45mín.  
+Í fráveitubrunnum þá fer gangtímajöfn un þannig fram að dælur sem eru í AUTO ham eru alltaf 
+ræstar til skiptis.  
+ 
+ Töluleg gögn í kerfiráð  
+24.3.1  Gangtími  
+Uppsafnaður gangtími í klst skal sýnt með eftirfarandi upplausn:  
+í dag  Í gær  Núverandi 
+mánuður  Síðasti 
+mánuður  Núvarandi 
+ár Síðasta ár  Heildarmagn  
+ 
+24.3.2  Fjöldi ræsinga  
+Uppsafnaður fjöldi ræsinga skal sýndur með eftirfarandi upplausn:  
+ 
+í dag  Í gær  Núverandi 
+mánuður  Síðasti 
+mánuður  Núvarandi 
+ár Síðasta ár  Heildarmagn  
+24.3.3  Gangtímajöfnun  
+Almennt gildir um gangtímajöfnun að taka skal mið af gangtíma sl. 10 daga og dælum þá raða 
+þannig að sú sem gengið hefur stystan tíma á því tímabili er sett með hæstan forgang og svo 
+koll af kolli.  
+ 
+Augnabliksgildi rennslis er birt í lítrum á sekúndu l/s, alltaf í öllum veitum  
+ 
+24.3.4  Orkunotkun (púlsar frá raforkumælum)  
+Uppsöfnuð orku notkun í kWh skal sýnd með eftirfarandi upplausn:  
+í dag  Í gær  Núverandi 
+mánuður  Síðasti 
+mánuður  Núvarandi 
+ár Síðasta ár  Heildarmagn  
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   53 af 83 
+ 
+ 
+Aflnotkun stöðvar er einnig birt  
+í dag  Í gær  Núverandi 
+mánuður  Síðasti 
+mánuður  Núvarandi 
+ár Síðasta ár  Heildarmagn  
+ 
+24.3.5  Afltoppar  
+Afltopp ur kW hverrar stöðvar (hverrar aðaldreifingar , hverrar mælastöðvar ) skal vistaður í 
+stýrivél og tengdur SCADA kerfum til langtímavistunar.  
+ 
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   54 af 83 
+ 
+ 
+ ABB – Gagnagrunnar og framsetning  
+ABB kerfið er af gerðinni ABBHMI800xA, V5.1. Eftir árið 2022 verður ABB kerfið í útgáfu 
+6.1.Kerfin eru að jafnaði sett upp hjá Veitum og afhent verktökum, en verktaki sér um frágang 
+á gagnagrunnum og tryggir að eins er farið með hann og hér er lýst. Eftirfarandi uppsetningar 
+eru í samræmi við allar megin skilgreinin gar sem eru í notkun í Kerfiráð á Bæjarhálsi.  
+ Almennar upplýsingar  
+Forskeyti miðla í ABB gangagrunni er óháð landshluta og er sem hér segir  
+➢ F – Fráveita  
+➢ H – Hitaveita  
+➢ K – Vatnsveita  
+➢ S – Sjóveita  
+ 
+Dæmi um Fráveitu  
+F-AKR-HAB (Hafnarbraut á Akranesi)  
+ 
+Dæmi um  Vatnsveitu  
+K-RVK-015  (Vatnsendakriki VK5)  
+ 
+Dæmi um hitaveitu  
+H-GBR -VET  (Vetrarbraut í Garðabæ)  
+ Control Structure  
+Setja skal upp stakan “Controller“ í „Control Structure“ fyrir hvern örgjörva (stýrivél/PLC) í hverri 
+stöð. Örgjörvarnir skulu bera heiti eftir nafnakerfi Veitna. Hér að neðan má sjá dæmi, en í 
+flestum stöðvum er einungis einn örgjörvi tengdur ABB Kerfiráð . Í þeim stöðvum þar sem um 
+fleiri en einn örgjörva er að ræða þá skal hann nefndur því nafni sem hann ber, dæmi má sjá 
+hér að neðan.  
+ 
+ 
+Dæmi um framsetningu  
+ 
+Hér að neðan verða tekin dæmi úr hreinsistöð við Klettagarða í Reykjavík  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   55 af 83 
+ 
+ 
+ 
+Inni í “Control Stru cture” í ABB kerfinu skal skilgreina örgjörva eins og hér er lýst  
+ 
+Controller Properties  
+➢ Name:  
+o F-RVK-KLE-SV719 (Meginferlar)  
+o F-RVK-KLE-SV729 (Sanddæluvagn 1)  
+o F-RVK-KLE-SV739 (Sanddæluvagn 2)  
+o F-RVK-KLE-SV749 (Sanddæluvagn 3)  
+o F-RVK-KLE-SV759 (Loftræstikerfi)  
+ 
+ 
+ 
+➢ Description  
+o Setja hér inn texta sem lýsir hverjum Controller, t.d.  
+▪ „Klettagarðar - Sanddæluvagn 1“  
+➢ PLC Controller Configuration  
+o Protocol  
+▪ PlcOpcClient version 5.0.1 -0 
+o Communication information  
+▪ Schneider -Aut.OFS.2$localhost$$  
+▪ <Edit Driver>  
+▪ OPC Server N ode 
+• localhost  
+▪ OPC servers  
+• Schneider -Aut.OFS.2  
+▪ Access path (háð hverjum skilgreindum Controller)  
+• F-RVK-KLE-719! 
+• F-RVK-KLE-729! 
+• F-RVK-KLE-739! 
+• F-RVK-KLE-749! 
+• F-RVK-KLE-759! 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   56 af 83 
+ 
+ 
+ 
+ 
+ Objects  
+25.3.1  Object Types  
+Öll object (Viðföng) skulu vera af viðfangasafni FVI  
+25.3.2  Object Names  
+Öll “Objects” eða “Tags” skulu bera eftirfarandi forskeyti í ABBHMI800xA  
+➢ F-RVK-KLE 
+Öll “Objects” eða “Tags” skulu samræmast Tækjalista sem liggur fyrir áður en vinna í ABB 
+kerfum hefst. Dálkur í Tækjalista „Skýringartexti“/“Lýsing“ skal vera sá sem f luttur var í 
+„Description“ í SCADA kerfi  
+ 
+Bera skal gagnagrunna ABBHMI800xA kerfis saman við Tækjalista stöðvar  
+➢ TAG name (Object)  
+➢ TAG Type  
+➢ TAG Description  
+ 
+Þar sem því er lýst að ofan hvert heiti örgjörva á að vera í Control Structure, þá gildir það um alla örgjörva 
+að TAG á bak við þá tekur ekki heiti stýrivélarinnar, dæmi:  
+➢ F-RVK-KLE-SV719  (Controller í Control Structure)  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   57 af 83 
+ 
+ 
+o F-RVK-KLE-HS201  (TAG í Controller SV719)  
+➢ F-RVK-KLE-SV749  (Controller í Control Structure)  
+o F-RVK-KLE-RS121  (TAG í Controller SV749)  
+ 
+ 
+ Functional Structure  
+➢ Í Functional Structure eru myndir og stöðvalýsingar hýstar, þeim skal rétt fyrir komið og er hér 
+dæmi um framsetningu á gangagrunni  
+➢ Root, Domain  
+➢ FRÁVEITA, Section  
+o REYKJAVÍK, Area  
+▪ F-RVK-KLE, Site  
+• F-RVK-KLE 
+• F-RVK-KLE-Huskerfi  
+• F-RVK-KLE-Gangtimar  
+• F-RVK-KLE-Magnmaelingar  
+• F-RVK-KLE-Keyrslustyring  
+• og aðrar myndir samkv æmt því sem hver stöð krefst  
+ 
+Yfirfara skal allar myndir m.t.t. P&ID  
+ 
+Yfirfara skal allar myndir m.t.t. kafla 26 Kerfiráðar . 
+ Kerfiráðar  
+ ABBHMI800xA Kerfiráðar  
+Tilgangur þessa kafla er að upplýsa um frágang í gagnagrunnum ABBHMI800xA í megin 
+atriðum.  
+ 
+Vinna verktaka takmarkast að jafnaði við tvo aðskilda gagnagrunna innan ABBHMI800xA 
+kerfa, þeir eru „Control Structure“ og „Functional Structure“.  
+ 
+ABBHMI800xA v 6.0, teiknihamur er PG2 og viðfangasafn er FVI.  
+Árið 2022 verður tekin í notkun v6.01  og verður það tilkynnt með stuttum fyrirvara. Öll vinna 
+ráðgjafa við ABB SCADA  kerfi Veitna  
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   58 af 83 
+ 
+ 
+Hér er einnig lýst hvernig skuli ganga frá tengingum í OPC serverum.  
+ 
+ Aðgerðaskjáir  – HMI  
+Aðgerðaskjáir skulu fæddir 24VDC.  
+Aðgerðaskjáir í rekstri eru frá ýmsum  framleiðendum, en skjáir frá RedLion haf reynst mjög vel 
+ekki síst þar sem þeir búa yfir þeim kost að geta tengst öllum gerðum stýrivéla sem Veitur hafa 
+í rekstri.  
+Framsetning mynda verður að vera í samræmi við (eins) framsetningu mynda sömu stöðvar í 
+ABB kerfiráð. Slík auðveldar samlestur t.d. starfsfólks í stjórnstöð á móti starfsfólki í stöðinni 
+sjálfri.  
+ 
+ Staðbundnir kerfiráðar  
+Staðbundnir kerfiráðar eru að jafnaði reknir  sem sýndarvélar á hefðbundnum PC vélum. Allir 
+staðbundnir kerfiráðar Veitna eru sö mu gerðar og kerfiráður á Bæjarhálsi, ABB800xA . 
+Samskonar framsetning og viðmót er því á öllum kerfiráðum, innan og utan Bæjarháls.  
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   59 af 83 
+ 
+ 
+ 
+ 
+ Sniðmát skjámynda  
+26.4.1  Stærð  
+Stærð skjámynda skal vera 1920x986 pixlar.  
+ 
+26.4.2  Bakgrunslitur  
+Bakgrunslitur skjámynda skal vera Disp layBackgroundColor RGB: 191, 191,191.  
+ 
+26.4.3  Heiti skjámynda  
+Heiti skjámynda skal koma fram efst (staðsetning: y5) fyrir miðju á viðkomandi skjámynd 
+(leturgerð: Verdana, leturstærð: 20, litur: White). Í heiti skjámynda skal koma fram staðsetning 
+eða staðsetning og lýsing.  
+Dæmi:  
+Staðsetning: Reykjastöð  
+Staðsetning og lýsing: Reykjahlíð - Borholur  
+ 
+Í þeim tilvikum sem margir einingar koma fyrir á einni mynd skal notast við samheiti eininga.  
+Dæmi:  
+ Staðsetning og lýsing: Akranes – Dælustöðvar  
+ 
+26.4.4  Valstika  
+Valstika skal  staðsetja neðst fyrir miðju á skjámynd og samanstanda af fjórum tökkum. Stærð 
+hvers takka: H35 x B200 (leturgerð: Verdana, leturstærð: 16, litur: White).  
+ 
+Taflan hér að neðan segir til um hvað takkar skulu staðsettir og hvaða skjámynd opnast þegar 
+ýtt er  á takka:  
+Takki  Skjámynd  Staðsetning  
+Myndir  Myndir_RVK  X560, y948  
+Tölvukerfi  Tolvukerfi  X760, y948  
+Sýna nöfn/Fela nöfn  Skiptir á milli þess að sýna 
+eða fela nöfn (auðkenni) 
+búnaðar  X960, y948  
+Yfirlit  Reykjavik  X1060, y948  
+Tafla 1 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   60 af 83 
+ 
+ 
+ Húskerfi  
+Þar sem merki frá húskerfum eru til staðar skal tákn fyrir húskerfisskjámynd staðsett neðst til 
+vinstri á skjámynd eða byggingarhluta.   
+ 
+ 
+ 
+ Virk viðföng  
+Virk viðföng er sá búnaður sem sýndur er á skjámynd og segir til um ástand búnaðar.  
+Auðken ni skulu höfð í nálægð viðkomandi tækis og skulu vera sýnileg þegar ýtt er á Sýna/fela 
+nöfn takkann í valstiku neðst á skjánum. Auðkenni búnaðar skal staðsett undir tákni fyrir miðju. 
+Undantekning frá þessu eru mæligluggar en þar skal auðkenni vera vinstri  jafnað. Sjá dæmi 
+hér að neðan.  
+ 
+Dæmi um auðkenni fyrir miðju:  
+    
+ 
+Dæmi um vinstri jafnað auðkenni:  
+ 
+ 
+Forðast skal, eftir fremsta megni, að staðsetja kerfislínur í fylki (status box) viðfangs. Samanber 
+skjáskot hér að neðan:  
+    
+ 
+Notast skal við tvær stærðir mæliglugga 70x19 og 110x19, nema annað sé takið fram.  
+ 
+ 
+Stærð regla viðfanga skal vera 60x60  
+ 
+ 
+Stærð loka skal vera 35x35  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   61 af 83 
+ 
+ 
+ 
+ 
+ Díóður skulu vera 15x15 á stærð. Texti við díóður skal samanstanda af lýsingu (búnaðar +  
+atburði):  
+ 
+ Framsetning  hliðrænna gilda  
+Við framsetningu hliðrænna gilda (analogue) í kerfiráð skal fylgja eftirfarandi hið minnsta.  
+Almennt skulu mælingar hafa einn (1) aukastaf, nema þrýsti - og hæðarnemar, þeir skulu hafa 
+tvo (2) aukastafi. Rennslisnemar sem sýna yfir 100 l/s þurfa engan aukastaf.  
+Dæmi:  
+ 
+ 
+ 
+ 
+Þegar graf er opnað fyrir hvaða nema sem er, skal grafið sýna jafn marga aukastafi og 
+framsetning nemans í kerfiráð sýnir.  
+ 
+ 
+Til að setja aukastafi á trend er eftirfarandi gert:  
+Í Control Structure er neminn valinn, smellt á VALUE og þaðan í Log Configuration  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   62 af 83 
+ 
+ 
+ 
+ 
+þar fyrir neðan er presentation  flipi valinn  
+ 
+og smellt á Apply . 
+ Vöktun á samskiptum  
+Fyrir hverja stýrivél skal vera díóða á skjámynd sem vaktar samskipti við stýrivél.  Díóðuna skal 
+staðsetja neðst til hægri á skjámynd eða innan byggingarhluta/stöð og skal þá einnig staðsett 
+neðst til hægri. Til hliðar við díóðuna skal vera textinn „Samband“ (leturgerð: Verdana, 
+leturstærð: 12, litur: White).  Sambandsteljara skal staðset ja eins og sýnt er á myndinni hérna 
+að neðan.  
+ 
+ 
+ 
+Merki um sambandsbilun er skilgreint í Control Structure undir UnitSupervision þar sem notast 
+er við State_FVI object sem vaktar teljara  breytu í stýrivél  sem telur frá 0 -1000 með sekúndu 
+millibili , teljari  má ekki fara undir 0 og ekki yfir 1000.  
+ 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   63 af 83 
+ 
+ 
+ 
+ 
+ 
+Teljara breytan er skilgreind í control structure þar sem PLC vélin er staðsett . 
+• Notast skal við Ana_FVI object, addressa SV7x9_CNT  (x er númer PLC í stöð) .  
+• Range 0 -1000  og  
+• Update Interval 1000 ms (Common fl ipi). 
+ 
+ 
+ Geymar  
+Geymar  skulu líta út eins og sýnt er hér að neðan:  
+ 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   64 af 83 
+ 
+ 
+Hæðarmæling í geymi  skal sýna með mæliglugga og hæðarsúlu.  Framsetning hæðarsúlu skal 
+endurspegla raunhæð í geymi gangvart hæð geymis. Einnig skal sýna rúmtak geymis sem 
+hliðræna stærð, reiknaða út frá hæðarmælingu. Botnkóða geymis sem og yfirfall, þ.e. í hvaða 
+hæð það er staðsett og það sýnt með vísan í yfirfall/niðurfall.  
+ 
+ Tengingar  
+Tenging milli skjámynda, þar sem notandi getur farið frá einni mynd yfir á aðra, skal útfært með 
+þeim hæt ti að smellt er á ör sem vísar í næstu mynd. Örvar sem hafa þennan eiginleika skulu 
+auðkenndar með gráum ramma og texta sem segir til um hvert er verið að vísa. Litur örvanna 
+skal vera sá sami og lína vinnslurásar sem hún tengist. Örin skal vera 25x25 á st ærð, með 
+gráum ramma (sverleiki línu: 2, litur: SymbolFrameColor2 RGB 138,138,138).  
+Til hliðar við örina skal vera lýsandi texti sem segir til um tengingu (leturgerð:Verdana, 
+leturstærð: 12).  
+ 
+ 
+Tenging við aðra skjámynd skal útfært með því að skilgrein Aspect View Invoker  í pílunni og 
+með Tooltip  með nafni þess skjámyndar sem vísað er í.  
+ 
+ 
+ Rennsli vinnslurásar  
+Í þeim tilvikum sem rennsli vinnslurásar er sýnt á skjámynd skal notast við pílu í sama lit og 
+vinnslurásin. Stærð pílunnar skal vera 15x15  
+ 
+ 
+ 
+ Sýna/fela nöfn  
+Í kaflanum Valstika , sem nefnd var í kafla 26.4, er takkinn Sýna/fela nöfn. Takkinn skal hafa 
+þann eiginleika að þegar ýtt er á hann þá verður heiti búnaðar ýmist sýnilegur eða ekki. Dæmi 
+um slíkan texta er TS226, XH120, RG 002 o.s.frv. Annar texti t.d. heiti stöðvar, vísanir milli 
+skjámynda, texti vi ð díóður o.þ.h. skal alltaf vera sýnilegur. Textar og heiti á búnaði skal default 
+vera sýnilegt þegar mynd er opnuð.  
+ Heiti stöðvar/byggingahluta  
+Stöðvar og byggingahlutar skulu merktir með viðeigandi nöfnum efst til vinstri ofan við byggingarhluta 
+og kóði í hægra megin. (Leturgerð: Verdana, Leturstærð: 12 , litur: White).  
+ 
+Bakgrunnslitur byggingahluta skal vera DisplayGrey.  
+  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   65 af 83 
+ 
+ 
+ Skýringartexti  
+Skýringartexti skal vera á öllum object -um og aspect -um sem eru í notkun fyrir viðkomandi 
+object. Skýringartexti samanstendur af Staðsetning  - Búnaður  - Atburður.   
+Dæmi um skýringartexta fyrir LL viðvörun á aðþrýstingi í Laugalandi og bilun í 
+brunaviðvörun arkerfi:  
+Tími Nafn  Lýsing  Staða  
+13:59:59 01 -02-
+2019  H-RAN -LAU-ÞS120  Laugaland – 
+Aðþrýstingur  LL viðvörun - Á 
+14:22:46 01 -02-
+2019  H-RAN -LAU-BK619 -
+BL Laugaland - 
+Brunaviðv.kerfi - Bilun  Viðvörun - Af 
+ 
+ 
+ 
+Undantekning frá þessu er heitið á object -inu en þar skal einungs koma fram heiti búnaðar:  
+ 
+ 
+ 
+ 
+ 
+ Atburða - og viðvaranalisti  
+Takkar fyrir atburða - og viðvörunarlista skulu vera efst í hægra horni skjámyndar. Stærð takka 
+skal vera 30x30.  
+Takki fyrir atburðalista skal að öllu jöfnu vera staðsettur x:1815 y :15 og fyrir viðvörunarlista 
+skal takki að öllu jöfnu vera staðsettur x:1850, y:15.  
+ 
+  
+ 
+Þar sem margar stöðvar/byggingarhlutar koma fram á sömu skjámynd skulu takkar fyrir 
+atburða - og viðvörunarlista vera staðsett efst í hægra horni viðkomandi stöðvar.  
+ 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   66 af 83 
+ 
+ 
+ 
+Skýringartexti í viðvarana - og atburðalistum kerfiráðs kemur fram í dálk sem heitir Lýsing  sem 
+inniheldur staðsetningu og lýsingu búnaðar. Dálkurinn Staða segir til um stöðu merkis eða 
+atburðar þ.e.a.s. hvort viðvörun er á, af, kvittuð o.s.frv.  
+ 
+Vinstra megin í Process Graphical Editor er „ToolBoxes“. Finna „ Veitur “, smella á viðfang og 
+staðsetja á mynd.  
+ 
+ 
+Þegar viðfang er komið á mynd er eftirfarandi gert:  
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   67 af 83 
+ 
+ 
+ 
+ 
+1. Smella á augað  
+2. Finna viðkomandi PLC  
+3. Finna Alarm List eða Event List  og smella á pílu við Main View  
+a. Núna er kominn hlekkur á viðkomandi lista  
+4. Smella á Parse Expression   
+5. Smella á Apply  
+6. Smella á Ok 
+ 
+ 
+Ef enginn Alarm list eða Event List er í örgjöva/PLC þarf að búa þá til í PLC gegnum Control 
+Structure.  
+Þægilegast er að afrita listana frá annari PLC:  
+ 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   68 af 83 
+ 
+ 
+ Kerfislýsing  
+Efst í hægra horni skjámyndar skal koma fyrir takka sem vísar í kerfislýsingu á PDF formi fyrir 
+viðkomandi stöð. Takkinn skal staðsettur x1780 y15 til vinstri við takka fyrir atburða - og 
+viðvörunarlista sem lýst var hér að ofan. Takkinn skal vera 30x30 að stærð.  
+Fyrst þarf að koma .pdf skjali á vélin og vista það undir  
+ 
+ 
+Opna Process Graphical Editor, finna Virknilysing  viðfang  í ToolBoxes  -> Veitur  og staðsetja 
+á réttum stað á mynd  
+ 
+ 
+ 
+1. Smella á augað  
+2. Fara í Functional Structure  og finna réttan stað  
+3. Finna stöðvarlýsingu og smella á bláu píluna  
+4. Smella á Parse Expression  
+5. Smella á Apply  
+6. Smella á Ok 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   69 af 83 
+ 
+ 
+ 
+ 
+ 
+Séu tvær stöðvar á sömu mynd skal staðsetja tákn fyrir kerfislýsingu á sama stað nema inni í 
+gráum glugga fyrir hverja stöð fyrir si g. 
+ 
+ 
+ Gangtímar og ræsingar  
+Framsetning á Gangtímum og ræsingum  skal vera í sér sprettiglugga. Glugg inn eru opnaðir 
+frá takka sem staðsett ur er neðst til vinstri á viðkomandi skjámynd:  
+ 
+ 
+Gangtímar  og Ræsingar:  
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   70 af 83 
+ 
+ 
+ 
+ 
+ Upphafsmynd  
+Ef röng upphafssíða eða hún er auð (smá mynd að neðan) þá þarf að gera eftirfarandi:  
+ 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   71 af 83 
+ 
+ 
+ 
+ 
+Slóðin verður að vera „Heiti í Functional Structure:Heiti á Aspect  
+ 
+ 
+ 
+Ef þetta virkar ekki þarf að gera eftirfarandi:  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   72 af 83 
+ 
+ 
+ 
+ 
+Gera þarf sömu breytingu við bæði Operator Workplace OG Rekstur (Punktur 2 með rauðu)  
+ 
+Við þessar breytingar ætti rétt upphafsmynd að birtast. Ganga þarf úr skugga um að búa til 
+shortcut á desktop og  
+þegar virtual vél ræsir sig upp að rétt útgáfa af skjákerfi ræsir sig upp. Þetta er gert með því að 
+: 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   73 af 83 
+ 
+ 
+ 
+ 
+og  
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   74 af 83 
+ 
+ 
+ 
+ 
+eða ýta á Windows og r (opnar run skipun) og skrifa shell:startup  
+ 
+ 
+Afrita shortcut inn í gluggann og loka.  
+ 
+Yfirfara skal allar myndir m.t.t. kafla 26 Kerfiráðar . 
+ 
+ OPC – Uppsetning og Topic/Alias  
+Hér að neðan eru sýnd tvö dæmi um framsetning í OPC serve rum 
+ OPC server er Schneider OFS OPC  
+Schneider OFS OPC er af Version v3.60 í þessu dæmi  
+OFS Configuration Tool  
+➢ Devices Alias  
+o F-RVK-KLE-SV719  
+o F-RVK-KLE-SV729  
+o F-RVK-KLE-SV739  
+o F-RVK-KLE-SV749  
+o F-RVK-KLE-SV759  
+➢ Stillingar í hverju „Alias“ eru „default“ nema þar sem hér fer á eftir:  
+o Symbol table file , þar sem ekki er notast við Data Dictionary þá er vísað í symbol 
+töflu:  
+▪ C:\OPC_IO \F-RVK-KLE-SV719.xvm  
+o Preload settings:  
+▪ Device  
+o Dynamic consistency:  
+▪ Dynamic consistency  
+o Adjustment information  
+▪ Max channel s: 4 
+▪ Max Pe nding: 0 
+▪ Device timeout (ms): 5000  
+▪ Frame timeout (ms): 1000  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   75 af 83 
+ 
+ 
+ 
+ 
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   76 af 83 
+ 
+ 
+ 
+ 
+ 
+ OPC server  er RSLinx  
+Í þessu dæmi er RSLinx af Version v4.10.00  
+➢ Communications  
+➢ RSWho  
+o Workstation, ABBHMI800xA  
+▪ Driver Name – Skal vera háður landshluta  
+• HOFUDBORG  
+➢ DDE/OPC  
+o Topic Configuration  
+▪ Topic List 
+• Hér á einungis að vera ein tenging  
+o H-GBR -VET 
+▪ Hér á tengingin að vísa á réttan örgjörva  
+ 
+ Aðrir OPC serverar  
+Samskonar framsetningar eru í öðrum OPC serverum, svo sem Matrikon og Kepserver EX. 
+ 
+ Skil á stjórnkerfum til rekstrar  
+Rýni á lokaútgáfu stjórnkerfa skal alltaf fara fram. Þannig eru engin kerfi flutt inn í Kerfiráð á 
+Bæjarhálsi án þess að loka rýni fari fram og að henni verða að koma eftirfarandi st arfsfólks.  
+➢ Sérfræðingar  stjórnkerfa  
+
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   77 af 83 
+ 
+ 
+➢ Tæknistjóri stjórnkerfa  
+➢ Hópstjóri stjórnstöðvar  
+➢ Rekstrar stjóri viðkomandi miðils  
+ 
+Hér er m.a. eftirfarandi staðfest  
+➢ Skila - og prófunargögn eins og þeim er lýst framar í skjalinu hafa borist frá 
+verktaka/verkefnastjóra Veitna  
+➢ Lukor  
+o Gögnin eru þegar skráð í lukor, svo sem pípur og lokar  
+➢ DMM  
+o Allur búnaður í viðkom andi stöð er þegar skráður sem eignir í DMM ásamt 
+upplýsingum um hann  
+➢ Heildarkerfismynd veitu (Langhundur) hefur verið uppfærður  
+➢ Liggja skal fyrir hver er tengiliður  veitunnar/stöðvarinnar og á hvaða svæði 
+(vesturland/suðurland o.s.fr.) bakvakt er fyrir vi ðkomandi stöð.  
+ 
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   78 af 83 
+ 
+ 
+Viðauki 1 Prófanir á staðkerfirá ð 
+Þessi listi er ekki tæmandi  
+            
+     Prófanir á staðkerfiráð  B3 Prófun  
+    Tékklisti     
+                       
+            
+                       
+ Prófunarstaður      Dagsetning    
+              
+ Verktaki/Ráðgjafi      Fh. Veitna    
+        Fh. Veitna    
+ Starfsmaður 
+verktaka/ráðgjafa      Fh. Veitna    
+ Starfsmaður 
+verktaka/ráðgjafa      Endurprófun 
+1.   
+        Endurprófun 
+2.   
+ Frumprófun dags      Endurprófun 
+3.   
+        Endurprófun 
+4.   
+      Endurprófun 
+5.   
+                       
+            
+                       
+ Heiti PC vélar (Járn)      Notendanafn:    
+              
+ IP Tala         
+ Mask            
+ Default Gateway            
+                       
+  
+ÞJÓNUSTA    
+ STJÓRNKERFI VATNSMIÐ LA VEITNA - 
+HÖNNUNARLEIÐBEININGA R  
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson  Útgefið . 7.2.2025   79 af 83 
+ 
+ 
+            
+                       
+ Heiti virtual vélar      Notendanafn:    
+              
+ IP Tala         
+ Mask            
+ Default Gateway            
+              
+ Mac addressa:                  
+  
+ ÞJÓNUSTA    
+STJÓRNKERFI VATNSMIÐ LA VEITNA - HÖNNUNAR LEIÐBEININGAR   
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson   Útgefið .  80 af 83 
+ 
+ 
+Prófanir á kerfiráð  Í lagi  Ekki í lagi  Athugasemdir  
+Rétt upphafssíða birtist við uppstart á staðkerfiráð        
+Bakgrunnslitur RGB 191, 191, 191        
+"Sýna nöfn" hnappur.        
+Húskerfishnappur        
+Miðjusetning viðfanga        
+Vinstri jöfnuð viðföng        
+Mæligluggastærð 70 x 19 eða 110 x 19        
+Viðfangastærð Regla 60 x 60        
+Stærð loka 35 x 35        
+Stærð díóða 15 x 15        
+Sambandsdíóða (letur: Verdana, leturstærð: 12, 
+litur:White        
+Tengipílur, stærð 25 x 25, línustærð:2. Linkur virkar?        
+Rennslisáttar pílur stærð 15 x 15        
+Stöðvar - og byggingahluta merkingar        
+Atburða - og viðvaranalistahnappar og tooltip. Stærð 
+30 x 30. Rétt staðsetning.        
+Kerfislýsingarhnappur. Stærð 30 x 30        
+Magnmælinga og Gangtíma og ræsingahnappar í 
+réttri stærð W:120 H: 48. Tooltip rétt.       
+Heiti skjámynda. Staðsetning fyrir miðju y:5. Letur: 
+Verdana, leturstærð 20, litur:White        
+Pílur fyrir rennslisátt stærð 15x15     
+ ÞJÓNUSTA    
+STJÓRNKERFI VATNSMIÐ LA VEITNA - HÖNNUNAR LEIÐBEININGAR   
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson   Útgefið .  81 af 83 
+ 
+ 
+Analogue 
+mælingar og 
+trend  Í lagi  Ekki í 
+lagi Mæling 
+rétt HH H L LL Skýringartexti  Eining 
+rétt Kvittun 
+aðvörunar  Trend 
+og 
+skalar 
+í lagi  Athugasemdir  
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+                          
+ 
+Einfaldar viðvaranir  Í lagi  Ekki 
+í lagi  Hópviðvörunardíóða  
+(ef á við)  Viðvörun 
+kvittuð  Safnviðvörun  
+húskerfis (ef 
+á við)   Aðvörun 
+birtist í 
+Viðvörunar -
+/atburðarlista  Athugasemdir  
+                
+                
+                
+                
+                
+                
+                
+                
+ ÞJÓNUSTA    
+STJÓRNKERFI VATNSMIÐ LA VEITNA - HÖNNUNAR LEIÐBEININGAR   
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson   Útgefið .  82 af 83 
+ 
+ 
+       Litir Mótors / dælu       
+Mótorar/Dælur  Rétt 
+object  Handv 
+/ sjálfv  Skýringartexti  SP Stopp 
+/  
+Grátt  Í ræsingu / 
+Grænn 
+blikkandi  Í gangi / 
+Grænt  Í stöðvun / 
+Rauður 
+blikkandi  Einingar 
+réttar  Athugasemdir  
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+ 
+Handlokar (ótengdir við PLC)  Í lagi  Ekki í lagi  Skýringartexti  Athugasemdir  
+          
+          
+          
+          
+          
+          
+ 
+  
+ ÞJÓNUSTA    
+STJÓRNKERFI VATNSMIÐ LA VEITNA - HÖNNUNAR LEIÐBEININGAR   
+LBV-805-16.0 
+ 
+Ábyrgð:  Tómas Pétur Sigursteinsson   Útgefið .  83 af 83 
+ 
+Handlokar (tengdir við 
+PLC)  Í lagi  Ekki í 
+lagi Skýringartexti  Analogue  gildi  
+rétt mv. PLC    Athugasemdir  
+              
+              
+              
+              
+              
+              
+              
+              
+              
+ 
+Reglar  Internal 
+SP External 
+SP Skýringartexti  PV KP 
+gildi TI 
+Gildi Max 
+Gildi Min Gildi  Staða Auto / 
+Manual  Athugasemdir  
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+                      
+ 
