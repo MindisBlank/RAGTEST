@@ -1,0 +1,17 @@
+name: veitur-rag
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - openai
+      - pinecone-client
+      - PyPDF2
+      - PyMuPDF
+      - python-docx
+      - python-pptx
+      - tiktoken
+      - Pillow
+      - python-dotenv
