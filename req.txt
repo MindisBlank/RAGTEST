@@ -1,0 +1,34 @@
+# ───────────────────────────────────────────────────────────────
+# Requirements for Veitur RAG project
+# ───────────────────────────────────────────────────────────────
+# (Requires Python >= 3.9)
+#
+# Install with:
+#   pip install -r req.txt
+#
+#────────────────────────────────────────────────────────────────
+
+# OpenAI client (for embeddings + LLM calls)
+openai
+
+# Pinecone client (vector database)
+pinecone-client
+
+# PDF text extraction
+PyPDF2
+PyMuPDF
+
+# For api keys
+python-dotenv
+
+# Word document parsing
+python-docx
+
+# PowerPoint slide parsing
+python-pptx
+
+# Tokenizer utilities (for token counting)
+tiktoken
+
+# Image handling (e.g., to get dimensions of embedded images)
+Pillow
